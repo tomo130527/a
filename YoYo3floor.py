@@ -21,26 +21,30 @@ class CSVPlotter:
 
         self.data[x_column] = (self.data[x_column]) / 10
         fig, axs = plt.subplots(len(y_columns), 1, figsize=(8, 6 * len(y_columns)), sharex=True, gridspec_kw={'hspace': 0})
-        hori= 0.25
+        
         for i, col in enumerate(y_columns):
             axs[i].plot(self.data[x_column], self.data[col], label=col)
             axs[i].set_title('')  # Clear subplot title
             axs[i].set_xlabel('')  # Clear x-label for all subplots
-            axs[i].set_ylabel(col, fontsize=font_size)  # Set ylabel to the column name with custom font size
+            axs[1].set_ylabel("Height", fontsize=font_size)  # Set ylabel to the column name with custom font size
+            axs[0].set_ylabel("Brightness Difference", fontsize=font_size)  # Set ylabel to the column name with custom font size
             axs[i].tick_params(axis='y', labelsize=font_size)
-            axs[i].legend(fontsize=font_size)
+            #axs[i].legend(fontsize=font_size)
+            hori= 0.18
             axs[0].axhline(y=hori, color='g', linestyle=':', label=hori) 
+            verticalline1 = 2.73
+            verticalline2 = 4.73
+            verticalline3 = 5.202
+            axs[i].axvline(x=verticalline1, color='g', linestyle=':', label=verticalline1) 
+            axs[i].axvline(x=verticalline2, color='b', linestyle=':', label=verticalline2) 
+            axs[i].axvline(x=verticalline3, color='r', linestyle=':', label=verticalline3) 
 
             if i < len(y_columns) - 1:
                 axs[i].get_xaxis().set_visible(False)  # Hide x-axis for all except the last subplot
 
-        verticalline1 = 12
-        verticalline2 = 2
-        verticalline3 = 1
+        
         axs[-1].set_xlabel(x_label, fontsize=font_size)  # Set x-label only for the last subplot
-        axs[-1].axvline(x=verticalline1, color='g', linestyle=':', label=verticalline1) 
-        axs[-1].axvline(x=verticalline2, color='b', linestyle=':', label=verticalline2) 
-        axs[-1].axvline(x=verticalline3, color='r', linestyle=':', label=verticalline3) 
+        
 
 
         # Hide top and right spines and ticks for all subplots except the bottom one
@@ -57,10 +61,9 @@ class CSVPlotter:
 
 # Example usage
 converted_string = double_backslashes(
-
-    r"C:\Users\nares\Desktop\Zikken\20231024\OneDrive-2023-10-24\20231024_1532_51.csv"
+    r"C:\Users\nares\Downloads\240219\240219_182917.csv"
 
 )
 csv_plotter = CSVPlotter(converted_string)
-csv_plotter.plot_data(x_column='No of frame', y_columns=['Contrast','SD','PZT volt'], plot_type='line', title='CSV Data Plot', x_label='Time (s)', y_label='Y-axis', font_size=24)
+csv_plotter.plot_data(x_column='time(s)', y_columns=['SD','PZT'], plot_type='line', title='CSV Data Plot', x_label='Time (s)', y_label='Y-axis', font_size=24)
 #
