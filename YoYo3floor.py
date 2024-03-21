@@ -23,7 +23,7 @@ class CSVPlotter:
         fig, axs = plt.subplots(len(y_columns), 1, figsize=(8, 6 * len(y_columns)), sharex=True, gridspec_kw={'hspace': 0})
         
         for i, col in enumerate(y_columns):
-            axs[i].plot(self.data[x_column], self.data[col], label=col)
+            axs[i].plot(self.data[x_column], self.data[col], label=col,linewidth=3)
             axs[i].set_title('')  # Clear subplot title
             axs[i].set_xlabel('')  # Clear x-label for all subplots
             axs[1].set_ylabel("Height", fontsize=font_size)  # Set ylabel to the column name with custom font size
