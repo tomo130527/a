@@ -39,8 +39,8 @@ class Plot3DLine:
         ax.set_title("3D Spiral Plot from CSV")
 
         # Set custom limits for the axes
-        ax.set_xlim([-30, 30])  # Example x-axis range
-        ax.set_ylim([-30, 30])  # Example y-axis range
+        ax.set_xlim([0, 30])  # Example x-axis range
+        ax.set_ylim([0, 30])  # Example y-axis range
         ax.set_zlim([0, 30])  # Example z-axis range
 
         plt.show()
@@ -73,8 +73,8 @@ class Plot3DLine:
                     radius = constant_radius
 
             # Calculate coordinates
-            x = radius * math.cos(theta)
-            y = radius * math.sin(theta)
+            x = radius * math.cos(theta)+3*constant_radius
+            y = radius * math.sin(theta)+3*constant_radius
             z = theta * height_increment
 
             x_data.append(x)
