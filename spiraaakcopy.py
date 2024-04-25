@@ -48,16 +48,16 @@ class Plot3DLine:
     def spiral(self, start_angle=0, step_size=0.1):
         total_turns = 3  # Total number of complete 360-degree turns
         transition_turns = 2  # Number of turns with increasing radius
-        radius_of_coil = 5  # Constant radius after transition
+        constant_radius = 5  # Constant radius after transition
 
         x_data = []
         y_data = []
         z_data = []
 
-        theta = start_angle
+        theta = 0
         radius = 0  # Initial radius
-        constant_radius = radius_of_coil  # Set constant radius after transition
-        base = 5
+        total_height = 15
+        base = 0.33*total_height
         transition_angle = transition_turns * 2 * math.pi  # Transition angle
 
         total_steps = int((total_turns * 2 * math.pi) / step_size)
@@ -73,8 +73,8 @@ class Plot3DLine:
                     radius = constant_radius
 
             # Calculate coordinates
-            x = radius * math.cos(theta)+3*constant_radius
-            y = radius * math.sin(theta)+3*constant_radius
+            x = radius * math.cos(theta)+ constant_radius
+            y = radius * math.sin(theta)+ constant_radius
             z = theta * height_increment
 
             x_data.append(x)
