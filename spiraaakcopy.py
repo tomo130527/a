@@ -1,7 +1,8 @@
-from matplotlib import pyplot as plt
 import numpy as np
 import csv
 import math
+import matplotlib.pyplot as plt
+from mpl_toolkits.mplot3d import Axes3D
 
 class Plot3DLine:
     MAX_HEIGHT = 30
@@ -55,26 +56,17 @@ class Plot3DLine:
         z_data = []
 
         theta = 0
-        radius = 0  # Initial radius
-        total_height = 15
-        base = 0.33*total_height
-        transition_angle = transition_turns * 2 * math.pi  # Transition angle
-
-        total_steps = int((total_turns * 2 * math.pi) / step_size)
-        height_increment = 300 / total_steps  # Increment in height per step
+        total_steps = int(total_turns * 2 * math.pi / step_size)
+        height_increment = self.MAX_HEIGHT / total_steps
 
         while theta < start_angle + total_turns * 2 * math.pi:
-            if theta < base:
-                radius = 0
+            if theta < transition_turns * 2 * math.pi:
+                radius = self.RADIUS_OF_COIL * theta / (transition_turns * 2 * math.pi)
             else:
-                if theta < transition_angle:
-                    radius = constant_radius * ((theta - base) / (transition_angle - base))
-                else:
-                    radius = constant_radius
+                radius = self.RADIUS_OF_COIL
 
-            # Calculate coordinates
-            x = radius * math.cos(theta)+ constant_radius
-            y = radius * math.sin(theta)+ constant_radius
+            x = radius * math.cos(theta)
+            y = radius * math.sin(theta)
             z = theta * height_increment
 
             x_data.append(x)
@@ -84,7 +76,6 @@ class Plot3DLine:
             theta += step_size
 
         return list(zip(x_data, y_data, z_data))
-
 
 # Read data from CSV file
 data_reader = Plot3DLine()
