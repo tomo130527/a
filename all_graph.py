@@ -3,10 +3,7 @@ import matplotlib.pyplot as plt
 
 from helper import read_csv, read_csv_two
 
-def one_graph_all_param(file, x_column, y_columns, plot_type='line', title='', x_label='', y_label=''):
-    data = read_csv(file)
-    if data is None:
-        data = read_csv(file)
+def one_graph_all_param(data, x_column, y_columns, plot_type='line', title='', x_label='', y_label=''):
     data[x_column] = data[x_column]/10
     for i, col in enumerate(y_columns):
         plt.plot(data[x_column], data[col], label=col)
@@ -19,11 +16,7 @@ def one_graph_all_param(file, x_column, y_columns, plot_type='line', title='', x
     plt.legend()
     plt.show()
 
-def three_plot_data(file, x_column, y_columns, plot_type='line', title='', x_label='', y_label='', font_size=24):
-    data = read_csv(file)
-    if data is None:
-        data = read_csv(file)
-
+def three_plot_data(data, x_column, y_columns, plot_type='line', title='', x_label='', y_label='', font_size=24):
     data[x_column] = (data[x_column]) / 10
     fig, axs = plt.subplots(len(y_columns), 1, figsize=(8, 6 * len(y_columns)), sharex=True, gridspec_kw={'hspace': 0})
     hori= 0.25
@@ -60,11 +53,7 @@ def three_plot_data(file, x_column, y_columns, plot_type='line', title='', x_lab
     plt.tight_layout()
     plt.show()
 
-def th_plot_data(file, x_column, y_columns, plot_type='line', title='', x_label='', y_label='', font_size=24,max_frame=742,truncate_frame=180):
-    data = read_csv(file)
-    if data is None:
-        data = read_csv(file)
-
+def th_plot_data(data, x_column, y_columns, plot_type='line', title='', x_label='', y_label='', font_size=24,max_frame=742,truncate_frame=180):
     data = data.iloc[truncate_frame:]
     data[x_column] = (data[x_column]-truncate_frame) / 10
     fig, axs = plt.subplots(len(y_columns), 1, figsize=(len(x_column),len(y_columns)), sharex=True, gridspec_kw={'hspace': 0})
@@ -98,50 +87,7 @@ def th_plot_data(file, x_column, y_columns, plot_type='line', title='', x_label=
     plt.show()
 
 
-def pot_dddata(file, x_column, y_columns, plot_type='line', title='', x_label='', y_label='', font_size=24):
-    data = read_csv(file)
-    if data is None:
-        data = read_csv(file)
-
-    fig, axs = plt.subplots(len(y_columns), 1, figsize=(8, 6 * len(y_columns)), sharex=True, gridspec_kw={'hspace': 0})
-
-    for i, col in enumerate(y_columns):
-        if plot_type == 'line':
-            axs[i].plot(data[x_column], data[col], label=col)
-        elif plot_type == 'scatter':
-            axs[i].scatter(data[x_column], data[col], label=col)
-        else:
-            print("Invalid plot type. Please choose 'line' or 'scatter'.")
-
-        axs[i].set_title('')  # Clear subplot title
-        axs[i].set_xlabel('')  # Clear x-label for all subplots
-        axs[i].set_ylabel(col, fontsize=font_size)  # Set ylabel to the column name with custom font size
-        axs[i].tick_params(axis='y', labelsize=font_size)
-        #axs[i].legend(fontsize=font_size)
-
-        if i < len(y_columns) - 1:
-            axs[i].get_xaxis().set_visible(False)  # Hide x-axis for all except the last subplot
-
-    axs[-1].set_xlabel(x_label, fontsize=font_size)  # Set x-label only for the last subplot
-
-    # Hide top and right spines and ticks for all subplots except the bottom one
-    for ax in axs[:-1]:
-        ax.spines['bottom'].set_visible(False)
-        ax.xaxis.set_ticks_position('none')
-
-    # Set font sizes for tick labels
-    plt.xticks(fontsize=font_size)
-    plt.yticks(fontsize=font_size)
-
-    plt.tight_layout()
-    plt.show()
-
-
-def plotooo_data(file, x_column, y_columns, plot_type='line', title='', x_label='', y_label='', font_size=24):
-    data = read_csv(file)
-    if data is None:
-        data = read_csv(file)
-
+def plotooo_data(data, x_column, y_columns, plot_type='line', title='', x_label='', y_label='', font_size=24):
     data[x_column] = (data[x_column]) / 10
     fig, axs = plt.subplots(len(y_columns), 1, figsize=(8, 6 * len(y_columns)), sharex=True, gridspec_kw={'hspace': 0})
 
@@ -170,13 +116,8 @@ def plotooo_data(file, x_column, y_columns, plot_type='line', title='', x_label=
     plt.tight_layout()
     plt.show()
 
-def plot_datoooa(file, x_column, y_columns, plot_type='line', title='', x_label='', y_label='', font_size=24):
-    data = read_csv(file)
-    if data is None:
-        data = read_csv(file)
-
-    data[x_column] = (data[x_column]) / 10
-    
+def plot_datoooa(data, x_column, y_columns, plot_type='line', title='', x_label='', y_label='', font_size=24):
+    data[x_column] = (data[x_column]) / 10    
     # Multiply the "SD" column by 15
     if 'SD' in y_columns:
         data['SD'] *= 40
@@ -219,11 +160,7 @@ def plot_datoooa(file, x_column, y_columns, plot_type='line', title='', x_label=
     plt.show()
 
 
-def plot_popodata(file, x_column, y_columns, plot_type='line', title='', x_label='', y_label='', font_size=24,max_frame=742,truncate_frame=92):
-    data = read_csv(file)
-    if data is None:
-        data = read_csv(file)
-        
+def plot_popodata(data, x_column, y_columns, plot_type='line', title='', x_label='', y_label='', font_size=24,max_frame=742,truncate_frame=92):
     data = data.iloc[truncate_frame:]
     data[x_column] = (data[x_column]-truncate_frame) / 10
     fig, axs = plt.subplots(len(y_columns), 1, figsize=(8, 6 * len(y_columns)), sharex=True, gridspec_kw={'hspace': 0})
