@@ -1,8 +1,8 @@
 import tkinter as tk
 
 from helper import double_backslashes, read_csv
-from all_graph import one_graph_all_param, plot_datoooa, plot_popodata, plotooo_data, th_plot_data, three_plot_data, two_file_plot_data
-from spiral import plot_csv_file, save_to_csv, spiral
+from all_graph import one_graph_all_param, plot_datoooa, plot_popodata, th_plot_data, two_file_plot_data
+from spiral import l_shaped_x_axis, l_shaped_xy_axis, l_shaped_y_axis, plot_csv_file, save_to_csv, spiral
 
 SPIRAL_CSV_FILE = 'spiral_data.csv'
 
@@ -21,8 +21,10 @@ def show_selected_item(event):
     if selected_item == "All":
         one_graph_all_param(data=data, x_column='SN', y_columns=['PZT volt', 'SD'], plot_type='line', title='CSV Data Plot', x_label='X-axis', y_label='Y-axis')
 
-    elif selected_item == "Plot1":
-        three_plot_data(data=data,x_column='SN', y_columns=['Contrast','SD','PZT volt'], plot_type='line', title='CSV Data Plot', x_label='Time (s)', y_label='Y-axis', font_size=24)
+    elif selected_item == "Generate L-Shape Data":
+        spiral_data = l_shaped_x_axis()
+        save_to_csv(spiral_data,SPIRAL_CSV_FILE)
+        label.config(text=f"Successfully created file {SPIRAL_CSV_FILE}")
 
     elif selected_item == "Plot2":
         th_plot_data(data=data,x_column='SN', y_columns=['Contrast','SD','PZT volt'], plot_type='line', title='CSV Data Plot', x_label='Time (s)', y_label='Y-axis', font_size=24)
@@ -30,8 +32,15 @@ def show_selected_item(event):
     elif selected_item == "Plot3":
         plot_datoooa(data=data,x_column='SN', y_columns=['Contrast','SD','PZT volt'], plot_type='line', title='CSV Data Plot', x_label='Time (s)', y_label='Y-axis', font_size=24)
     
-    elif selected_item == "Pillar 1D":
-        plotooo_data(data=data,x_column='SN', y_columns=['Contrast','SD','PZT volt'], plot_type='line', title='CSV Data Plot', x_label='Time (s)', y_label='Y-axis', font_size=24)
+    elif selected_item == "L-shaped y-axis":
+        spiral_data = l_shaped_y_axis()
+        save_to_csv(spiral_data,SPIRAL_CSV_FILE)
+        label.config(text=f"Successfully created file {SPIRAL_CSV_FILE}")
+
+    elif selected_item == "L-shaped xy-axis":
+        spiral_data = l_shaped_xy_axis()
+        save_to_csv(spiral_data,SPIRAL_CSV_FILE)
+        label.config(text=f"Successfully created file {SPIRAL_CSV_FILE}")
 
     elif selected_item == "Pillar 2D":
         plot_popodata(data=data,x_column='SN', y_columns=['Contrast','SD','PZT volt'], plot_type='line', title='CSV Data Plot', x_label='Time (s)', y_label='Y-axis', font_size=24)
@@ -61,7 +70,7 @@ root.title("Menu of Lists")
 listbox = tk.Listbox(root)
 listbox.pack(pady=10)
 # Add items to the listbox
-items = ["All", "Plot1","Plot2","Plot3", "Pillar 1D", "Pillar 2D", "Spiral Graph 3D","Gererate CSV","Plot CSV", "Exit"]
+items = ["All", "Generate L-Shape Data","Plot2","Plot3", "L-shaped y-axis","L-shaped xy-axis", "Pillar 2D", "Spiral Graph 3D","Gererate CSV","Plot CSV", "Exit"]
 for item in items:
     listbox.insert(tk.END, item)
 

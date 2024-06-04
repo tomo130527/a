@@ -5,10 +5,7 @@ import matplotlib.pyplot as plt
 from mpl_toolkits.mplot3d import Axes3D
 from matplotlib import pyplot as plt
 
-MAX_HEIGHT = 30
-RADIUS_OF_COIL = 5
-TURN = 3
-POINTS_PER_TURN = 100
+radius_of_coil=2.5 
 
 def save_to_csv(data, filename):
     with open(filename, 'w', newline='') as csvfile:
@@ -30,51 +27,42 @@ def plot_csv_file(filename):
     # Create a figure and 3D axes
     fig = plt.figure()
     ax = fig.add_subplot(111, projection='3d')
-
     # Plot the 3D line
-    ax.plot(x_data, y_data, z_data)
-
+    ax.plot(x_data, y_data, 6*z_data)
     # Set axis labels and title
-    ax.set_xlabel("X-axis")
-    ax.set_ylabel("Y-axis")
-    ax.set_zlabel("Z-axis")
-    ax.set_title("3D Spiral Plot from CSV")
-
+    ax.set_xlabel("X-axis(um)")
+    ax.set_ylabel("Y-axis(um)")
+    ax.set_zlabel("Z-axis(um)")
+    ax.set_title("3D Spiral Printing Simulation")
     # Set custom limits for the axes
-    ax.set_xlim([0, 30])  # Example x-axis range
-    ax.set_ylim([0, 30])  # Example y-axis range
+    ax.set_xlim([0, 2.5*radius_of_coil])  
+    ax.set_ylim([0, 2.5*radius_of_coil])  # Example y-axis range
     ax.set_zlim([0, 30])  # Example z-axis range
-
     plt.show()
 
-def spiral(step_size=0.001):
+def spiral(step_size=0.01):
     x_data = []
     y_data = []
     z_data = []
-    total_height = 30
-    total_steps = 30
-    base_height = 5
-    segment2 = 5
+    total_steps = 20
+    base_height = 1
+    segment2 = base_height + 1.5
+    total_height = segment2 + 2.5
     iin = 0
-    base = base_height*(total_steps/total_height)
-    spi = segment2*(total_steps/total_height)
-    consr = (total_height-base_height-segment2)*(total_steps/total_height)
-
-    nt = 1 
-
+    base_steps = base_height * (total_steps / total_height)
+    transition_steps = segment2 * (total_steps / total_height)
+    nt = 3
     while iin < total_steps:
-        if iin < base:
+        if iin < base_steps:
             radius = 0
-        elif iin < spi:
-            radius = RADIUS_OF_COIL * ((iin - base) / (spi - base))
-        elif iin < consr:
-            radius = RADIUS_OF_COIL
+        elif base_steps <= iin < transition_steps:
+            radius = radius_of_coil * ((iin - base_steps) / (transition_steps - base_steps))
         else:
-            radius = 0
+            radius = radius_of_coil
 
-        x = radius * math.cos(nt*2*math.pi*iin/total_steps) + RADIUS_OF_COIL
-        y = radius * math.sin(nt*2*math.pi*iin/total_steps) + RADIUS_OF_COIL
-        z = iin * total_height / total_steps
+        x = round(radius * math.cos(nt * 2 * math.pi * iin / total_steps) + radius_of_coil, 4)
+        y = round(radius * math.sin(nt * 2 * math.pi * iin / total_steps) + radius_of_coil, 4)
+        z = round(iin * total_height / total_steps, 4)
         x_data.append(x)
         y_data.append(y)
         z_data.append(z)
@@ -82,3 +70,84 @@ def spiral(step_size=0.001):
 
     return list(zip(x_data, y_data, z_data))
 
+
+def l_shaped_x_axis(step_size=0.01):
+    x_data = []
+    y_data = []
+    z_data = []
+    total_steps = 20
+    base_height = 1
+    segment2 = base_height + 1.5
+    total_height = segment2 + 2.5
+    iin = 0
+    base_steps = base_height * (total_steps / total_height)
+    
+    while iin < total_steps:
+        if iin < base_steps:
+            radius = 0
+        else:
+            radius = radius_of_coil * ( iin - base_steps)/(total_steps - base_steps)
+
+        x = round(radius + radius_of_coil, 4)
+        y = round(radius_of_coil, 4)
+        z = round(iin * total_height / total_steps, 4)
+        x_data.append(x)
+        y_data.append(y)
+        z_data.append(z)
+        iin += step_size
+
+    return list(zip(x_data, y_data, z_data))
+
+def l_shaped_y_axis(step_size=0.01):
+    x_data = []
+    y_data = []
+    z_data = []
+    total_steps = 20
+    base_height = 1
+    segment2 = base_height + 1.5
+    total_height = segment2 + 2.5
+    iin = 0
+    base_steps = base_height * (total_steps / total_height)
+    
+    while iin < total_steps:
+        if iin < base_steps:
+            radius = 0
+        else:
+            radius = radius_of_coil * ( iin - base_steps)/(total_steps - base_steps)
+
+        x = round(radius_of_coil, 4)
+        y = round(radius + radius_of_coil, 4)
+        z = round(iin * total_height / total_steps, 4)
+        x_data.append(x)
+        y_data.append(y)
+        z_data.append(z)
+        iin += step_size
+
+    return list(zip(x_data, y_data, z_data))
+
+def l_shaped_xy_axis(step_size=0.01):
+    x_data = []
+    y_data = []
+    z_data = []
+    total_steps = 20
+    base_height = 1
+    segment2 = base_height + 1.5
+    total_height = segment2 + 2.5
+    iin = 0
+    base_steps = base_height * (total_steps / total_height)
+    
+    while iin < total_steps:
+        if iin < base_steps:
+            radius = 0
+        else:
+            radius = radius_of_coil * ( iin - base_steps)/(total_steps - base_steps)
+
+        x = round(radius + radius_of_coil, 4)
+        y = round(radius + radius_of_coil, 4)
+        z = round(iin * total_height / total_steps, 4)
+        x_data.append(x)
+        y_data.append(y)
+        z_data.append(z)
+        iin += step_size
+
+    return list(zip(x_data, y_data, z_data))
