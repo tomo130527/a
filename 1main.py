@@ -24,7 +24,7 @@ def show_selected_item(event):
     elif selected_item == "Generate L-Shape Data":
         spiral_data = l_shaped_x_axis()
         save_to_csv(spiral_data,SPIRAL_CSV_FILE)
-        label.config(text=f"Successfully created file {SPIRAL_CSV_FILE}")
+        label.config(text=f"Successfully created file X {SPIRAL_CSV_FILE}")
 
     elif selected_item == "Plot2":
         th_plot_data(data=data,x_column='SN', y_columns=['Contrast','SD','PZT volt'], plot_type='line', title='CSV Data Plot', x_label='Time (s)', y_label='Y-axis', font_size=24)
@@ -35,12 +35,12 @@ def show_selected_item(event):
     elif selected_item == "L-shaped y-axis":
         spiral_data = l_shaped_y_axis()
         save_to_csv(spiral_data,SPIRAL_CSV_FILE)
-        label.config(text=f"Successfully created file {SPIRAL_CSV_FILE}")
+        label.config(text=f"Successfully created file Y {SPIRAL_CSV_FILE}")
 
     elif selected_item == "L-shaped xy-axis":
         spiral_data = l_shaped_xy_axis()
         save_to_csv(spiral_data,SPIRAL_CSV_FILE)
-        label.config(text=f"Successfully created file {SPIRAL_CSV_FILE}")
+        label.config(text=f"Successfully created file XY {SPIRAL_CSV_FILE}")
 
     elif selected_item == "Pillar 2D":
         plot_popodata(data=data,x_column='SN', y_columns=['Contrast','SD','PZT volt'], plot_type='line', title='CSV Data Plot', x_label='Time (s)', y_label='Y-axis', font_size=24)
