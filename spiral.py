@@ -74,7 +74,7 @@ def spiral():
     return list(zip(x_data, y_data, z_data))
 
 
-def y_axis_rrotat(angle = 45):
+def y_axis_rrotat(angle):
     x_data = []
     y_data = []
     z_data = []
@@ -97,7 +97,7 @@ def y_axis_rrotat(angle = 45):
 
     return list(zip(x_data, y_data, z_data))
 
-def x_axis_rrotat(angle = 45):
+def x_axis_rrotat(angle):
     x_data = []
     y_data = []
     z_data = []
@@ -121,7 +121,7 @@ def x_axis_rrotat(angle = 45):
     return list(zip(x_data, y_data, z_data))
 
 
-def xy_rotate(angle = 45):
+def xy_rotate(angle):
     x_data = []
     y_data = []
     z_data = []

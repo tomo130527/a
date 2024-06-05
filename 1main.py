@@ -22,25 +22,26 @@ def show_selected_item(event):
         one_graph_all_param(data=data, x_column='SN', y_columns=['PZT volt', 'SD'], plot_type='line', title='CSV Data Plot', x_label='X-axis', y_label='Y-axis')
 
     elif selected_item == "Generate_X_Rotate":
-        spiral_data = x_axis_rrotat()
+        spiral_data = x_axis_rrotat(angle=45)
         save_to_csv(spiral_data,SPIRAL_CSV_FILE)
         label.config(text=f"Successfully created file X {SPIRAL_CSV_FILE}")
+    
+    elif selected_item == "Generate_Y_Rotate":
+        spiral_data = y_axis_rrotat(angle=45)
+        save_to_csv(spiral_data,SPIRAL_CSV_FILE)
+        label.config(text=f"Successfully created file Y {SPIRAL_CSV_FILE}")
+
+    elif selected_item == "Generate_XT_Rotate":
+        spiral_data = xy_rotate(angle=45)
+        save_to_csv(spiral_data,SPIRAL_CSV_FILE)
+        label.config(text=f"Successfully created file XY {SPIRAL_CSV_FILE}")
+
 
     elif selected_item == "Plot2":
         th_plot_data(data=data,x_column='SN', y_columns=['Contrast','SD','PZT volt'], plot_type='line', title='CSV Data Plot', x_label='Time (s)', y_label='Y-axis', font_size=24)
 
     elif selected_item == "Plot3":
         plot_datoooa(data=data,x_column='SN', y_columns=['Contrast','SD','PZT volt'], plot_type='line', title='CSV Data Plot', x_label='Time (s)', y_label='Y-axis', font_size=24)
-    
-    elif selected_item == "Generate_Y_Rotate":
-        spiral_data = y_axis_rrotat()
-        save_to_csv(spiral_data,SPIRAL_CSV_FILE)
-        label.config(text=f"Successfully created file Y {SPIRAL_CSV_FILE}")
-
-    elif selected_item == "Generate_XT_Rotate":
-        spiral_data = xy_rotate()
-        save_to_csv(spiral_data,SPIRAL_CSV_FILE)
-        label.config(text=f"Successfully created file XY {SPIRAL_CSV_FILE}")
 
     elif selected_item == "Pillar 2D":
         plot_popodata(data=data,x_column='SN', y_columns=['Contrast','SD','PZT volt'], plot_type='line', title='CSV Data Plot', x_label='Time (s)', y_label='Y-axis', font_size=24)
