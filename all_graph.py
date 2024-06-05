@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 
 from helper import read_csv, read_csv_two
 
-def one_graph_all_paramuu(data, x_column, y_columns, plot_type='line', title='', x_label='', y_label=''):
+def one_graph_all_param(data, x_column, y_columns, plot_type='line', title='', x_label='', y_label=''):
     data[x_column] = data[x_column]/10
     for i, col in enumerate(y_columns):
         plt.plot(data[x_column], data[col], label=col)
@@ -17,7 +17,7 @@ def one_graph_all_paramuu(data, x_column, y_columns, plot_type='line', title='',
     plt.legend()
     plt.show()
 
-def one_graph_all_param(data, x_column, y_columns, plot_type='line', title='', x_label='', y_label=''):
+def one_graph_all_paramii(data, x_column, y_columns, plot_type='line', title='', x_label='', y_label=''):
     data[x_column] = data[x_column] / 10
     fig = Figure()
     ax = fig.add_subplot(111)

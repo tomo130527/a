@@ -48,7 +48,6 @@ def one_graph_all_param(data, x_column, y_columns, plot_type='line', title='', x
     
     return fig, ax
 
-
 def plot_csv_file(filename):
     x_data, y_data, z_data = read_csv_data(filename)
     # Create a figure and 3D axes
@@ -65,7 +64,9 @@ def plot_csv_file(filename):
     ax.set_xlim([0, 2.5*radius_of_coil])  
     ax.set_ylim([0, 2.5*radius_of_coil])  # Example y-axis range
     ax.set_zlim([0, 30])  # Example z-axis range
-    return fig, ax
+    plt.show() #return fig, ax
+
+    
 
 def spiral():
     x_data = []

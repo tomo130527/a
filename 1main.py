@@ -65,19 +65,7 @@ def show_selected_item(event):
         label.config(text="You selected: " + selected_item)
 
 
-elements = []
-def cbtn(master, text, row, column, command=None, w=None):
-    button = tk.Button(master, text=text, command=command, width=w, padx=15, pady=15)
-    button.place(x=column, y=row)
-    elements.append(button)
-    return button
 
-# File path and read CSV data
-file = r"C:\Users\nares\Desktop\Zikken\2024116\OneDrive-2024-01-16\20240116_1433_01top.csv"
-data = read_csv(file)
-
-# Create the plot
-fig, ax = one_graph_all_param(data=data, x_column='SN', y_columns=['PZT volt', 'SD'], plot_type='line', title='CSV Data Plot', x_label='X-axis', y_label='Y-axis')
 
 # Create the main tkinter window
 root = tk.Tk()
@@ -97,20 +85,6 @@ listbox.bind("<Double-Button-1>", show_selected_item)
 # Create a label to display the selected item
 label = tk.Label(root, text="", font=("Arial", 12))
 label.grid(row=1, column=0, columnspan=2)
-
-# Create buttons using the cbtn function
-cbtn(root, text="Button1", row=2, column=0)
-cbtn(root, text="Button2", row=2, column=1)
-
-# Embed the matplotlib figure in the tkinter window
-canvas = FigureCanvasTkAgg(fig, master=root)
-canvas.draw()
-canvas.get_tk_widget().grid(row=3, column=0, columnspan=2, sticky='nsew')
-
-# Configure the grid to make the canvas expandable
-root.grid_rowconfigure(3, weight=1)
-root.grid_columnconfigure(0, weight=1)
-root.grid_columnconfigure(1, weight=1)
 
 # Run the tkinter main loop
 root.mainloop()
