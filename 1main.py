@@ -1,16 +1,17 @@
 import tkinter as tk
 
+from tkinter import TOP, BOTH
+import pandas as pd
+from matplotlib.figure import Figure
+from matplotlib.backends.backend_tkagg import FigureCanvasTkAgg
 from helper import double_backslashes, read_csv
 from all_graph import one_graph_all_param, plot_datoooa, plot_popodata, th_plot_data, two_file_plot_data
 from spiral import x_axis_rrotat, xy_rotate, y_axis_rrotat, plot_csv_file, save_to_csv, spiral
 
 SPIRAL_CSV_FILE = 'spiral_data.csv'
 
-
-
-
 def show_selected_item(event):
-    global root  # Define root as global
+    global root 
     file = double_backslashes(r"C:\Users\nares\Desktop\Zikken\2024116\OneDrive-2024-01-16\20240116_1433_01top.csv")
     data = read_csv(file)
     if data is None:
@@ -35,7 +36,6 @@ def show_selected_item(event):
         spiral_data = xy_rotate(angle=45)
         save_to_csv(spiral_data,SPIRAL_CSV_FILE)
         label.config(text=f"Successfully created file XY {SPIRAL_CSV_FILE}")
-
 
     elif selected_item == "Plot2":
         th_plot_data(data=data,x_column='SN', y_columns=['Contrast','SD','PZT volt'], plot_type='line', title='CSV Data Plot', x_label='Time (s)', y_label='Y-axis', font_size=24)
@@ -65,19 +65,52 @@ def show_selected_item(event):
         label.config(text="You selected: " + selected_item)
 
 
+elements = []
+def cbtn(master, text, row, column, command=None, w=None):
+    button = tk.Button(master, text=text, command=command, width=w, padx=15, pady=15)
+    button.place(x=column, y=row)
+    elements.append(button)
+    return button
+
+# File path and read CSV data
+file = r"C:\Users\nares\Desktop\Zikken\2024116\OneDrive-2024-01-16\20240116_1433_01top.csv"
+data = read_csv(file)
+
+# Create the plot
+fig, ax = one_graph_all_param(data=data, x_column='SN', y_columns=['PZT volt', 'SD'], plot_type='line', title='CSV Data Plot', x_label='X-axis', y_label='Y-axis')
+
+# Create the main tkinter window
 root = tk.Tk()
 root.title("Menu of Lists")
-# Create a listbox
-listbox = tk.Listbox(root)
-listbox.pack(pady=10)
-# Add items to the listbox
-items = ["All", "Generate_X_Rotate", "Generate_Y_Rotate", "Generate_XT_Rotate", "Pillar 2D", "Plot2","Plot3", "Spiral Graph 3D","Gererate CSV","Plot CSV", "Exit"]
+root.geometry("800x600")
+
+# Create a listbox and populate it with items
+listbox = tk.Listbox(root, font=("Arial", 12))
+listbox.grid(row=0, column=0, columnspan=2, pady=10)
+items = ["All", "Generate_X_Rotate", "Generate_Y_Rotate", "Generate_XT_Rotate", "Pillar 2D", "Plot2", "Plot3", "Spiral Graph 3D", "Generate CSV", "Plot CSV", "Exit"]
 for item in items:
     listbox.insert(tk.END, item)
 
-# Bind double click event to listbox
+# Bind double-click event to listbox
 listbox.bind("<Double-Button-1>", show_selected_item)
-# Create a label to display selected item
-label = tk.Label(root, text="")
-label.pack()
+
+# Create a label to display the selected item
+label = tk.Label(root, text="", font=("Arial", 12))
+label.grid(row=1, column=0, columnspan=2)
+
+# Create buttons using the cbtn function
+cbtn(root, text="Button1", row=2, column=0)
+cbtn(root, text="Button2", row=2, column=1)
+
+# Embed the matplotlib figure in the tkinter window
+canvas = FigureCanvasTkAgg(fig, master=root)
+canvas.draw()
+canvas.get_tk_widget().grid(row=3, column=0, columnspan=2, sticky='nsew')
+
+# Configure the grid to make the canvas expandable
+root.grid_rowconfigure(3, weight=1)
+root.grid_columnconfigure(0, weight=1)
+root.grid_columnconfigure(1, weight=1)
+
+# Run the tkinter main loop
 root.mainloop()

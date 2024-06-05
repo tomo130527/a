@@ -1,3 +1,4 @@
+from matplotlib.figure import Figure
 import numpy as np
 import csv
 import math
@@ -29,6 +30,24 @@ def read_csv_data(filename):
     x_data, y_data, z_data = zip(*data)
     return np.asarray(x_data, dtype=float), np.asarray(y_data, dtype=float), np.asarray(z_data, dtype=float)
 
+def one_graph_all_param(data, x_column, y_columns, plot_type='line', title='', x_label='', y_label=''):
+    data[x_column] = data[x_column] / 10
+    fig = Figure()
+    ax = fig.add_subplot(111)
+    
+    for col in y_columns:
+        if plot_type == 'line':
+            ax.plot(data[x_column], data[col], label=col)
+    
+    ax.axhline(y=0.5, color='r', linestyle='--', label='y = 0.5')
+    ax.axvline(x=50, color='g', linestyle=':', label='x = 50')
+    ax.set_title(title)
+    ax.set_xlabel(x_label)
+    ax.set_ylabel(y_label)
+    ax.legend()
+    
+    return fig, ax
+
 
 def plot_csv_file(filename):
     x_data, y_data, z_data = read_csv_data(filename)
@@ -46,7 +65,7 @@ def plot_csv_file(filename):
     ax.set_xlim([0, 2.5*radius_of_coil])  
     ax.set_ylim([0, 2.5*radius_of_coil])  # Example y-axis range
     ax.set_zlim([0, 30])  # Example z-axis range
-    plt.show()
+    return fig, ax
 
 def spiral():
     x_data = []

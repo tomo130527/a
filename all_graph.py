@@ -1,9 +1,10 @@
 import pandas as pd
+from matplotlib.figure import Figure
 import matplotlib.pyplot as plt
 
 from helper import read_csv, read_csv_two
 
-def one_graph_all_param(data, x_column, y_columns, plot_type='line', title='', x_label='', y_label=''):
+def one_graph_all_paramuu(data, x_column, y_columns, plot_type='line', title='', x_label='', y_label=''):
     data[x_column] = data[x_column]/10
     for i, col in enumerate(y_columns):
         plt.plot(data[x_column], data[col], label=col)
@@ -15,6 +16,25 @@ def one_graph_all_param(data, x_column, y_columns, plot_type='line', title='', x
     plt.ylabel(y_label)
     plt.legend()
     plt.show()
+
+def one_graph_all_param(data, x_column, y_columns, plot_type='line', title='', x_label='', y_label=''):
+    data[x_column] = data[x_column] / 10
+    fig = Figure()
+    ax = fig.add_subplot(111)
+    
+    for col in y_columns:
+        if plot_type == 'line':
+            ax.plot(data[x_column], data[col], label=col)
+    
+    ax.axhline(y=0.5, color='r', linestyle='--', label='y = 0.5')
+    ax.axvline(x=50, color='g', linestyle=':', label='x = 50')
+    ax.set_title(title)
+    ax.set_xlabel(x_label)
+    ax.set_ylabel(y_label)
+    ax.legend()
+    
+    return fig, ax
+
 
 def plot_datoooa(data, x_column, y_columns, plot_type='line', title='', x_label='', y_label='', font_size=24):
     data[x_column] = (data[x_column]) / 10    
