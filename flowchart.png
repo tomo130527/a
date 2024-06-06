@@ -1,0 +1,20 @@
+digraph {
+	node [shape=rectangle]
+	node1 [label=Start]
+	node2 [label="Check if number is even"]
+	node1 -> node2
+	node4 [label=True]
+	node1 -> node4 [color=green]
+	node6 [label="Print \"Even\""]
+	node1 -> node6
+	node8 [label=False]
+	node1 -> node8 [color=red]
+	node10 [label="Print \"Odd\""]
+	node1 -> node10
+	node12 [label=End]
+	node12 -> node2
+	node12 -> node4
+	node12 -> node6
+	node12 -> node8
+	node12 -> node10
+}
