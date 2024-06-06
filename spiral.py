@@ -5,16 +5,7 @@ import math
 import matplotlib.pyplot as plt
 from mpl_toolkits.mplot3d import Axes3D
 from matplotlib import pyplot as plt
-
-radius_of_coil=2.5 
-total_steps = 300
-base_height = 1
-segment2 = base_height + 1.5
-total_height = segment2 + 2.5
-slighted_height = total_height - base_height
-z_axix = 0
-base_steps = base_height * (total_steps / total_height)
-
+from constants import *
 
 def save_to_csv(data, filename):
     with open(filename, 'w', newline='') as csvfile:
@@ -29,24 +20,6 @@ def read_csv_data(filename):
         data = [row for row in reader]
     x_data, y_data, z_data = zip(*data)
     return np.asarray(x_data, dtype=float), np.asarray(y_data, dtype=float), np.asarray(z_data, dtype=float)
-
-def one_graph_all_param(data, x_column, y_columns, plot_type='line', title='', x_label='', y_label=''):
-    data[x_column] = data[x_column] / 10
-    fig = Figure()
-    ax = fig.add_subplot(111)
-    
-    for col in y_columns:
-        if plot_type == 'line':
-            ax.plot(data[x_column], data[col], label=col)
-    
-    ax.axhline(y=0.5, color='r', linestyle='--', label='y = 0.5')
-    ax.axvline(x=50, color='g', linestyle=':', label='x = 50')
-    ax.set_title(title)
-    ax.set_xlabel(x_label)
-    ax.set_ylabel(y_label)
-    ax.legend()
-    
-    return fig, ax
 
 def plot_csv_file(filename):
     x_data, y_data, z_data = read_csv_data(filename)
@@ -72,9 +45,17 @@ def spiral():
     x_data = []
     y_data = []
     z_data = []
-    transition_steps = segment2 * (total_steps / total_height)
     nt = 3
     iin = 0
+    total_steps = 300
+    base_height = 1
+    segment2 = base_height + 1.5
+    total_height = segment2 + 2.5
+    slighted_height = total_height - base_height
+    z_axix = 0
+    base_steps = base_height * (total_steps / total_height)
+    transition_steps = segment2 * (total_steps / total_height)
+
     while iin < total_steps:
         if iin < base_steps:
             radius = 0
@@ -89,7 +70,7 @@ def spiral():
         x_data.append(x)
         y_data.append(y)
         z_data.append(z)
-        iin += 1
+        iin += RESOLUTION_POINTS
 
     return list(zip(x_data, y_data, z_data))
 
@@ -99,6 +80,14 @@ def y_axis_rrotat(angle):
     y_data = []
     z_data = []
     iin = 0
+    total_steps = 300
+    base_height = 1
+    segment2 = base_height + 1.5
+    total_height = segment2 + 2.5
+    slighted_height = total_height - base_height
+    z_axix = 0
+    base_steps = base_height * (total_steps / total_height)
+
     while iin < total_steps:
         if iin < base_steps:
             radius = 0
@@ -113,7 +102,7 @@ def y_axis_rrotat(angle):
         x_data.append(x)
         y_data.append(y)
         z_data.append(z)
-        iin += 1
+        iin += RESOLUTION_POINTS
 
     return list(zip(x_data, y_data, z_data))
 
@@ -122,6 +111,14 @@ def x_axis_rrotat(angle):
     y_data = []
     z_data = []
     iin = 0
+    total_steps = 300
+    base_height = 1
+    segment2 = base_height + 1.5
+    total_height = segment2 + 2.5
+    slighted_height = total_height - base_height
+    z_axix = 0
+    base_steps = base_height * (total_steps / total_height)
+
     while iin < total_steps:
         if iin < base_steps:
             radius = 0
@@ -136,7 +133,7 @@ def x_axis_rrotat(angle):
         x_data.append(x)
         y_data.append(y)
         z_data.append(z)
-        iin += 1
+        iin += RESOLUTION_POINTS
 
     return list(zip(x_data, y_data, z_data))
 
@@ -146,6 +143,15 @@ def xy_rotate(angle):
     y_data = []
     z_data = []
     iin = 0
+    radius_of_coil=2.5 
+    total_steps = 300
+    base_height = 1
+    segment2 = base_height + 1.5
+    total_height = segment2 + 2.5
+    slighted_height = total_height - base_height
+    z_axix = 0
+    base_steps = base_height * (total_steps / total_height)
+
     while iin < total_steps:
         if iin < base_steps:
             radius = 0
@@ -160,7 +166,7 @@ def xy_rotate(angle):
         x_data.append(x)
         y_data.append(y)
         z_data.append(z)
-        iin += 1
+        iin += RESOLUTION_POINTS
 
     return list(zip(x_data, y_data, z_data))
 
