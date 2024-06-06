@@ -4,6 +4,7 @@ from tkinter import TOP, BOTH
 
 from helper import *
 from all_graph import *
+from json_helper import *
 from spiral import *
 from constants import *
 def show_selected_item(selected_item):
@@ -62,14 +63,35 @@ def show_selected_item(selected_item):
         #label.config(text="You selected: " + selected_item)
 
 
+def setting_save(json_key, json_value):
+    # Read the current settings
+    settings = read_json(SETTINGS_FILE)
+    
+    # Ensure the settings is a dictionary
+    if not isinstance(settings, dict):
+        settings = {}
+    
+    # Update or add the new key-value pair
+    settings[json_key] = json_value
+    
+    # Save the updated settings back to the file
+    save_as_json(settings, SETTINGS_FILE)
+    
+    print(f"Setting saved: {json_key} = {json_value}")
+
+
+
 def create_labeled_entry(frame, label_text, padding=20):
     label = tk.Label(frame, text=label_text)
     label.pack(pady=padding)
     
     entry = tk.Entry(frame)
     entry.pack(pady=padding)
+
+    btn = tk.Button(frame, text=label_text, font=("Arial", 12), width=20, command=lambda item=label_text: setting_save(label_text,entry.get()))
+    btn.pack(pady=padding)
     
-    return label, entry
+    return label, entry,btn
 
 # Create the main tkinter window
 root = tk.Tk()
@@ -82,8 +104,7 @@ row1.grid(row=1,column=1)
 row2 = tk.Frame(root)
 row2.grid(row=1,column=2)
 
-# List of items
-items = [
+button_list_items = [
     "All", 
     "Generate_X_Rotate", 
     "Generate_Y_Rotate", 
@@ -96,13 +117,20 @@ items = [
     "Plot CSV", 
     "Exit"
 ]
+input_list_items = [
+    "Angle", 
+    "Resolution", 
+    "Total steps", 
+    "Maximum radius",
+]
 
 # Create buttons for each item
-for item in items:
+for item in button_list_items:
     button = tk.Button(row1, text=item, font=("Arial", 12), width=20, command=lambda item=item: show_selected_item(item))
     button.pack(pady=5)
+# Create buttons for each item
+for entrry in input_list_items:
+    create_labeled_entry(frame=row2, label_text=entrry, padding=0)
 
-input_label = tk.Entry(row2, text="Enter your name: ")
-input_label.pack(pady=20)
 # Run the tkinter main loop
 root.mainloop()
