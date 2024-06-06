@@ -32,7 +32,7 @@ def plot_csv_file(filename):
     ax.set_xlabel("X-axis(um)")
     ax.set_ylabel("Y-axis(um)")
     ax.set_zlabel("Z-axis(um)")
-    ax.set_title("3D Spiral Printing Simulation")
+    ax.set_title(f"3D Printing Simulation of {ROTATION_ANGLE}")
     # Set custom limits for the axes
     ax.set_xlim([0, 2.5*radius_of_coil])  
     ax.set_ylim([0, 2.5*radius_of_coil])  # Example y-axis range

@@ -20,17 +20,17 @@ def show_selected_item(selected_item):
         one_graph_all_param(data=data, x_column='SN', y_columns=['PZT volt', 'SD'], plot_type='line', title='CSV Data Plot', x_label='X-axis', y_label='Y-axis')
 
     elif selected_item == "Generate_X_Rotate":
-        spiral_data = x_axis_rrotat(angle=45)
+        spiral_data = x_axis_rrotat(angle=ROTATION_ANGLE)
         save_to_csv(spiral_data,SPIRAL_CSV_FILE)
         #label.config(text=f"Successfully created file X {SPIRAL_CSV_FILE}")
     
     elif selected_item == "Generate_Y_Rotate":
-        spiral_data = y_axis_rrotat(angle=45)
+        spiral_data = y_axis_rrotat(angle=ROTATION_ANGLE)
         save_to_csv(spiral_data,SPIRAL_CSV_FILE)
         #label.config(text=f"Successfully created file Y {SPIRAL_CSV_FILE}")
 
     elif selected_item == "Generate_XT_Rotate":
-        spiral_data = xy_rotate(angle=45)
+        spiral_data = xy_rotate(angle=ROTATION_ANGLE)
         save_to_csv(spiral_data,SPIRAL_CSV_FILE)
         #label.config(text=f"Successfully created file XY {SPIRAL_CSV_FILE}")
 
