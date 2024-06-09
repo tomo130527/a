@@ -1,4 +1,4 @@
-from matplotlib.figure import Figure
+from matplotlib.ticker import *
 import numpy as np
 import csv
 import math
@@ -6,6 +6,7 @@ import matplotlib.pyplot as plt
 from mpl_toolkits.mplot3d import Axes3D
 from matplotlib import pyplot as plt
 from constants import *
+from helper import *
 
 def save_to_csv(data, filename):
     with open(filename, 'w', newline='') as csvfile:
@@ -22,21 +23,25 @@ def read_csv_data(filename):
     return np.asarray(x_data, dtype=float), np.asarray(y_data, dtype=float), np.asarray(z_data, dtype=float)
 
 def plot_csv_file(filename):
+    angle_ = int(read_all_settings('Angle'))
     x_data, y_data, z_data = read_csv_data(filename)
     # Create a figure and 3D axes
     fig = plt.figure()
     ax = fig.add_subplot(111, projection='3d')
     # Plot the 3D line
-    ax.plot(x_data, y_data, 6*z_data)
+    ax.plot(x_data, y_data, z_data)
     # Set axis labels and title
-    ax.set_xlabel("X-axis(um)")
-    ax.set_ylabel("Y-axis(um)")
-    ax.set_zlabel("Z-axis(um)")
-    ax.set_title(f"3D Printing Simulation of {ROTATION_ANGLE}")
+    ax.set_xlabel("X-(V)")
+    ax.set_ylabel("Y-(V)")
+    ax.set_zlabel("Z-(V)")
+    ax.set_title(f"3D Printing Simulation of {angle_} degrees")
+    ax.xaxis.set_major_locator(MultipleLocator(1))
+    ax.yaxis.set_major_locator(MultipleLocator(1))
+    ax.zaxis.set_major_locator(MultipleLocator(1))
     # Set custom limits for the axes
-    ax.set_xlim([0, 2.5*radius_of_coil])  
-    ax.set_ylim([0, 2.5*radius_of_coil])  # Example y-axis range
-    ax.set_zlim([0, 30])  # Example z-axis range
+    ax.set_xlim([0, 5*radius_of_coil])  
+    ax.set_ylim([0, 5*radius_of_coil])  # Example y-axis range
+    ax.set_zlim([0, 6])  # Example z-axis range
     plt.show() #return fig, ax
 
     

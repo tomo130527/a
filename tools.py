@@ -11,4 +11,10 @@ def install_package(package_name):
         print(f"The package '{package_name}' has been installed successfully.")
 
 # Example usage
-install_package('graphviz')
+install_package('matplotlib')
+
+
+
+
+
+
