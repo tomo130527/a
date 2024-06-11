@@ -11,14 +11,10 @@ def double_backslashes(input_string):
     return input_string.replace('\\', '\\\\')
 
 def read_csv(file_path):
-    if not os.path.exists(file_path):
-        print("File not found. Please provide a valid file path.")
-        return 
-    
-    try:
+    if os.path.exists(file_path):
         return pd.read_csv(file_path)
     
-    except FileNotFoundError:
+    if not os.path.exists(file_path):
         print("File not found. Please provide a valid file path.")
 
 
@@ -71,16 +67,16 @@ def setting_save(json_key, json_value):
     print(f"Setting saved: {json_key} = {json_value}")
 
 
-def create_labeled_entry(frame, label_text,jk, padding=20):
-    label = tk.Label(frame, text=label_text)
-    label.pack(pady=padding)
+def create_labeled_entry(frame, label_text,json_key,json_value):
+    r1 = tk.Frame(frame)
     
-    entry_var = tk.StringVar(value=jk)  # Create a StringVar with the default value
-    entry = tk.Entry(master=frame,textvariable=entry_var)
-    entry.pack(pady=padding)
+    entry_var = tk.StringVar(value=json_value)  # Create a StringVar with the default value
+    entry = tk.Entry(master=r1,textvariable=entry_var)
+    entry.grid(row=1,column=1, columnspan=2)
 
-    btn = tk.Button(frame, text=label_text, font=("Arial", 12), width=20, command=lambda item=label_text: setting_save(label_text,entry.get()))
-    btn.pack(pady=padding)
+    btn = tk.Button(r1, text=label_text, font=("Arial", 12), width=20, command=lambda item=label_text: setting_save(json_key,entry.get()))
+    btn.grid(row=1,column=3)
     
-    return label, entry,btn
+    r1.pack(pady=10)
+    return r1
 

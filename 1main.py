@@ -1,12 +1,10 @@
 import tkinter as tk
 from tkinter import TOP, BOTH
-from helper import *
+from ui_helper import *
 from all_graph import *
 from json_helper import *
 from spiral import *
 from constants import *
-
-
 
 root = tk.Tk()
 root.title("Menu of Lists")
@@ -104,14 +102,9 @@ for entrry in input_list_items:
     my_set = read_json(SETTINGS_FILE)
     if entrry in my_set:
         pick_item = my_set[entrry]  # Access dictionary with the string key
-        create_labeled_entry(frame=row2, label_text=entrry, jk=pick_item, padding=0)
+        create_labeled_entry(frame=row2, label_text=entrry, json_key=pick_item, json_value=pick_item)
     else:
         print(f"Warning: '{entrry}' not found in settings.")
 
 # Run the tkinter main loop
 root.mainloop()
-
-
-
-
-

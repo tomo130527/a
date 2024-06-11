@@ -9,6 +9,11 @@ input_list_items = [
     "Resolution", 
     "Total steps", 
     "Maximum radius",
+    "Radius of coil",
+    "Number of coils",
+    "Coil diameter",
+    "Coil length",
+    "Coil pitch",
 ]
 
 x_column = "time(s)"

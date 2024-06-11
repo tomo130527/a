@@ -1,5 +1,6 @@
 {
-    "Angle": "",
-    "Resolution": "",
-    "Total steps": "y"
+    "Angle": "80",
+    "Resolution": "2",
+    "Total steps": "300",
+    "Maximum radius": "1.5"
 }

@@ -1,10 +1,14 @@
+from log import Logger
 import pandas as pd
 from matplotlib.figure import Figure
 import matplotlib.pyplot as plt
+from constants import *
+from ui_helper import *
 
-from helper import read_csv, read_csv_two
 
-def one_graph_all_param(data, x_column, y_columns, plot_type='line', title='', x_label='', y_label=''):
+logger_help = Logger()
+
+def one_graph_all_param(data):
     data[x_column] = data[x_column]/10
     for i, col in enumerate(y_columns):
         plt.plot(data[x_column], data[col], label=col)
@@ -17,11 +21,12 @@ def one_graph_all_param(data, x_column, y_columns, plot_type='line', title='', x
     plt.legend()
     plt.show()
 
-def plot_datoooa(data, x_column, y_columns, plot_type='line', title='', x_label='', y_label='', font_size=24):
+def plot_datoooa(data):
     data[x_column] = (data[x_column]) / 10    
     # Multiply the "SD" column by 15
     if 'SD' in y_columns:
         data['SD'] *= 40
+
     if 'PZT volt' in y_columns:
         data['PZT volt'] *= 0.7
 
@@ -61,7 +66,11 @@ def plot_datoooa(data, x_column, y_columns, plot_type='line', title='', x_label=
     plt.show()
 
 
-def plot_popodata(data, x_column, y_columns, plot_type='line', title='', x_label='', y_label='', font_size=24,max_frame=742,truncate_frame=92):
+def plot_popodata(data):
+    x_column = data.columns[0]
+    y_columns = data.columns[1:]
+    max_frame=742
+    truncate_frame=92
     data = data.iloc[truncate_frame:]
     data[x_column] = (data[x_column]-truncate_frame) / 10
     fig, axs = plt.subplots(len(y_columns), 1, figsize=(8, 6 * len(y_columns)), sharex=True, gridspec_kw={'hspace': 0})
@@ -98,7 +107,60 @@ def plot_popodata(data, x_column, y_columns, plot_type='line', title='', x_label
     plt.show()
 
 
-def th_plot_data(data, x_column, y_columns, plot_type='line', title='', x_label='', y_label='', font_size=24,max_frame=742,truncate_frame=180):
+def th_plot_data(data):
+    # Extract column names for x and y columns from the first row
+    x_column = data.columns[0]
+    y_columns = data.columns[1:]
+
+    # Define the parameters
+    max_frame = 742
+    truncate_frame = 180
+    font_size = 12
+    x_label = x_column
+
+    # Truncate the data
+     # Truncate the data
+    data = data.iloc[truncate_frame:].copy()
+    data[x_column] = data[x_column].astype(float)  # Explicitly cast to float
+    data.loc[:, x_column] = (data[x_column] - truncate_frame) / 10
+    
+    # Create subplots
+    fig, axs = plt.subplots(len(y_columns), 1, figsize=(10, len(y_columns) * 2), sharex=True, gridspec_kw={'hspace': 0})
+
+    # Plot each y_column
+    for i, col in enumerate(y_columns):
+        axs[i].plot(data[x_column], data[col], label=col)
+        axs[i].set_ylabel(col, fontsize=font_size)
+        axs[i].tick_params(axis='y', labelsize=font_size)
+        
+        # Hide x-axis for all except the last subplot
+        if i < len(y_columns) - 1:
+            axs[i].get_xaxis().set_visible(False)
+
+    # Set x-label for the last subplot
+    axs[-1].set_xlabel(x_label, fontsize=font_size)
+
+    # Customize the plots
+    for ax in axs[:-1]:
+        ax.spines['bottom'].set_visible(False)
+        ax.xaxis.set_ticks_position('none')
+
+    # Add horizontal lines
+    plt.axhline(y=0.020, color='r', linestyle='--', label='y = 0.5')
+    plt.axhline(y=0.013, color='b', linestyle='--', label='y = 0.5')
+
+    plt.xticks(fontsize=font_size)
+    plt.yticks(fontsize=font_size)
+    plt.tight_layout()
+    plt.show()
+
+
+def th_plot_datatt(data):
+    x_column = data.columns[0]
+    y_columns = data.columns[1:]
+    logger_help.log("INFO",data)
+    max_frame=742
+    truncate_frame=180
     data = data.iloc[truncate_frame:]
     data[x_column] = (data[x_column]-truncate_frame) / 10
     fig, axs = plt.subplots(len(y_columns), 1, figsize=(len(x_column),len(y_columns)), sharex=True, gridspec_kw={'hspace': 0})
@@ -133,7 +195,11 @@ def th_plot_data(data, x_column, y_columns, plot_type='line', title='', x_label=
 
 
 
-def two_file_plot_data(two_files, x_column, plot_type='line', title='', x_label='', font_size=24, max_frame=99999, truncate_frame=0):
+def two_file_plot_data(two_files):
+    x_column = data.columns[0]
+    y_columns = data.columns[1:]
+    max_frame=99999 
+    truncate_frame=0
     data = read_csv_two(two_files)
     if any(data is None for data in data):
         data = read_csv_two(two_files)

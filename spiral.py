@@ -6,21 +6,9 @@ import matplotlib.pyplot as plt
 from mpl_toolkits.mplot3d import Axes3D
 from matplotlib import pyplot as plt
 from constants import *
-from helper import *
+from ui_helper import *
+from csv_helper import *
 
-def save_to_csv(data, filename):
-    with open(filename, 'w', newline='') as csvfile:
-        writer = csv.writer(csvfile)
-        writer.writerow(['x', 'y', 'z'])  # Header row
-        writer.writerows(data)
-
-def read_csv_data(filename):
-    with open(filename, 'r') as csvfile:
-        reader = csv.reader(csvfile)
-        next(reader)  # Skip the header row
-        data = [row for row in reader]
-    x_data, y_data, z_data = zip(*data)
-    return np.asarray(x_data, dtype=float), np.asarray(y_data, dtype=float), np.asarray(z_data, dtype=float)
 
 def plot_csv_file(filename):
     angle_ = int(read_all_settings('Angle'))
@@ -143,7 +131,7 @@ def x_axis_rrotat(angle):
     return list(zip(x_data, y_data, z_data))
 
 
-def xy_rotate(angle):
+def xy_rotatep(angle):
     x_data = []
     y_data = []
     z_data = []
@@ -161,6 +149,40 @@ def xy_rotate(angle):
         if iin < base_steps:
             radius = 0
             z_axix = base_height * (iin / base_steps)
+        else:
+            radius = slighted_height * ( iin - base_steps)/(total_steps - base_steps) * math.sin(math.radians(angle))
+            z_axix = base_height + slighted_height * ( iin - base_steps)/(total_steps - base_steps) * math.cos(math.radians(angle))
+
+        x = round(radius + radius_of_coil, 4)
+        y = round(radius + radius_of_coil, 4)
+        z = round(z_axix, 4)
+        x_data.append(x)
+        y_data.append(y)
+        z_data.append(z)
+        iin += RESOLUTION_POINTS
+
+    return list(zip(x_data, y_data, z_data))
+
+
+def xy_rotate(angle):
+    x_data = []
+    y_data = []
+    z_data = []
+    iin = 0
+    radius_of_coil=2.5 
+    total_steps = read_json("settings.json")['total_steps']
+    base_height = 1
+    segment2 = base_height + 1.5
+    total_height = segment2 + 2.5
+    slighted_height = total_height - base_height
+    z_axix = 0
+    base_steps = base_height * (total_steps / total_height)
+
+    while iin < total_steps:
+        if iin < base_steps:
+            radius = 0
+            z_axix = base_height * (iin / base_steps)
+
         else:
             radius = slighted_height * ( iin - base_steps)/(total_steps - base_steps) * math.sin(math.radians(angle))
             z_axix = base_height + slighted_height * ( iin - base_steps)/(total_steps - base_steps) * math.cos(math.radians(angle))
