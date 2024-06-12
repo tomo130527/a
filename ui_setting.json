@@ -1,0 +1,8 @@
+{
+    "Save": "angle_save",
+    "Load": "angle_load",
+    "Delete": "angle_delete",
+    "Add": "angle_add",
+    "Edit": "angle_edit",
+    "Cancel": "angle_cancel"
+}
