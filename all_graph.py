@@ -196,13 +196,7 @@ def th_plot_datatt(data):
 
 
 def two_file_plot_data(two_files):
-    x_column = data.columns[0]
-    y_columns = data.columns[1:]
-    max_frame=99999 
-    truncate_frame=0
     data = read_csv_two(two_files)
-    if any(data is None for data in data):
-        data = read_csv_two(two_files)
 
     y_columns = set(column for data in data if data is not None for column in data.columns)
     y_columns.discard(x_column)
@@ -231,3 +225,6 @@ def two_file_plot_data(two_files):
 
     plt.tight_layout()
     plt.show()
+
+two_file = read_csv(r"C:\Users\nares\Desktop\allout\240613\240607_104411.csv")
+one_graph_all_param(two_file)
