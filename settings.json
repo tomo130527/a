@@ -2,5 +2,6 @@
     "Angle": "80",
     "Resolution": "2",
     "Total steps": "300",
-    "Maximum radius": "1.5"
+    "Maximum radius": "1.5",
+    "angle_cancel": ""
 }

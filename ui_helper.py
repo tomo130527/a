@@ -67,16 +67,44 @@ def setting_save(json_key, json_value):
     print(f"Setting saved: {json_key} = {json_value}")
 
 
-def create_labeled_entry(frame, label_text,json_key,json_value):
-    r1 = tk.Frame(frame)
+def create_labeled_entry(frame,reading_file,saving_file):
+    label_read = read_json(reading_file)
+    valu_read = read_json(saving_file)
+    exval = None
+    for key in label_read:
     
-    entry_var = tk.StringVar(value=json_value)  # Create a StringVar with the default value
-    entry = tk.Entry(master=r1,textvariable=entry_var)
-    entry.grid(row=1,column=1, columnspan=2)
+        label_read_value = label_read[key]
+        
+        # Check if the key exists in the secondary JSON and if its value is None
+        if label_read_value is None:
+            exval = ""
+        elif label_read_value in valu_read:
+            exval = valu_read[label_read_value]
+        else:
+            exval = None
 
-    btn = tk.Button(r1, text=label_text, font=("Arial", 12), width=20, command=lambda item=label_text: setting_save(json_key,entry.get()))
-    btn.grid(row=1,column=3)
-    
-    r1.pack(pady=10)
+        r1 = tk.Frame(frame)
+        
+        entry_var = tk.StringVar(value=exval)  # Create a StringVar with the default value
+        entry = tk.Entry(master=r1,textvariable=entry_var)
+        entry.grid(row=1,column=1, columnspan=2)
+
+        btn = tk.Button(r1, text=key, font=("Arial", 12), width=20, command=lambda item=key: setting_save(label_read_value,entry.get()))
+        btn.grid(row=1,column=3)
+        
+        r1.pack(pady=10)
     return r1
+
+
+def open_file_dialog():
+    # Open file dialog and get the file path
+    file_path = filedialog.askopenfilename(
+        title="Select a file",
+        filetypes=[("Text files", "*.txt"), ("All files", "*.*")]
+    )
+    # Print the file path
+    if file_path:
+        print(f"Selected file: {file_path}")
+    else:
+        print("No file selected")
 
