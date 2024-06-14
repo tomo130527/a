@@ -1,6 +1,9 @@
+from logging import Logger
 import matplotlib.pyplot as plt
 import pandas as pd
+from log import setup_logger
 from ui_helper import double_backslashes
+
 
 def plot_csv_data(file):
     # Read the CSV file
@@ -63,10 +66,31 @@ def plot_csv_data_two(file1, file2, include_columns=None):
     plt.tight_layout()
     plt.show()
 
+def plot_csv_data_(file):
+    # Read the CSV file
+    df = pd.read_csv(file, index_col=0)  # Assume the first column is the index
 
+    # Plot the data
+    fig, ax = plt.subplots(figsize=(10, 6))
+    df.plot(ax=ax)
+
+    # Customize the plot
+    ax.set_title(f'{file}', fontsize=16)
+    ax.set_xlabel('Index', fontsize=12)
+    ax.set_ylabel('Values', fontsize=12)
+    ax.legend(title='Columns')
+
+    # Improve the appearance
+    ax.grid(True, linestyle='--', alpha=0.7)
+    setup_logger().error(df)
+    plt.tight_layout()
+    plt.show()
 
 file1 = double_backslashes(r"C:\Users\nares\Desktop\LAB\movie\two\small.csv")
 file2 = double_backslashes(r"C:\Users\nares\Desktop\LAB\movie\two\big.csv")
 exclude_columns = ['SD']
 # Plot both files
-plot_csv_data_two(file1,file2,exclude_columns)
+# plot_csv_data_two(file1,file2,exclude_columns)
+plot_csv_data_(file1)
+
+
