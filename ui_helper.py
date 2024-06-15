@@ -53,9 +53,10 @@ def load_settings(masster,file_path):
             print(f"Warning: '{entrry}' not found in settings.")
 
 
-def setting_save(json_key, json_value):
+def setting_save(savinga_file,json_key, json_value):
     # Read the current settings
-    settings = read_json(SETTINGS_FILE)
+    print(f"{json_key}-{json_value}")
+    settings = read_json(savinga_file)
     # Ensure the settings is a dictionary
     if not isinstance(settings, dict):
         settings = {}
@@ -63,38 +64,26 @@ def setting_save(json_key, json_value):
     # Update or add the new key-value pair
     settings[json_key] = json_value
     # Save the updated settings back to the file
-    save_as_json(settings, SETTINGS_FILE)
-    print(f"Setting saved: {json_key} = {json_value}")
+    save_as_json(settings, savinga_file)
 
 
 def create_labeled_entry(frame,reading_file,saving_file):
     label_read = read_json(reading_file)
     valu_read = read_json(saving_file)
-    exval = None
     for key in label_read:
-    
         label_read_value = label_read[key]
-        
-        # Check if the key exists in the secondary JSON and if its value is None
-        if label_read_value is None:
-            exval = ""
-        elif label_read_value in valu_read:
-            exval = valu_read[label_read_value]
-        else:
-            exval = None
+        exact_val = valu_read.get(label_read_value, "")
+        oppo(frame,key,label_read_value,exact_val,saving_file)
+       
 
-        r1 = tk.Frame(frame)
-        
-        entry_var = tk.StringVar(value=exval)  # Create a StringVar with the default value
-        entry = tk.Entry(master=r1,textvariable=entry_var)
-        entry.grid(row=1,column=1, columnspan=2)
-
-        btn = tk.Button(r1, text=key, font=("Arial", 12), width=20, command=lambda item=key: setting_save(label_read_value,entry.get()))
-        btn.grid(row=1,column=3)
-        
-        r1.pack(pady=10)
-    return r1
-
+def oppo(frame,key,val,rval,saving_file):
+    r1 = tk.Frame(frame)
+    entry_var = tk.StringVar(value=rval)  # Create a StringVar with the default value
+    entry = tk.Entry(master=r1,textvariable=entry_var)
+    entry.grid(row=1,column=1, columnspan=2)
+    btn = tk.Button(r1, text=key, font=("Arial", 12), width=20, command=lambda item=key: setting_save(savinga_file=saving_file,json_key=val,json_value=entry.get()))
+    btn.grid(row=1,column=3)
+    r1.pack(pady=10)
 
 def open_file_dialog():
     # Open file dialog and get the file path

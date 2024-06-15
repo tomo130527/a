@@ -1,12 +1,9 @@
-from log import Logger
 import pandas as pd
 from matplotlib.figure import Figure
 import matplotlib.pyplot as plt
 from constants import *
 from ui_helper import *
 
-
-logger_help = Logger()
 
 def one_graph_all_param(data):
     data[x_column] = data[x_column]/10
@@ -158,7 +155,6 @@ def th_plot_data(data):
 def th_plot_datatt(data):
     x_column = data.columns[0]
     y_columns = data.columns[1:]
-    logger_help.log("INFO",data)
     max_frame=742
     truncate_frame=180
     data = data.iloc[truncate_frame:]
@@ -226,5 +222,5 @@ def two_file_plot_data(two_files):
     plt.tight_layout()
     plt.show()
 
-two_file = read_csv(r"C:\Users\nares\Desktop\allout\240613\240607_104411.csv")
-one_graph_all_param(two_file)
+# two_file = read_csv(r"C:\Users\nares\Desktop\allout\240613\240607_104411.csv")
+# one_graph_all_param(two_file)

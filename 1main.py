@@ -21,8 +21,7 @@ def show_selected_item(selected_item):
     if data is None:
         print("No data found")
         return
-    #selected_item = listbox.get(tk.ACTIVE)
-    
+        
     if selected_item == "All":
         one_graph_all_param(data=data)
 
@@ -30,19 +29,16 @@ def show_selected_item(selected_item):
         angle_ = int(read_all_settings('Angle'))
         spiral_data = x_axis_rrotat(angle=angle_)
         save_to_csv(spiral_data,SPIRAL_CSV_FILE)
-        #label.config(text=f"Successfully created file X {SPIRAL_CSV_FILE}")
     
     elif selected_item == "Generate_Y_Rotate":
         angle_ = int(read_all_settings('Angle'))
         spiral_data = y_axis_rrotat(angle=angle_)
         save_to_csv(spiral_data,SPIRAL_CSV_FILE)
-        #label.config(text=f"Successfully created file Y {SPIRAL_CSV_FILE}")
 
     elif selected_item == "Generate_XT_Rotate":
         angle_ = int(read_all_settings('Angle'))
         spiral_data = xy_rotate(angle=angle_)
         save_to_csv(spiral_data,SPIRAL_CSV_FILE)
-        #label.config(text=f"Successfully created file XY {SPIRAL_CSV_FILE}")
 
     elif selected_item == "Plot2":
         th_plot_data(data=data)
@@ -60,51 +56,38 @@ def show_selected_item(selected_item):
     elif selected_item == "Generate_3D_CSV":
         spiral_data = spiral()
         save_to_csv(spiral_data,SPIRAL_CSV_FILE)
-        #label.config(text=f"Successfully created file {SPIRAL_CSV_FILE}")
 
     elif selected_item == "Choose csv file":
         open_file_dialog(row2)
 
     elif selected_item == "Plot CSV":
         plot_csv_file(SPIRAL_CSV_FILE)
-        #label.config(text=f"Successfully plotted file {SPIRAL_CSV_FILE}")
 
     elif selected_item == "Exit":
         root.destroy()
     else:
         print(f"You selected: {selected_item}")
-        #label.config(text="You selected: " + selected_item)
 
+# button_list_items = [
+#     "All", 
+#     "Generate_X_Rotate", 
+#     "Generate_Y_Rotate", 
+#     "Generate_XT_Rotate", 
+#     "Pillar 2D",
+#     "Choose csv file",
+#     "Plot2", 
+#     "Plot3", 
+#     "Spiral Graph 3D", 
+#     "Generate_3D_CSV", 
+#     "Plot CSV", 
+#     "Exit"
+# ]
 
-button_list_items = [
-    "All", 
-    "Generate_X_Rotate", 
-    "Generate_Y_Rotate", 
-    "Generate_XT_Rotate", 
-    "Pillar 2D",
-    "Choose csv file",
-    "Plot2", 
-    "Plot3", 
-    "Spiral Graph 3D", 
-    "Generate_3D_CSV", 
-    "Plot CSV", 
-    "Exit"
-]
+# # Create buttons for each item
+# for item in button_list_items:
+#     button = tk.Button(row1, text=item, font=("Arial", 12), width=20, command=lambda item=item: show_selected_item(item))
+#     button.pack(pady=5)
 
-# Create buttons for each item
-for item in button_list_items:
-    button = tk.Button(row1, text=item, font=("Arial", 12), width=20, command=lambda item=item: show_selected_item(item))
-    button.pack(pady=5)
+create_labeled_entry(frame=row2, reading_file="ui_setting.json", saving_file="neo.json")
 
-
-# Create buttons for each item
-for entrry in input_list_items:
-    my_set = read_json(SETTINGS_FILE)
-    if entrry in my_set:
-        pick_item = my_set[entrry]  # Access dictionary with the string key
-        create_labeled_entry(frame=row2, label_text=entrry, json_key=pick_item, json_value=pick_item)
-    else:
-        print(f"Warning: '{entrry}' not found in settings.")
-
-# Run the tkinter main loop
 root.mainloop()
