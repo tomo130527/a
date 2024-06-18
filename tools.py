@@ -1,4 +1,6 @@
 import csv
+from datetime import date
+import logging
 import subprocess
 import sys
 import json
@@ -35,11 +37,26 @@ def save_as_json(data, file_path):
     print("Data saved as JSON successfully.")
 
 
-def find_json_value(json_data, key):
+def find_json_value(read_file, key):
+    json_data = read_json(read_file)
     if isinstance(json_data, dict):
         return json_data.get(key)
     print("Error: JSON data is not a dictionary.")
     return None
+
+def update_json(write_file,json_key, json_value):
+    # Read the current settings
+    settings = read_json(write_file)
+    # Ensure the settings is a dictionary
+    if not isinstance(settings, dict):
+        settings = {}
+    
+    # Update or add the new key-value pair
+    settings[json_key] = json_value
+    # Save the updated settings back to the file
+    save_as_json(settings, write_file)
+    setup_logger().info(f"Key={json_key},And Value={json_value} is updated into {write_file}")
+
 
 
 def map_get_value(key, input_values_path, input_btn_list_path):
@@ -69,3 +86,35 @@ def read_csv_data(filename):
     x_data, y_data, z_data = zip(*data)
     return np.asarray(x_data, dtype=float), np.asarray(y_data, dtype=float), np.asarray(z_data, dtype=float)
 
+
+
+def setup_logger():
+    # Create a custom logger
+    logger = logging.getLogger(__name__)
+
+    # Set the default log level (DEBUG will capture all levels of logging)
+    logger.setLevel(logging.DEBUG)
+    today_ = date.today()
+    formatted_date = today_.strftime("%Y-%m-%d")
+    # Create a file handler
+    handler = logging.FileHandler(f'logs/{formatted_date}.log')
+    handler.setLevel(logging.DEBUG)
+    
+    # Create a logging format
+    formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
+    handler.setFormatter(formatter)
+    
+    # Add the file handler to the logger
+    logger.addHandler(handler)
+    
+    return logger
+
+# # Example usage:
+# logger = setup_logger()
+# logger.debug('This is a debug message')
+# logger.info('This is an info message')
+# logger.warning('This is a warning message')
+# logger.error('This is an error message')
+# logger.critical('This is a critical message')
+
+# setup_logger().error("ErrMsg")

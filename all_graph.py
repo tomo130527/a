@@ -1,38 +1,43 @@
+from venv import logger
 import pandas as pd
 import matplotlib.pyplot as plt
 from constants import *
 from ui_helper import *
 
 
-def preprocess_data(data, x_column, y_columns, scale_x=10, sd_scale=40, pzt_scale=0.7):
-    data[x_column] = data[x_column] / scale_x
-    if 'SD' in y_columns:
-        data['SD'] *= sd_scale
-    if 'PZT volt' in y_columns:
-        data['PZT volt'] *= pzt_scale
-    return data
+logger = setup_logger()
+def one_graph_all_param(file):
+    try:
+        dataframe = pd.read_csv(file)
+        # Extract the first column for the x-axis
+        x = dataframe.iloc[:, 0]
+        # Extract the remaining columns for the y-axis
+        y_columns = dataframe.columns[1:]
+        # Plot each y column against the x column
+        for y_col in y_columns:
+            plt.plot(x, dataframe[y_col], label=y_col)
 
-def truncate_data(data, truncate_frame):
-    data = data.iloc[truncate_frame:].copy()
-    data.iloc[:, 0] = (data.iloc[:, 0] - truncate_frame) / 10
-    return data
+        # Adjust the 'sn' column if it exists
+        # x = x/10
+        #
+        plt.axhline(y=0.5, color='r', linestyle='--', label='y = 0.5')  # Add this line to plot the horizontal line at y=0.5
+        plt.axvline(x=50, color='g', linestyle=':', label='x = 50')  # Vertical line at x=50 (customize x-value as needed)
+        
+        # Add labels and title
+        plt.xlabel(dataframe.columns[0])
+        plt.ylabel('Values')
+        plt.title('CSV Data Plot')
+        plt.legend()
+        # Show the plot
+        plt.show()
+        logger.info(f"one_graph_all_param={file} is successfully plotted")
 
+        
+    except Exception:
+        logger.error("one_graph_all_param",exc_info=True)
 
-def one_graph_all_param(data):
-    data[x_column] = data[x_column]/10
-    for i, col in enumerate(y_columns):
-        plt.plot(data[x_column], data[col], label=col)
-    
-    plt.axhline(y=0.5, color='r', linestyle='--', label='y = 0.5')  # Add this line to plot the horizontal line at y=0.5
-    plt.axvline(x=50, color='g', linestyle=':', label='x = 50')  # Vertical line at x=50 (customize x-value as needed)
-    plt.title(title)
-    plt.xlabel(x_label)
-    plt.ylabel(y_label)
-    plt.legend()
-    plt.show()
 
 def plot_datoooa(data):
-    preprocess_data(data)
     fig, axs = plt.subplots(len(y_columns), 1, figsize=(8, 6 * len(y_columns)), sharex=True, gridspec_kw={'hspace': 0})
     hori= 0.15
     for i, col in enumerate(y_columns):
@@ -110,12 +115,12 @@ def plot_popodata(data):
     plt.show()
 
 
-def th_plot_data(data):
-    # Extract column names for x and y columns from the first row
-    x_column = data.columns[0]
-    y_columns = data.columns[1:]
-
-    # Define the parameters
+def th_plot_data(file):
+    dataframe = pd.read_csv(file)
+    # Extract the first column for the x-axis
+    x_column = dataframe.iloc[:, 0]
+    # Extract the remaining columns for the y-axis
+    y_columns = dataframe.columns[1:]
     max_frame = 742
     truncate_frame = 180
     font_size = 12
@@ -123,16 +128,16 @@ def th_plot_data(data):
 
     # Truncate the data
      # Truncate the data
-    data = data.iloc[truncate_frame:].copy()
-    data[x_column] = data[x_column].astype(float)  # Explicitly cast to float
-    data.loc[:, x_column] = (data[x_column] - truncate_frame) / 10
+    dataframe = dataframe.iloc[truncate_frame:].copy()
+    dataframe[x_column] = dataframe[x_column].astype(float)  # Explicitly cast to float
+    dataframe.loc[:, x_column] = (dataframe[x_column] - truncate_frame) / 10
     
     # Create subplots
     fig, axs = plt.subplots(len(y_columns), 1, figsize=(10, len(y_columns) * 2), sharex=True, gridspec_kw={'hspace': 0})
 
     # Plot each y_column
     for i, col in enumerate(y_columns):
-        axs[i].plot(data[x_column], data[col], label=col)
+        axs[i].plot(dataframe[x_column], dataframe[col], label=col)
         axs[i].set_ylabel(col, fontsize=font_size)
         axs[i].tick_params(axis='y', labelsize=font_size)
         
@@ -247,3 +252,4 @@ def two_file_plot_data(two_files, x_column="sn", x_label="B"):
 
     plt.tight_layout()
     plt.show()
+

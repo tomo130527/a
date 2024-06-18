@@ -6,6 +6,8 @@ from tools import *
 from spiral import *
 from constants import *
 
+logger = setup_logger()
+logger.info("coding starting....")
 root = tk.Tk()
 root.title("Menu of Lists")
 root.geometry("800x600")
@@ -15,8 +17,10 @@ row2 = tk.Frame(root)
 row2.grid(row=1,column=2)
 
 def show_selected_item(selected_item):
-    file = double_backslashes(PLOTTING_FILE)
-    data = read_csv(file)
+    logger.info(f"{selected_item} = is selected..")
+
+    csv_file = find_json_value(INPUT_VALUES,"selected_file")
+    data = read_csv(csv_file)
     if data is None:
         print("No data found")
         return
@@ -24,7 +28,7 @@ def show_selected_item(selected_item):
     angle_ = map_get_value('Angle',INPUT_VALUES,INPUT_BTN_LIST)
 
     if selected_item == "All":
-        one_graph_all_param(data=data)
+        one_graph_all_param(file=csv_file)
 
     elif selected_item == "Generate_X_Rotate":
         spiral_data = x_axis_rrotat(angle=angle_)
@@ -40,7 +44,7 @@ def show_selected_item(selected_item):
         #label.config(text=f"Successfully created file XY {SPIRAL_CSV_FILE}")
 
     elif selected_item == "Plot2":
-        th_plot_data(data=data)
+        th_plot_data(file=csv_file)
 
     elif selected_item == "Plot3":
         plot_datoooa(data=data)
@@ -49,7 +53,7 @@ def show_selected_item(selected_item):
         plot_popodata(data=data)
     
     elif selected_item == "Spiral Graph 3D":
-        t_file = [file,file]
+        t_file = [csv_file,csv_file]
         two_file_plot_data(two_files= t_file)
     
     elif selected_item == "Generate_3D_CSV":
