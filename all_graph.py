@@ -1,4 +1,3 @@
-from log import Logger
 import pandas as pd
 from matplotlib.figure import Figure
 import matplotlib.pyplot as plt
@@ -6,11 +5,7 @@ from constants import *
 from ui_helper import *
 
 
-logger_help = Logger()
 def preprocess_data(data, x_column, y_columns, scale_x=10, sd_scale=40, pzt_scale=0.7):
-    """
-    Preprocess the data by scaling the x_column and y_columns.
-    """
     data[x_column] = data[x_column] / scale_x
     if 'SD' in y_columns:
         data['SD'] *= sd_scale
@@ -19,9 +14,6 @@ def preprocess_data(data, x_column, y_columns, scale_x=10, sd_scale=40, pzt_scal
     return data
 
 def truncate_data(data, truncate_frame):
-    """
-    Truncate the data from a given frame and adjust the x_column accordingly.
-    """
     data = data.iloc[truncate_frame:].copy()
     data.iloc[:, 0] = (data.iloc[:, 0] - truncate_frame) / 10
     return data
@@ -41,14 +33,7 @@ def one_graph_all_param(data):
     plt.show()
 
 def plot_datoooa(data):
-    data[x_column] = (data[x_column]) / 10    
-    # Multiply the "SD" column by 15
-    if 'SD' in y_columns:
-        data['SD'] *= 40
-
-    if 'PZT volt' in y_columns:
-        data['PZT volt'] *= 0.7
-
+    preprocess_data(data)
     fig, axs = plt.subplots(len(y_columns), 1, figsize=(8, 6 * len(y_columns)), sharex=True, gridspec_kw={'hspace': 0})
     hori= 0.15
     for i, col in enumerate(y_columns):
@@ -177,7 +162,6 @@ def th_plot_data(data):
 def th_plot_datatt(data):
     x_column = data.columns[0]
     y_columns = data.columns[1:]
-    logger_help.log("INFO",data)
     max_frame=742
     truncate_frame=180
     data = data.iloc[truncate_frame:]

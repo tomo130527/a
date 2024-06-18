@@ -3,18 +3,10 @@ SETTINGS_FILE = "settings.json"
 SPIRAL_CSV_FILE = 'spiral_data.csv'
 PLOTTING_FILE = r"C:\Users\nares\Desktop\Zikken\OneDrive-2023-11-16\20231117_1258_43top.csv"
 RESOLUTION_POINTS = 0.5
-
-input_list_items = [
-    "Angle", 
-    "Resolution", 
-    "Total steps", 
-    "Maximum radius",
-    "Radius of coil",
-    "Number of coils",
-    "Coil diameter",
-    "Coil length",
-    "Coil pitch",
-]
+INPUT_BTN_LIST = "json/input_btn_list.json"
+BUTTON_LIST = "json/btn_list.json"
+BTN_VALUE = "json/btn_value.json"
+INPUT_VALUES = "json/input_values.json"
 
 x_column = "time(s)"
 y_columns = ["SD"]

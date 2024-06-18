@@ -2,7 +2,7 @@ import tkinter as tk
 from tkinter import TOP, BOTH
 from ui_helper import *
 from all_graph import *
-from json_helper import *
+from tools import *
 from spiral import *
 from constants import *
 
@@ -21,24 +21,22 @@ def show_selected_item(selected_item):
         print("No data found")
         return
     #selected_item = listbox.get(tk.ACTIVE)
-    
+    angle_ = map_get_value('Angle',INPUT_VALUES,INPUT_BTN_LIST)
+
     if selected_item == "All":
         one_graph_all_param(data=data)
 
     elif selected_item == "Generate_X_Rotate":
-        angle_ = int(read_all_settings('Angle'))
         spiral_data = x_axis_rrotat(angle=angle_)
         save_to_csv(spiral_data,SPIRAL_CSV_FILE)
         #label.config(text=f"Successfully created file X {SPIRAL_CSV_FILE}")
     
     elif selected_item == "Generate_Y_Rotate":
-        angle_ = int(read_all_settings('Angle'))
         spiral_data = y_axis_rrotat(angle=angle_)
         save_to_csv(spiral_data,SPIRAL_CSV_FILE)
         #label.config(text=f"Successfully created file Y {SPIRAL_CSV_FILE}")
 
     elif selected_item == "Generate_XT_Rotate":
-        angle_ = int(read_all_settings('Angle'))
         spiral_data = xy_rotate(angle=angle_)
         save_to_csv(spiral_data,SPIRAL_CSV_FILE)
         #label.config(text=f"Successfully created file XY {SPIRAL_CSV_FILE}")
@@ -91,6 +89,13 @@ button_list_items = [
     "Exit"
 ]
 
+default_input_list = {
+    "Resolution":"reso",
+    "Angle":"anglr_",
+    "Total_Steps":"steps",
+    "Coil_radius":"coil_radius"
+}
+
 # Create buttons for each item
 for item in button_list_items:
     button = tk.Button(row1, text=item, font=("Arial", 12), width=20, command=lambda item=item: show_selected_item(item))
@@ -98,13 +103,16 @@ for item in button_list_items:
 
 
 # Create buttons for each item
-for entrry in input_list_items:
-    my_set = read_json(SETTINGS_FILE)
-    if entrry in my_set:
-        pick_item = my_set[entrry]  # Access dictionary with the string key
-        create_labeled_entry(frame=row2, label_text=entrry, json_key=pick_item, json_value=pick_item)
-    else:
-        print(f"Warning: '{entrry}' not found in settings.")
+inlist = read_json(INPUT_BTN_LIST)
+print(inlist)
+if inlist == []:
+    save_as_json(default_input_list,INPUT_BTN_LIST)
 
+input_list_items = read_json(INPUT_BTN_LIST)
+
+for key in input_list_items:
+    valu = input_list_items[key]
+    create_labeled_entry(frame=row2, label_text=key, json_key=valu)
+    
 # Run the tkinter main loop
 root.mainloop()

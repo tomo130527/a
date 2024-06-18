@@ -7,11 +7,11 @@ from mpl_toolkits.mplot3d import Axes3D
 from matplotlib import pyplot as plt
 from constants import *
 from ui_helper import *
-from csv_helper import *
+from tools import *
 
 
 def plot_csv_file(filename):
-    angle_ = int(read_all_settings('Angle'))
+    angle_ = map_get_value('Angle',INPUT_VALUES,INPUT_BTN_LIST)
     x_data, y_data, z_data = read_csv_data(filename)
     # Create a figure and 3D axes
     fig = plt.figure()
@@ -40,7 +40,7 @@ def spiral():
     z_data = []
     nt = 3
     iin = 0
-    total_steps = 300
+    total_steps = map_get_value('Total_Steps',INPUT_VALUES,INPUT_BTN_LIST)
     base_height = 1
     segment2 = base_height + 1.5
     total_height = segment2 + 2.5
@@ -73,7 +73,7 @@ def y_axis_rrotat(angle):
     y_data = []
     z_data = []
     iin = 0
-    total_steps = 300
+    total_steps = map_get_value('Total_Steps',INPUT_VALUES,INPUT_BTN_LIST)
     base_height = 1
     segment2 = base_height + 1.5
     total_height = segment2 + 2.5
@@ -104,7 +104,7 @@ def x_axis_rrotat(angle):
     y_data = []
     z_data = []
     iin = 0
-    total_steps = 300
+    total_steps = map_get_value('Total_Steps',INPUT_VALUES,INPUT_BTN_LIST)
     base_height = 1
     segment2 = base_height + 1.5
     total_height = segment2 + 2.5
@@ -137,7 +137,7 @@ def xy_rotatep(angle):
     z_data = []
     iin = 0
     radius_of_coil=2.5 
-    total_steps = 300
+    total_steps = map_get_value('Total_Steps',INPUT_VALUES,INPUT_BTN_LIST)
     base_height = 1
     segment2 = base_height + 1.5
     total_height = segment2 + 2.5
@@ -170,7 +170,7 @@ def xy_rotate(angle):
     z_data = []
     iin = 0
     radius_of_coil=2.5 
-    total_steps = read_json("settings.json")['total_steps']
+    total_steps = map_get_value('Total_Steps',INPUT_VALUES,INPUT_BTN_LIST)
     base_height = 1
     segment2 = base_height + 1.5
     total_height = segment2 + 2.5
