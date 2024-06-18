@@ -3,7 +3,7 @@ import logging
 def setup_logger():
     # Create a custom logger
     logger = logging.getLogger(__name__)
-    
+
     # Set the default log level (DEBUG will capture all levels of logging)
     logger.setLevel(logging.DEBUG)
     
