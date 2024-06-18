@@ -59,7 +59,7 @@ def plot_csv_data_two(file1, file2, include_columns=None):
     ax.set_title('Data from both files', fontsize=16)
     ax.set_xlabel('Index', fontsize=12)
     ax.set_ylabel('Values', fontsize=12)
-    ax.legend().set_visible(False)
+    ax.legend().set_visible(True)
     
     # Improve the appearance
     ax.grid(True, linestyle='--', alpha=1.0)
@@ -86,11 +86,11 @@ def plot_csv_data_(file):
     plt.tight_layout()
     plt.show()
 
-file1 = double_backslashes(r"C:\Users\nares\Desktop\LAB\movie\two\small.csv")
-file2 = double_backslashes(r"C:\Users\nares\Desktop\LAB\movie\two\big.csv")
-exclude_columns = ['SD']
+file1 = double_backslashes(r"C:\Users\nares\Desktop\allout\240618\c.csv")
+file2 = double_backslashes(r"C:\Users\nares\Desktop\allout\240618\e.csv")
+incl_columns = ['bd']
 # Plot both files
-# plot_csv_data_two(file1,file2,exclude_columns)
-plot_csv_data_(file1)
+plot_csv_data_two(file1,file2,incl_columns)
+#plot_csv_data_(file1)
 
 
