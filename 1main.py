@@ -15,7 +15,6 @@ row2 = tk.Frame(root)
 row2.grid(row=1,column=2)
 
 def show_selected_item(selected_item):
-    global root 
     file = double_backslashes(PLOTTING_FILE)
     data = read_csv(file)
     if data is None:
@@ -70,6 +69,7 @@ def show_selected_item(selected_item):
         #label.config(text=f"Successfully plotted file {SPIRAL_CSV_FILE}")
 
     elif selected_item == "Exit":
+        global root
         root.destroy()
     else:
         print(f"You selected: {selected_item}")

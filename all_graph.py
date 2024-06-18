@@ -7,6 +7,25 @@ from ui_helper import *
 
 
 logger_help = Logger()
+def preprocess_data(data, x_column, y_columns, scale_x=10, sd_scale=40, pzt_scale=0.7):
+    """
+    Preprocess the data by scaling the x_column and y_columns.
+    """
+    data[x_column] = data[x_column] / scale_x
+    if 'SD' in y_columns:
+        data['SD'] *= sd_scale
+    if 'PZT volt' in y_columns:
+        data['PZT volt'] *= pzt_scale
+    return data
+
+def truncate_data(data, truncate_frame):
+    """
+    Truncate the data from a given frame and adjust the x_column accordingly.
+    """
+    data = data.iloc[truncate_frame:].copy()
+    data.iloc[:, 0] = (data.iloc[:, 0] - truncate_frame) / 10
+    return data
+
 
 def one_graph_all_param(data):
     data[x_column] = data[x_column]/10
@@ -225,6 +244,3 @@ def two_file_plot_data(two_files):
 
     plt.tight_layout()
     plt.show()
-
-two_file = read_csv(r"C:\Users\nares\Desktop\allout\240613\240607_104411.csv")
-one_graph_all_param(two_file)
