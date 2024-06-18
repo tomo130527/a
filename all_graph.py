@@ -1,5 +1,4 @@
 import pandas as pd
-from matplotlib.figure import Figure
 import matplotlib.pyplot as plt
 from constants import *
 from ui_helper import *
@@ -197,34 +196,54 @@ def th_plot_datatt(data):
     plt.show()
 
 
+def two_file_plot_data(two_files, x_column="sn", x_label="B"):
+    data = [None, None]
+    data[0] = pd.read_csv(two_files[0])
+    data[1] = pd.read_csv(two_files[1])
 
-def two_file_plot_data(two_files):
-    data = read_csv_two(two_files)
-
-    y_columns = set(column for data in data if data is not None for column in data.columns)
+    # Collect all y_columns from both dataframes, excluding unnamed columns
+    y_columns = set()
+    for df in data:
+        if df is not None:
+            y_columns.update(col for col in df.columns if not col.startswith('Unnamed'))
     y_columns.discard(x_column)
 
-    if len(data) == 1:
-        fig, axs = plt.subplots(len(y_columns), 1, figsize=(8, 6 * len(y_columns)), sharex=True, gridspec_kw={'hspace': 0})
-    else:
-        fig, axs = plt.subplots(len(data), len(y_columns), figsize=(15, 8), sharex=True)
+    # Determine the number of subplots needed
+    num_y_columns = len(y_columns)
+    num_files = len(data)
 
-    for j, (data, file_path) in enumerate(zip(data, two_files)):
-        if len(data) == 1:
-            ax = axs[j]
-        else:
-            ax = axs[j, :]
-            
+    if num_y_columns == 0:
+        print("No y-columns found.")
+        return
+
+    if num_files == 1:
+        fig, axs = plt.subplots(num_y_columns, 1, figsize=(8, 6 * num_y_columns), sharex=True, gridspec_kw={'hspace': 0})
+        if num_y_columns == 1:
+            axs = [axs]  # Make axs iterable
+    else:
+        fig, axs = plt.subplots(num_files, num_y_columns, figsize=(15, 8), sharex=True)
+        if num_files == 1:
+            axs = [axs]  # Make axs iterable
+        elif num_y_columns == 1:
+            axs = [[ax] for ax in axs]  # Make axs 2D iterable
+
+    for j, (df, file_path) in enumerate(zip(data, two_files)):
+        if df is None:
+            continue
+
         for i, col in enumerate(y_columns):
-            if data is not None and col in data.columns:
-                ax[i].plot(data[x_column], data[col], label=f'{col}')
-                ax[i].set_title(col)
-                ax[i].set_xlabel(x_label)
+            if col in df.columns:
+                if num_files == 1:
+                    ax = axs[i]
+                else:
+                    ax = axs[j][i]
+
+                ax.plot(df[x_column], df[col], label=f'{col}')
+                ax.set_title(col)
+                ax.set_xlabel(x_label)
                 if j == 0:  # Set y-axis label only for the first row
-                    ax[i].set_ylabel(f'{col}')
-                    #ax[i].set_ylabel(f'{col} - {file_path}')
-                
-                ax[i].legend()
+                    ax.set_ylabel(f'{col}')
+                ax.legend()
 
     plt.tight_layout()
     plt.show()

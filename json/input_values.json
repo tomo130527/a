@@ -1,4 +1,6 @@
 {
     "anglr_": "20",
-    "steps": "1200"
+    "steps": "1200",
+    "reso": "1",
+    "coil_radius": "2"
 }

@@ -1,7 +1,7 @@
 radius_of_coil=1.5 
 SETTINGS_FILE = "settings.json"
 SPIRAL_CSV_FILE = 'spiral_data.csv'
-PLOTTING_FILE = r"C:\Users\nares\Desktop\Zikken\OneDrive-2023-11-16\20231117_1258_43top.csv"
+PLOTTING_FILE = r"C:\Users\nares\Desktop\allout\240618\240618_103723.csv"
 RESOLUTION_POINTS = 0.5
 INPUT_BTN_LIST = "json/input_btn_list.json"
 BUTTON_LIST = "json/btn_list.json"

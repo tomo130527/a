@@ -20,7 +20,7 @@ def show_selected_item(selected_item):
     if data is None:
         print("No data found")
         return
-    #selected_item = listbox.get(tk.ACTIVE)
+
     angle_ = map_get_value('Angle',INPUT_VALUES,INPUT_BTN_LIST)
 
     if selected_item == "All":
@@ -29,12 +29,10 @@ def show_selected_item(selected_item):
     elif selected_item == "Generate_X_Rotate":
         spiral_data = x_axis_rrotat(angle=angle_)
         save_to_csv(spiral_data,SPIRAL_CSV_FILE)
-        #label.config(text=f"Successfully created file X {SPIRAL_CSV_FILE}")
     
     elif selected_item == "Generate_Y_Rotate":
         spiral_data = y_axis_rrotat(angle=angle_)
         save_to_csv(spiral_data,SPIRAL_CSV_FILE)
-        #label.config(text=f"Successfully created file Y {SPIRAL_CSV_FILE}")
 
     elif selected_item == "Generate_XT_Rotate":
         spiral_data = xy_rotate(angle=angle_)
