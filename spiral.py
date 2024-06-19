@@ -42,7 +42,7 @@ def spiral(total_steps,base_height):
     nt = 3
     iin = 0
     segment2 = base_height + 1.5
-    total_height = segment2 + 2.5
+    total_height =  segment2 + 2.5
     slighted_height = total_height - base_height
     z_axix = 0
     base_steps = base_height * (total_steps / total_height)
@@ -72,9 +72,7 @@ def y_axis_rrotat(angle,total_steps,base_height):
     y_data = []
     z_data = []
     iin = 0
-    base_height = 1
-    segment2 = base_height + 1.5
-    total_height = segment2 + 2.5
+    total_height = base_height + 2.0
     slighted_height = total_height - base_height
     z_axix = 0
     base_steps = base_height * (total_steps / total_height)
@@ -102,9 +100,7 @@ def x_axis_rrotat(angle,total_steps,base_height):
     y_data = []
     z_data = []
     iin = 0
-    base_height = 1
-    segment2 = base_height + 1.5
-    total_height = segment2 + 2.5
+    total_height = base_height + 2.0
     slighted_height = total_height - base_height
     z_axix = 0
     base_steps = base_height * (total_steps / total_height)
@@ -136,9 +132,7 @@ def xy_rotate(angle,total_steps,base_height):
         z_data = []
         iin = 0
         radius_of_coil=2.5 
-        base_height = 1
-        segment2 = base_height + 1.5
-        total_height = segment2 + 2.5
+        total_height = base_height + 2.0
         slighted_height = total_height - base_height
         z_axix = 0
         base_steps = base_height * (total_steps / total_height)

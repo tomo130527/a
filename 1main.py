@@ -29,23 +29,23 @@ def show_selected_item(selected_item):
         update_json(INPUT_VALUES,"anglr_",0)
 
     if base_h is not int:
-        update_json(INPUT_VALUES,"base_h",1)
+        update_json(INPUT_VALUES,"base_h",2)
 
     if selected_item == "All":
         csv_file = find_json_value(INPUT_VALUES,"selected_file")
         one_graph_all_param(file=csv_file)
 
     elif selected_item == "Generate_X_Rotate":
-        spiral_data = x_axis_rrotat(angle=angle_,total_steps=total_steps,base_height=1)
+        spiral_data = x_axis_rrotat(angle=angle_,total_steps=total_steps,base_height=base_h)
         save_to_csv(spiral_data,SPIRAL_CSV_FILE)
         logger.info(f"show_selected_item=={selected_item}")
     
     elif selected_item == "Generate_Y_Rotate":
-        spiral_data = y_axis_rrotat(angle=angle_,total_steps=total_steps,base_height=1)
+        spiral_data = y_axis_rrotat(angle=angle_,total_steps=total_steps,base_height=base_h)
         save_to_csv(spiral_data,SPIRAL_CSV_FILE)
 
     elif selected_item == "Generate_XT_Rotate":
-        spiral_data = xy_rotate(angle=angle_,total_steps=total_steps,base_height=1)
+        spiral_data = xy_rotate(angle=angle_,total_steps=total_steps,base_height=base_h)
         save_to_csv(spiral_data,SPIRAL_CSV_FILE)
         #label.config(text=f"Successfully created file XY {SPIRAL_CSV_FILE}")
 
@@ -63,7 +63,7 @@ def show_selected_item(selected_item):
         two_file_plot_data(two_files= t_file)
     
     elif selected_item == "Generate_3D_CSV":
-        spiral_data = spiral(total_steps=total_steps,base_height=1)
+        spiral_data = spiral(total_steps=total_steps,base_height=base_h)
         save_to_csv(spiral_data,SPIRAL_CSV_FILE)
         #label.config(text=f"Successfully created file {SPIRAL_CSV_FILE}")
 

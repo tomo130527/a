@@ -52,3 +52,138 @@
 2024-06-19 13:54:37,582 - tools - INFO - {'selected_file': 'C:/Users/nares/Desktop/allout/240613/240607_104411.csv', 'steps': 100, 'anglr_': 0, 'base_h': 1} is saved in json/input_values.json as JSON successfully.
 2024-06-19 13:54:37,582 - tools - INFO - Key=base_h,And Value=1 is updated into json/input_values.json
 2024-06-19 13:54:37,584 - tools - ERROR - Error: stat: path should be string, bytes, os.PathLike or integer, not dict. Could not convert value to int.
+2024-06-19 16:40:29,419 - tools - INFO - find_json_value: reso into json/input_values.json is None
+2024-06-19 16:40:29,420 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 0
+2024-06-19 16:40:29,421 - tools - INFO - find_json_value: steps into json/input_values.json is 100
+2024-06-19 16:40:29,421 - tools - INFO - find_json_value: coil_radius into json/input_values.json is None
+2024-06-19 16:40:36,786 - tools - INFO - find_json_value: steps into json/input_values.json is 100
+2024-06-19 16:40:36,786 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 0
+2024-06-19 16:40:36,787 - tools - INFO - find_json_value: base_h into json/input_values.json is 1
+2024-06-19 16:40:36,787 - tools - INFO - find_json_value: selected_file into json/input_values.json is C:/Users/nares/Desktop/allout/240613/240607_104411.csv
+2024-06-19 16:40:36,788 - tools - INFO - {'selected_file': 'C:/Users/nares/Desktop/allout/240613/240607_104411.csv', 'steps': 100, 'anglr_': 0, 'base_h': 1} is saved in json/input_values.json as JSON successfully.
+2024-06-19 16:40:36,788 - tools - INFO - Key=steps,And Value=100 is updated into json/input_values.json
+2024-06-19 16:40:36,792 - tools - INFO - {'selected_file': 'C:/Users/nares/Desktop/allout/240613/240607_104411.csv', 'steps': 100, 'anglr_': 0, 'base_h': 1} is saved in json/input_values.json as JSON successfully.
+2024-06-19 16:40:36,792 - tools - INFO - Key=anglr_,And Value=0 is updated into json/input_values.json
+2024-06-19 16:40:36,795 - tools - INFO - {'selected_file': 'C:/Users/nares/Desktop/allout/240613/240607_104411.csv', 'steps': 100, 'anglr_': 0, 'base_h': 1} is saved in json/input_values.json as JSON successfully.
+2024-06-19 16:40:36,795 - tools - INFO - Key=base_h,And Value=1 is updated into json/input_values.json
+2024-06-19 16:40:36,797 - __main__ - INFO - show_selected_item==Generate_X_Rotate
+2024-06-19 16:40:39,172 - tools - INFO - find_json_value: steps into json/input_values.json is 100
+2024-06-19 16:40:39,172 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 0
+2024-06-19 16:40:39,172 - tools - INFO - find_json_value: base_h into json/input_values.json is 1
+2024-06-19 16:40:39,173 - tools - INFO - find_json_value: selected_file into json/input_values.json is C:/Users/nares/Desktop/allout/240613/240607_104411.csv
+2024-06-19 16:40:39,174 - tools - INFO - {'selected_file': 'C:/Users/nares/Desktop/allout/240613/240607_104411.csv', 'steps': 100, 'anglr_': 0, 'base_h': 1} is saved in json/input_values.json as JSON successfully.
+2024-06-19 16:40:39,174 - tools - INFO - Key=steps,And Value=100 is updated into json/input_values.json
+2024-06-19 16:40:39,176 - tools - INFO - {'selected_file': 'C:/Users/nares/Desktop/allout/240613/240607_104411.csv', 'steps': 100, 'anglr_': 0, 'base_h': 1} is saved in json/input_values.json as JSON successfully.
+2024-06-19 16:40:39,176 - tools - INFO - Key=anglr_,And Value=0 is updated into json/input_values.json
+2024-06-19 16:40:39,178 - tools - INFO - {'selected_file': 'C:/Users/nares/Desktop/allout/240613/240607_104411.csv', 'steps': 100, 'anglr_': 0, 'base_h': 1} is saved in json/input_values.json as JSON successfully.
+2024-06-19 16:40:39,178 - tools - INFO - Key=base_h,And Value=1 is updated into json/input_values.json
+2024-06-19 16:40:39,180 - tools - ERROR - Error: exists: path should be string, bytes, os.PathLike or integer, not dict. Could not convert value to int.
+2024-06-19 16:51:27,968 - tools - INFO - find_json_value: reso into json/input_values.json is None
+2024-06-19 16:51:27,969 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 0
+2024-06-19 16:51:27,969 - tools - INFO - find_json_value: steps into json/input_values.json is 100
+2024-06-19 16:51:27,969 - tools - INFO - find_json_value: coil_radius into json/input_values.json is None
+2024-06-19 16:51:29,568 - tools - INFO - find_json_value: steps into json/input_values.json is 100
+2024-06-19 16:51:29,569 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 0
+2024-06-19 16:51:29,569 - tools - INFO - find_json_value: base_h into json/input_values.json is 1
+2024-06-19 16:51:29,569 - tools - INFO - find_json_value: selected_file into json/input_values.json is C:/Users/nares/Desktop/allout/240613/240607_104411.csv
+2024-06-19 16:51:29,570 - tools - INFO - {'selected_file': 'C:/Users/nares/Desktop/allout/240613/240607_104411.csv', 'steps': 100, 'anglr_': 0, 'base_h': 1} is saved in json/input_values.json as JSON successfully.
+2024-06-19 16:51:29,570 - tools - INFO - Key=steps,And Value=100 is updated into json/input_values.json
+2024-06-19 16:51:29,573 - tools - INFO - {'selected_file': 'C:/Users/nares/Desktop/allout/240613/240607_104411.csv', 'steps': 100, 'anglr_': 0, 'base_h': 1} is saved in json/input_values.json as JSON successfully.
+2024-06-19 16:51:29,573 - tools - INFO - Key=anglr_,And Value=0 is updated into json/input_values.json
+2024-06-19 16:51:29,575 - tools - INFO - {'selected_file': 'C:/Users/nares/Desktop/allout/240613/240607_104411.csv', 'steps': 100, 'anglr_': 0, 'base_h': 1} is saved in json/input_values.json as JSON successfully.
+2024-06-19 16:51:29,576 - tools - INFO - Key=base_h,And Value=1 is updated into json/input_values.json
+2024-06-19 16:51:29,577 - __main__ - INFO - show_selected_item==Generate_X_Rotate
+2024-06-19 16:51:31,257 - tools - INFO - find_json_value: steps into json/input_values.json is 100
+2024-06-19 16:51:31,257 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 0
+2024-06-19 16:51:31,258 - tools - INFO - find_json_value: base_h into json/input_values.json is 1
+2024-06-19 16:51:31,258 - tools - INFO - find_json_value: selected_file into json/input_values.json is C:/Users/nares/Desktop/allout/240613/240607_104411.csv
+2024-06-19 16:51:31,258 - tools - INFO - {'selected_file': 'C:/Users/nares/Desktop/allout/240613/240607_104411.csv', 'steps': 100, 'anglr_': 0, 'base_h': 1} is saved in json/input_values.json as JSON successfully.
+2024-06-19 16:51:31,259 - tools - INFO - Key=steps,And Value=100 is updated into json/input_values.json
+2024-06-19 16:51:31,261 - tools - INFO - {'selected_file': 'C:/Users/nares/Desktop/allout/240613/240607_104411.csv', 'steps': 100, 'anglr_': 0, 'base_h': 1} is saved in json/input_values.json as JSON successfully.
+2024-06-19 16:51:31,261 - tools - INFO - Key=anglr_,And Value=0 is updated into json/input_values.json
+2024-06-19 16:51:31,263 - tools - INFO - {'selected_file': 'C:/Users/nares/Desktop/allout/240613/240607_104411.csv', 'steps': 100, 'anglr_': 0, 'base_h': 1} is saved in json/input_values.json as JSON successfully.
+2024-06-19 16:51:31,263 - tools - INFO - Key=base_h,And Value=1 is updated into json/input_values.json
+2024-06-19 16:51:31,265 - tools - ERROR - Error: exists: path should be string, bytes, os.PathLike or integer, not dict. Could not convert value to int.
+2024-06-19 16:52:48,086 - tools - INFO - find_json_value: reso into json/input_values.json is None
+2024-06-19 16:52:48,087 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 0
+2024-06-19 16:52:48,087 - tools - INFO - find_json_value: steps into json/input_values.json is 100
+2024-06-19 16:52:48,088 - tools - INFO - find_json_value: coil_radius into json/input_values.json is None
+2024-06-19 16:52:49,303 - tools - INFO - find_json_value: steps into json/input_values.json is 100
+2024-06-19 16:52:49,304 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 0
+2024-06-19 16:52:49,304 - tools - INFO - find_json_value: base_h into json/input_values.json is 1
+2024-06-19 16:52:49,304 - tools - INFO - find_json_value: selected_file into json/input_values.json is C:/Users/nares/Desktop/allout/240613/240607_104411.csv
+2024-06-19 16:52:49,306 - tools - INFO - {'selected_file': 'C:/Users/nares/Desktop/allout/240613/240607_104411.csv', 'steps': 100, 'anglr_': 0, 'base_h': 1} is saved in json/input_values.json as JSON successfully.
+2024-06-19 16:52:49,306 - tools - INFO - Key=steps,And Value=100 is updated into json/input_values.json
+2024-06-19 16:52:49,310 - tools - INFO - {'selected_file': 'C:/Users/nares/Desktop/allout/240613/240607_104411.csv', 'steps': 100, 'anglr_': 0, 'base_h': 1} is saved in json/input_values.json as JSON successfully.
+2024-06-19 16:52:49,310 - tools - INFO - Key=anglr_,And Value=0 is updated into json/input_values.json
+2024-06-19 16:52:49,311 - tools - INFO - {'selected_file': 'C:/Users/nares/Desktop/allout/240613/240607_104411.csv', 'steps': 100, 'anglr_': 0, 'base_h': 2} is saved in json/input_values.json as JSON successfully.
+2024-06-19 16:52:49,311 - tools - INFO - Key=base_h,And Value=2 is updated into json/input_values.json
+2024-06-19 16:52:49,313 - __main__ - INFO - show_selected_item==Generate_X_Rotate
+2024-06-19 16:52:50,934 - tools - INFO - find_json_value: steps into json/input_values.json is 100
+2024-06-19 16:52:50,934 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 0
+2024-06-19 16:52:50,934 - tools - INFO - find_json_value: base_h into json/input_values.json is 2
+2024-06-19 16:52:50,934 - tools - INFO - find_json_value: selected_file into json/input_values.json is C:/Users/nares/Desktop/allout/240613/240607_104411.csv
+2024-06-19 16:52:50,935 - tools - INFO - {'selected_file': 'C:/Users/nares/Desktop/allout/240613/240607_104411.csv', 'steps': 100, 'anglr_': 0, 'base_h': 2} is saved in json/input_values.json as JSON successfully.
+2024-06-19 16:52:50,935 - tools - INFO - Key=steps,And Value=100 is updated into json/input_values.json
+2024-06-19 16:52:50,936 - tools - INFO - {'selected_file': 'C:/Users/nares/Desktop/allout/240613/240607_104411.csv', 'steps': 100, 'anglr_': 0, 'base_h': 2} is saved in json/input_values.json as JSON successfully.
+2024-06-19 16:52:50,936 - tools - INFO - Key=anglr_,And Value=0 is updated into json/input_values.json
+2024-06-19 16:52:50,938 - tools - INFO - {'selected_file': 'C:/Users/nares/Desktop/allout/240613/240607_104411.csv', 'steps': 100, 'anglr_': 0, 'base_h': 2} is saved in json/input_values.json as JSON successfully.
+2024-06-19 16:52:50,938 - tools - INFO - Key=base_h,And Value=2 is updated into json/input_values.json
+2024-06-19 16:52:50,940 - tools - ERROR - Error: exists: path should be string, bytes, os.PathLike or integer, not dict. Could not convert value to int.
+2024-06-19 16:53:10,883 - tools - INFO - find_json_value: reso into json/input_values.json is None
+2024-06-19 16:53:10,884 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 0
+2024-06-19 16:53:10,884 - tools - INFO - find_json_value: steps into json/input_values.json is 100
+2024-06-19 16:53:10,885 - tools - INFO - find_json_value: coil_radius into json/input_values.json is None
+2024-06-19 16:53:56,901 - tools - INFO - find_json_value: reso into json/input_values.json is None
+2024-06-19 16:53:56,902 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 0
+2024-06-19 16:53:56,903 - tools - INFO - find_json_value: steps into json/input_values.json is 100
+2024-06-19 16:53:56,903 - tools - INFO - find_json_value: coil_radius into json/input_values.json is None
+2024-06-19 16:53:56,903 - tools - INFO - find_json_value: base_h into json/input_values.json is 2
+2024-06-19 16:54:07,927 - tools - INFO - {'selected_file': 'C:/Users/nares/Desktop/allout/240613/240607_104411.csv', 'steps': 100, 'anglr_': 0, 'base_h': 2} is saved in json/input_values.json as JSON successfully.
+2024-06-19 16:54:07,927 - tools - INFO - Key=base_h,And Value=2 is updated into json/input_values.json
+2024-06-19 16:54:09,768 - tools - INFO - find_json_value: steps into json/input_values.json is 100
+2024-06-19 16:54:09,768 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 0
+2024-06-19 16:54:09,768 - tools - INFO - find_json_value: base_h into json/input_values.json is 2
+2024-06-19 16:54:09,769 - tools - INFO - find_json_value: selected_file into json/input_values.json is C:/Users/nares/Desktop/allout/240613/240607_104411.csv
+2024-06-19 16:54:09,769 - tools - INFO - {'selected_file': 'C:/Users/nares/Desktop/allout/240613/240607_104411.csv', 'steps': 100, 'anglr_': 0, 'base_h': 2} is saved in json/input_values.json as JSON successfully.
+2024-06-19 16:54:09,771 - tools - INFO - Key=steps,And Value=100 is updated into json/input_values.json
+2024-06-19 16:54:09,772 - tools - INFO - {'selected_file': 'C:/Users/nares/Desktop/allout/240613/240607_104411.csv', 'steps': 100, 'anglr_': 0, 'base_h': 2} is saved in json/input_values.json as JSON successfully.
+2024-06-19 16:54:09,772 - tools - INFO - Key=anglr_,And Value=0 is updated into json/input_values.json
+2024-06-19 16:54:09,775 - tools - INFO - {'selected_file': 'C:/Users/nares/Desktop/allout/240613/240607_104411.csv', 'steps': 100, 'anglr_': 0, 'base_h': 2} is saved in json/input_values.json as JSON successfully.
+2024-06-19 16:54:09,775 - tools - INFO - Key=base_h,And Value=2 is updated into json/input_values.json
+2024-06-19 16:54:09,776 - __main__ - INFO - show_selected_item==Generate_X_Rotate
+2024-06-19 16:54:11,113 - tools - INFO - find_json_value: steps into json/input_values.json is 100
+2024-06-19 16:54:11,113 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 0
+2024-06-19 16:54:11,114 - tools - INFO - find_json_value: base_h into json/input_values.json is 2
+2024-06-19 16:54:11,114 - tools - INFO - find_json_value: selected_file into json/input_values.json is C:/Users/nares/Desktop/allout/240613/240607_104411.csv
+2024-06-19 16:54:11,116 - tools - INFO - {'selected_file': 'C:/Users/nares/Desktop/allout/240613/240607_104411.csv', 'steps': 100, 'anglr_': 0, 'base_h': 2} is saved in json/input_values.json as JSON successfully.
+2024-06-19 16:54:11,116 - tools - INFO - Key=steps,And Value=100 is updated into json/input_values.json
+2024-06-19 16:54:11,118 - tools - INFO - {'selected_file': 'C:/Users/nares/Desktop/allout/240613/240607_104411.csv', 'steps': 100, 'anglr_': 0, 'base_h': 2} is saved in json/input_values.json as JSON successfully.
+2024-06-19 16:54:11,118 - tools - INFO - Key=anglr_,And Value=0 is updated into json/input_values.json
+2024-06-19 16:54:11,120 - tools - INFO - {'selected_file': 'C:/Users/nares/Desktop/allout/240613/240607_104411.csv', 'steps': 100, 'anglr_': 0, 'base_h': 2} is saved in json/input_values.json as JSON successfully.
+2024-06-19 16:54:11,120 - tools - INFO - Key=base_h,And Value=2 is updated into json/input_values.json
+2024-06-19 16:54:11,122 - tools - ERROR - Error: exists: path should be string, bytes, os.PathLike or integer, not dict. Could not convert value to int.
+2024-06-19 16:54:20,983 - tools - INFO - {'selected_file': 'C:/Users/nares/Desktop/allout/240613/240607_104411.csv', 'steps': 100, 'anglr_': 70, 'base_h': 2} is saved in json/input_values.json as JSON successfully.
+2024-06-19 16:54:20,983 - tools - INFO - Key=anglr_,And Value=70 is updated into json/input_values.json
+2024-06-19 16:54:22,729 - tools - INFO - find_json_value: steps into json/input_values.json is 100
+2024-06-19 16:54:22,729 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 70
+2024-06-19 16:54:22,729 - tools - INFO - find_json_value: base_h into json/input_values.json is 2
+2024-06-19 16:54:22,730 - tools - INFO - find_json_value: selected_file into json/input_values.json is C:/Users/nares/Desktop/allout/240613/240607_104411.csv
+2024-06-19 16:54:22,730 - tools - INFO - {'selected_file': 'C:/Users/nares/Desktop/allout/240613/240607_104411.csv', 'steps': 100, 'anglr_': 70, 'base_h': 2} is saved in json/input_values.json as JSON successfully.
+2024-06-19 16:54:22,730 - tools - INFO - Key=steps,And Value=100 is updated into json/input_values.json
+2024-06-19 16:54:22,733 - tools - INFO - {'selected_file': 'C:/Users/nares/Desktop/allout/240613/240607_104411.csv', 'steps': 100, 'anglr_': 0, 'base_h': 2} is saved in json/input_values.json as JSON successfully.
+2024-06-19 16:54:22,733 - tools - INFO - Key=anglr_,And Value=0 is updated into json/input_values.json
+2024-06-19 16:54:22,735 - tools - INFO - {'selected_file': 'C:/Users/nares/Desktop/allout/240613/240607_104411.csv', 'steps': 100, 'anglr_': 0, 'base_h': 2} is saved in json/input_values.json as JSON successfully.
+2024-06-19 16:54:22,735 - tools - INFO - Key=base_h,And Value=2 is updated into json/input_values.json
+2024-06-19 16:54:22,737 - __main__ - INFO - show_selected_item==Generate_X_Rotate
+2024-06-19 16:54:24,137 - tools - INFO - find_json_value: steps into json/input_values.json is 100
+2024-06-19 16:54:24,137 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 0
+2024-06-19 16:54:24,138 - tools - INFO - find_json_value: base_h into json/input_values.json is 2
+2024-06-19 16:54:24,138 - tools - INFO - find_json_value: selected_file into json/input_values.json is C:/Users/nares/Desktop/allout/240613/240607_104411.csv
+2024-06-19 16:54:24,139 - tools - INFO - {'selected_file': 'C:/Users/nares/Desktop/allout/240613/240607_104411.csv', 'steps': 100, 'anglr_': 0, 'base_h': 2} is saved in json/input_values.json as JSON successfully.
+2024-06-19 16:54:24,139 - tools - INFO - Key=steps,And Value=100 is updated into json/input_values.json
+2024-06-19 16:54:24,141 - tools - INFO - {'selected_file': 'C:/Users/nares/Desktop/allout/240613/240607_104411.csv', 'steps': 100, 'anglr_': 0, 'base_h': 2} is saved in json/input_values.json as JSON successfully.
+2024-06-19 16:54:24,141 - tools - INFO - Key=anglr_,And Value=0 is updated into json/input_values.json
+2024-06-19 16:54:24,144 - tools - INFO - {'selected_file': 'C:/Users/nares/Desktop/allout/240613/240607_104411.csv', 'steps': 100, 'anglr_': 0, 'base_h': 2} is saved in json/input_values.json as JSON successfully.
+2024-06-19 16:54:24,144 - tools - INFO - Key=base_h,And Value=2 is updated into json/input_values.json
+2024-06-19 16:54:24,146 - tools - ERROR - Error: exists: path should be string, bytes, os.PathLike or integer, not dict. Could not convert value to int.
