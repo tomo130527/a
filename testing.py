@@ -15,7 +15,7 @@ def setting_save(json_key, json_value):
     settings[json_key] = json_value
     # Save the updated settings back to the file
     save_as_json(settings, tyu)
-    print(f"Setting saved: {json_key} = {json_value}")
+    logger.info(f"Setting saved: {json_key} = {json_value}")
 
 
 def create_labeled_entry(frame, label_text,json_key,json_value):

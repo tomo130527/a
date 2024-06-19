@@ -9,6 +9,7 @@ from constants import *
 from ui_helper import *
 from tools import *
 
+logger = setup_logger(logger=logging.getLogger(__name__))
 
 def plot_csv_file(filename):
     angle_ = map_get_value('Angle',INPUT_VALUES,INPUT_BTN_LIST)
@@ -34,13 +35,12 @@ def plot_csv_file(filename):
 
     
 
-def spiral(total_steps):
+def spiral(total_steps,base_height):
     x_data = []
     y_data = []
     z_data = []
     nt = 3
     iin = 0
-    base_height = 1
     segment2 = base_height + 1.5
     total_height = segment2 + 2.5
     slighted_height = total_height - base_height
@@ -67,7 +67,7 @@ def spiral(total_steps):
     return list(zip(x_data, y_data, z_data))
 
 
-def y_axis_rrotat(angle,total_steps):
+def y_axis_rrotat(angle,total_steps,base_height):
     x_data = []
     y_data = []
     z_data = []
@@ -97,7 +97,7 @@ def y_axis_rrotat(angle,total_steps):
 
     return list(zip(x_data, y_data, z_data))
 
-def x_axis_rrotat(angle,total_steps):
+def x_axis_rrotat(angle,total_steps,base_height):
     x_data = []
     y_data = []
     z_data = []
@@ -128,67 +128,40 @@ def x_axis_rrotat(angle,total_steps):
     return list(zip(x_data, y_data, z_data))
 
 
-def xy_rotatep(angle,total_steps):
-    x_data = []
-    y_data = []
-    z_data = []
-    iin = 0
-    radius_of_coil=2.5 
-    base_height = 1
-    segment2 = base_height + 1.5
-    total_height = segment2 + 2.5
-    slighted_height = total_height - base_height
-    z_axix = 0
-    base_steps = base_height * (total_steps / total_height)
 
-    while iin < total_steps:
-        if iin < base_steps:
-            radius = 0
-            z_axix = base_height * (iin / base_steps)
-        else:
-            radius = slighted_height * ( iin - base_steps)/(total_steps - base_steps) * math.sin(math.radians(angle))
-            z_axix = base_height + slighted_height * ( iin - base_steps)/(total_steps - base_steps) * math.cos(math.radians(angle))
+def xy_rotate(angle,total_steps,base_height):
+    try:
+        x_data = []
+        y_data = []
+        z_data = []
+        iin = 0
+        radius_of_coil=2.5 
+        base_height = 1
+        segment2 = base_height + 1.5
+        total_height = segment2 + 2.5
+        slighted_height = total_height - base_height
+        z_axix = 0
+        base_steps = base_height * (total_steps / total_height)
 
-        x = round(radius + radius_of_coil, 4)
-        y = round(radius + radius_of_coil, 4)
-        z = round(z_axix, 4)
-        x_data.append(x)
-        y_data.append(y)
-        z_data.append(z)
-        iin += RESOLUTION_POINTS
+        while iin < total_steps:
+            if iin < base_steps:
+                radius = 0
+                z_axix = base_height * (iin / base_steps)
 
-    return list(zip(x_data, y_data, z_data))
+            else:
+                radius = slighted_height * ( iin - base_steps)/(total_steps - base_steps) * math.sin(math.radians(angle))
+                z_axix = base_height + slighted_height * ( iin - base_steps)/(total_steps - base_steps) * math.cos(math.radians(angle))
 
+            x = round(radius + radius_of_coil, 4)
+            y = round(radius + radius_of_coil, 4)
+            z = round(z_axix, 4)
+            x_data.append(x)
+            y_data.append(y)
+            z_data.append(z)
+            iin += RESOLUTION_POINTS
 
-def xy_rotate(angle,total_steps):
-    x_data = []
-    y_data = []
-    z_data = []
-    iin = 0
-    radius_of_coil=2.5 
-    base_height = 1
-    segment2 = base_height + 1.5
-    total_height = segment2 + 2.5
-    slighted_height = total_height - base_height
-    z_axix = 0
-    base_steps = base_height * (total_steps / total_height)
-
-    while iin < total_steps:
-        if iin < base_steps:
-            radius = 0
-            z_axix = base_height * (iin / base_steps)
-
-        else:
-            radius = slighted_height * ( iin - base_steps)/(total_steps - base_steps) * math.sin(math.radians(angle))
-            z_axix = base_height + slighted_height * ( iin - base_steps)/(total_steps - base_steps) * math.cos(math.radians(angle))
-
-        x = round(radius + radius_of_coil, 4)
-        y = round(radius + radius_of_coil, 4)
-        z = round(z_axix, 4)
-        x_data.append(x)
-        y_data.append(y)
-        z_data.append(z)
-        iin += RESOLUTION_POINTS
-
-    return list(zip(x_data, y_data, z_data))
+        return list(zip(x_data, y_data, z_data))
+    
+    except:
+        logger.error(f"xy rotarw")
 

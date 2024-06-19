@@ -5,7 +5,8 @@ from constants import *
 from ui_helper import *
 
 
-logger = setup_logger()
+logger = setup_logger(logger=logging.getLogger(__name__))
+
 def one_graph_all_param(file):
     try:
         dataframe = pd.read_csv(file)
@@ -231,7 +232,7 @@ def two_file_plot_data(two_files, x_column="sn", x_label="B"):
     num_files = len(data)
 
     if num_y_columns == 0:
-        print("No y-columns found.")
+        logger.error("No y-columns found.")
         return
 
     if num_files == 1:
