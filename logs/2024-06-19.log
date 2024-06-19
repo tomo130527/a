@@ -1,0 +1,1078 @@
+2024-06-19 12:22:44,941 - tools - INFO - coding starting....
+2024-06-19 12:22:44,941 - tools - INFO - coding starting....
+2024-06-19 12:22:45,003 - tools - INFO - find_json_value: reso into json/input_values.json is 1
+2024-06-19 12:22:45,003 - tools - INFO - find_json_value: reso into json/input_values.json is 1
+2024-06-19 12:22:45,003 - tools - INFO - find_json_value: reso into json/input_values.json is 1
+2024-06-19 12:22:45,004 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 0
+2024-06-19 12:22:45,004 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 0
+2024-06-19 12:22:45,004 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 0
+2024-06-19 12:22:45,004 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 0
+2024-06-19 12:22:45,005 - tools - INFO - find_json_value: steps into json/input_values.json is 1200
+2024-06-19 12:22:45,005 - tools - INFO - find_json_value: steps into json/input_values.json is 1200
+2024-06-19 12:22:45,005 - tools - INFO - find_json_value: steps into json/input_values.json is 1200
+2024-06-19 12:22:45,005 - tools - INFO - find_json_value: steps into json/input_values.json is 1200
+2024-06-19 12:22:45,005 - tools - INFO - find_json_value: steps into json/input_values.json is 1200
+2024-06-19 12:22:45,006 - tools - INFO - find_json_value: coil_radius into json/input_values.json is 2
+2024-06-19 12:22:45,006 - tools - INFO - find_json_value: coil_radius into json/input_values.json is 2
+2024-06-19 12:22:45,006 - tools - INFO - find_json_value: coil_radius into json/input_values.json is 2
+2024-06-19 12:22:45,006 - tools - INFO - find_json_value: coil_radius into json/input_values.json is 2
+2024-06-19 12:22:45,006 - tools - INFO - find_json_value: coil_radius into json/input_values.json is 2
+2024-06-19 12:22:45,006 - tools - INFO - find_json_value: coil_radius into json/input_values.json is 2
+2024-06-19 12:22:46,546 - tools - INFO - Generate_X_Rotate = is selected..
+2024-06-19 12:22:46,546 - tools - INFO - Generate_X_Rotate = is selected..
+2024-06-19 12:22:46,546 - tools - INFO - Generate_X_Rotate = is selected..
+2024-06-19 12:22:46,546 - tools - INFO - Generate_X_Rotate = is selected..
+2024-06-19 12:22:46,546 - tools - INFO - Generate_X_Rotate = is selected..
+2024-06-19 12:22:46,546 - tools - INFO - Generate_X_Rotate = is selected..
+2024-06-19 12:22:46,548 - tools - INFO - find_json_value: steps into json/input_values.json is 1200
+2024-06-19 12:22:46,548 - tools - INFO - find_json_value: steps into json/input_values.json is 1200
+2024-06-19 12:22:46,548 - tools - INFO - find_json_value: steps into json/input_values.json is 1200
+2024-06-19 12:22:46,548 - tools - INFO - find_json_value: steps into json/input_values.json is 1200
+2024-06-19 12:22:46,548 - tools - INFO - find_json_value: steps into json/input_values.json is 1200
+2024-06-19 12:22:46,548 - tools - INFO - find_json_value: steps into json/input_values.json is 1200
+2024-06-19 12:22:46,548 - tools - INFO - find_json_value: steps into json/input_values.json is 1200
+2024-06-19 12:22:46,549 - tools - INFO - find_json_value: selected_file into json/input_values.json is C:/Users/nares/Desktop/allout/240613/240607_104411.csv
+2024-06-19 12:22:46,549 - tools - INFO - find_json_value: selected_file into json/input_values.json is C:/Users/nares/Desktop/allout/240613/240607_104411.csv
+2024-06-19 12:22:46,549 - tools - INFO - find_json_value: selected_file into json/input_values.json is C:/Users/nares/Desktop/allout/240613/240607_104411.csv
+2024-06-19 12:22:46,549 - tools - INFO - find_json_value: selected_file into json/input_values.json is C:/Users/nares/Desktop/allout/240613/240607_104411.csv
+2024-06-19 12:22:46,549 - tools - INFO - find_json_value: selected_file into json/input_values.json is C:/Users/nares/Desktop/allout/240613/240607_104411.csv
+2024-06-19 12:22:46,549 - tools - INFO - find_json_value: selected_file into json/input_values.json is C:/Users/nares/Desktop/allout/240613/240607_104411.csv
+2024-06-19 12:22:46,549 - tools - INFO - find_json_value: selected_file into json/input_values.json is C:/Users/nares/Desktop/allout/240613/240607_104411.csv
+2024-06-19 12:22:46,549 - tools - INFO - find_json_value: selected_file into json/input_values.json is C:/Users/nares/Desktop/allout/240613/240607_104411.csv
+2024-06-19 12:25:14,407 - tools - INFO - coding starting....
+2024-06-19 12:25:14,407 - tools - INFO - coding starting....
+2024-06-19 12:25:14,469 - tools - INFO - find_json_value: reso into json/input_values.json is 1
+2024-06-19 12:25:14,469 - tools - INFO - find_json_value: reso into json/input_values.json is 1
+2024-06-19 12:25:14,469 - tools - INFO - find_json_value: reso into json/input_values.json is 1
+2024-06-19 12:25:14,471 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 0
+2024-06-19 12:25:14,471 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 0
+2024-06-19 12:25:14,471 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 0
+2024-06-19 12:25:14,471 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 0
+2024-06-19 12:25:14,472 - tools - INFO - find_json_value: steps into json/input_values.json is 1200
+2024-06-19 12:25:14,472 - tools - INFO - find_json_value: steps into json/input_values.json is 1200
+2024-06-19 12:25:14,472 - tools - INFO - find_json_value: steps into json/input_values.json is 1200
+2024-06-19 12:25:14,472 - tools - INFO - find_json_value: steps into json/input_values.json is 1200
+2024-06-19 12:25:14,472 - tools - INFO - find_json_value: steps into json/input_values.json is 1200
+2024-06-19 12:25:14,472 - tools - INFO - find_json_value: coil_radius into json/input_values.json is 2
+2024-06-19 12:25:14,472 - tools - INFO - find_json_value: coil_radius into json/input_values.json is 2
+2024-06-19 12:25:14,472 - tools - INFO - find_json_value: coil_radius into json/input_values.json is 2
+2024-06-19 12:25:14,472 - tools - INFO - find_json_value: coil_radius into json/input_values.json is 2
+2024-06-19 12:25:14,472 - tools - INFO - find_json_value: coil_radius into json/input_values.json is 2
+2024-06-19 12:25:14,472 - tools - INFO - find_json_value: coil_radius into json/input_values.json is 2
+2024-06-19 12:25:15,898 - tools - INFO - Generate_X_Rotate = is selected..
+2024-06-19 12:25:15,898 - tools - INFO - Generate_X_Rotate = is selected..
+2024-06-19 12:25:15,898 - tools - INFO - Generate_X_Rotate = is selected..
+2024-06-19 12:25:15,898 - tools - INFO - Generate_X_Rotate = is selected..
+2024-06-19 12:25:15,898 - tools - INFO - Generate_X_Rotate = is selected..
+2024-06-19 12:25:15,898 - tools - INFO - Generate_X_Rotate = is selected..
+2024-06-19 12:25:15,900 - tools - INFO - find_json_value: steps into json/input_values.json is 1200
+2024-06-19 12:25:15,900 - tools - INFO - find_json_value: steps into json/input_values.json is 1200
+2024-06-19 12:25:15,900 - tools - INFO - find_json_value: steps into json/input_values.json is 1200
+2024-06-19 12:25:15,900 - tools - INFO - find_json_value: steps into json/input_values.json is 1200
+2024-06-19 12:25:15,900 - tools - INFO - find_json_value: steps into json/input_values.json is 1200
+2024-06-19 12:25:15,900 - tools - INFO - find_json_value: steps into json/input_values.json is 1200
+2024-06-19 12:25:15,900 - tools - INFO - find_json_value: steps into json/input_values.json is 1200
+2024-06-19 12:25:15,901 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 0
+2024-06-19 12:25:15,901 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 0
+2024-06-19 12:25:15,901 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 0
+2024-06-19 12:25:15,901 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 0
+2024-06-19 12:25:15,901 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 0
+2024-06-19 12:25:15,901 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 0
+2024-06-19 12:25:15,901 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 0
+2024-06-19 12:25:15,901 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 0
+2024-06-19 12:25:15,903 - tools - INFO - find_json_value: selected_file into json/input_values.json is C:/Users/nares/Desktop/allout/240613/240607_104411.csv
+2024-06-19 12:25:15,903 - tools - INFO - find_json_value: selected_file into json/input_values.json is C:/Users/nares/Desktop/allout/240613/240607_104411.csv
+2024-06-19 12:25:15,903 - tools - INFO - find_json_value: selected_file into json/input_values.json is C:/Users/nares/Desktop/allout/240613/240607_104411.csv
+2024-06-19 12:25:15,903 - tools - INFO - find_json_value: selected_file into json/input_values.json is C:/Users/nares/Desktop/allout/240613/240607_104411.csv
+2024-06-19 12:25:15,903 - tools - INFO - find_json_value: selected_file into json/input_values.json is C:/Users/nares/Desktop/allout/240613/240607_104411.csv
+2024-06-19 12:25:15,903 - tools - INFO - find_json_value: selected_file into json/input_values.json is C:/Users/nares/Desktop/allout/240613/240607_104411.csv
+2024-06-19 12:25:15,903 - tools - INFO - find_json_value: selected_file into json/input_values.json is C:/Users/nares/Desktop/allout/240613/240607_104411.csv
+2024-06-19 12:25:15,903 - tools - INFO - find_json_value: selected_file into json/input_values.json is C:/Users/nares/Desktop/allout/240613/240607_104411.csv
+2024-06-19 12:25:15,903 - tools - INFO - find_json_value: selected_file into json/input_values.json is C:/Users/nares/Desktop/allout/240613/240607_104411.csv
+2024-06-19 12:25:19,818 - tools - INFO - Plot CSV = is selected..
+2024-06-19 12:25:19,818 - tools - INFO - Plot CSV = is selected..
+2024-06-19 12:25:19,818 - tools - INFO - Plot CSV = is selected..
+2024-06-19 12:25:19,818 - tools - INFO - Plot CSV = is selected..
+2024-06-19 12:25:19,818 - tools - INFO - Plot CSV = is selected..
+2024-06-19 12:25:19,818 - tools - INFO - Plot CSV = is selected..
+2024-06-19 12:25:19,818 - tools - INFO - Plot CSV = is selected..
+2024-06-19 12:25:19,818 - tools - INFO - Plot CSV = is selected..
+2024-06-19 12:25:19,818 - tools - INFO - Plot CSV = is selected..
+2024-06-19 12:25:19,819 - tools - INFO - find_json_value: steps into json/input_values.json is 1200
+2024-06-19 12:25:19,819 - tools - INFO - find_json_value: steps into json/input_values.json is 1200
+2024-06-19 12:25:19,819 - tools - INFO - find_json_value: steps into json/input_values.json is 1200
+2024-06-19 12:25:19,819 - tools - INFO - find_json_value: steps into json/input_values.json is 1200
+2024-06-19 12:25:19,819 - tools - INFO - find_json_value: steps into json/input_values.json is 1200
+2024-06-19 12:25:19,819 - tools - INFO - find_json_value: steps into json/input_values.json is 1200
+2024-06-19 12:25:19,819 - tools - INFO - find_json_value: steps into json/input_values.json is 1200
+2024-06-19 12:25:19,819 - tools - INFO - find_json_value: steps into json/input_values.json is 1200
+2024-06-19 12:25:19,819 - tools - INFO - find_json_value: steps into json/input_values.json is 1200
+2024-06-19 12:25:19,819 - tools - INFO - find_json_value: steps into json/input_values.json is 1200
+2024-06-19 12:25:19,820 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 0
+2024-06-19 12:25:19,820 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 0
+2024-06-19 12:25:19,820 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 0
+2024-06-19 12:25:19,820 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 0
+2024-06-19 12:25:19,820 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 0
+2024-06-19 12:25:19,820 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 0
+2024-06-19 12:25:19,820 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 0
+2024-06-19 12:25:19,820 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 0
+2024-06-19 12:25:19,820 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 0
+2024-06-19 12:25:19,820 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 0
+2024-06-19 12:25:19,820 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 0
+2024-06-19 12:25:19,820 - tools - INFO - find_json_value: selected_file into json/input_values.json is C:/Users/nares/Desktop/allout/240613/240607_104411.csv
+2024-06-19 12:25:19,820 - tools - INFO - find_json_value: selected_file into json/input_values.json is C:/Users/nares/Desktop/allout/240613/240607_104411.csv
+2024-06-19 12:25:19,820 - tools - INFO - find_json_value: selected_file into json/input_values.json is C:/Users/nares/Desktop/allout/240613/240607_104411.csv
+2024-06-19 12:25:19,820 - tools - INFO - find_json_value: selected_file into json/input_values.json is C:/Users/nares/Desktop/allout/240613/240607_104411.csv
+2024-06-19 12:25:19,820 - tools - INFO - find_json_value: selected_file into json/input_values.json is C:/Users/nares/Desktop/allout/240613/240607_104411.csv
+2024-06-19 12:25:19,820 - tools - INFO - find_json_value: selected_file into json/input_values.json is C:/Users/nares/Desktop/allout/240613/240607_104411.csv
+2024-06-19 12:25:19,820 - tools - INFO - find_json_value: selected_file into json/input_values.json is C:/Users/nares/Desktop/allout/240613/240607_104411.csv
+2024-06-19 12:25:19,820 - tools - INFO - find_json_value: selected_file into json/input_values.json is C:/Users/nares/Desktop/allout/240613/240607_104411.csv
+2024-06-19 12:25:19,820 - tools - INFO - find_json_value: selected_file into json/input_values.json is C:/Users/nares/Desktop/allout/240613/240607_104411.csv
+2024-06-19 12:25:19,820 - tools - INFO - find_json_value: selected_file into json/input_values.json is C:/Users/nares/Desktop/allout/240613/240607_104411.csv
+2024-06-19 12:25:19,820 - tools - INFO - find_json_value: selected_file into json/input_values.json is C:/Users/nares/Desktop/allout/240613/240607_104411.csv
+2024-06-19 12:25:19,820 - tools - INFO - find_json_value: selected_file into json/input_values.json is C:/Users/nares/Desktop/allout/240613/240607_104411.csv
+2024-06-19 12:25:29,426 - tools - INFO - Key=anglr_,And Value=60 is updated into json/input_values.json
+2024-06-19 12:25:29,426 - tools - INFO - Key=anglr_,And Value=60 is updated into json/input_values.json
+2024-06-19 12:25:29,426 - tools - INFO - Key=anglr_,And Value=60 is updated into json/input_values.json
+2024-06-19 12:25:29,426 - tools - INFO - Key=anglr_,And Value=60 is updated into json/input_values.json
+2024-06-19 12:25:29,426 - tools - INFO - Key=anglr_,And Value=60 is updated into json/input_values.json
+2024-06-19 12:25:29,426 - tools - INFO - Key=anglr_,And Value=60 is updated into json/input_values.json
+2024-06-19 12:25:29,426 - tools - INFO - Key=anglr_,And Value=60 is updated into json/input_values.json
+2024-06-19 12:25:29,426 - tools - INFO - Key=anglr_,And Value=60 is updated into json/input_values.json
+2024-06-19 12:25:29,426 - tools - INFO - Key=anglr_,And Value=60 is updated into json/input_values.json
+2024-06-19 12:25:29,426 - tools - INFO - Key=anglr_,And Value=60 is updated into json/input_values.json
+2024-06-19 12:25:29,426 - tools - INFO - Key=anglr_,And Value=60 is updated into json/input_values.json
+2024-06-19 12:25:29,426 - tools - INFO - Key=anglr_,And Value=60 is updated into json/input_values.json
+2024-06-19 12:25:29,426 - tools - INFO - Key=anglr_,And Value=60 is updated into json/input_values.json
+2024-06-19 12:25:31,906 - tools - INFO - Generate_X_Rotate = is selected..
+2024-06-19 12:25:31,906 - tools - INFO - Generate_X_Rotate = is selected..
+2024-06-19 12:25:31,906 - tools - INFO - Generate_X_Rotate = is selected..
+2024-06-19 12:25:31,906 - tools - INFO - Generate_X_Rotate = is selected..
+2024-06-19 12:25:31,906 - tools - INFO - Generate_X_Rotate = is selected..
+2024-06-19 12:25:31,906 - tools - INFO - Generate_X_Rotate = is selected..
+2024-06-19 12:25:31,906 - tools - INFO - Generate_X_Rotate = is selected..
+2024-06-19 12:25:31,906 - tools - INFO - Generate_X_Rotate = is selected..
+2024-06-19 12:25:31,906 - tools - INFO - Generate_X_Rotate = is selected..
+2024-06-19 12:25:31,906 - tools - INFO - Generate_X_Rotate = is selected..
+2024-06-19 12:25:31,906 - tools - INFO - Generate_X_Rotate = is selected..
+2024-06-19 12:25:31,906 - tools - INFO - Generate_X_Rotate = is selected..
+2024-06-19 12:25:31,906 - tools - INFO - Generate_X_Rotate = is selected..
+2024-06-19 12:25:31,908 - tools - INFO - find_json_value: steps into json/input_values.json is 1200
+2024-06-19 12:25:31,908 - tools - INFO - find_json_value: steps into json/input_values.json is 1200
+2024-06-19 12:25:31,908 - tools - INFO - find_json_value: steps into json/input_values.json is 1200
+2024-06-19 12:25:31,908 - tools - INFO - find_json_value: steps into json/input_values.json is 1200
+2024-06-19 12:25:31,908 - tools - INFO - find_json_value: steps into json/input_values.json is 1200
+2024-06-19 12:25:31,908 - tools - INFO - find_json_value: steps into json/input_values.json is 1200
+2024-06-19 12:25:31,908 - tools - INFO - find_json_value: steps into json/input_values.json is 1200
+2024-06-19 12:25:31,908 - tools - INFO - find_json_value: steps into json/input_values.json is 1200
+2024-06-19 12:25:31,908 - tools - INFO - find_json_value: steps into json/input_values.json is 1200
+2024-06-19 12:25:31,908 - tools - INFO - find_json_value: steps into json/input_values.json is 1200
+2024-06-19 12:25:31,908 - tools - INFO - find_json_value: steps into json/input_values.json is 1200
+2024-06-19 12:25:31,908 - tools - INFO - find_json_value: steps into json/input_values.json is 1200
+2024-06-19 12:25:31,908 - tools - INFO - find_json_value: steps into json/input_values.json is 1200
+2024-06-19 12:25:31,908 - tools - INFO - find_json_value: steps into json/input_values.json is 1200
+2024-06-19 12:25:31,909 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 60
+2024-06-19 12:25:31,909 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 60
+2024-06-19 12:25:31,909 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 60
+2024-06-19 12:25:31,909 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 60
+2024-06-19 12:25:31,909 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 60
+2024-06-19 12:25:31,909 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 60
+2024-06-19 12:25:31,909 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 60
+2024-06-19 12:25:31,909 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 60
+2024-06-19 12:25:31,909 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 60
+2024-06-19 12:25:31,909 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 60
+2024-06-19 12:25:31,909 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 60
+2024-06-19 12:25:31,909 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 60
+2024-06-19 12:25:31,909 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 60
+2024-06-19 12:25:31,909 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 60
+2024-06-19 12:25:31,909 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 60
+2024-06-19 12:25:31,911 - tools - INFO - find_json_value: selected_file into json/input_values.json is C:/Users/nares/Desktop/allout/240613/240607_104411.csv
+2024-06-19 12:25:31,911 - tools - INFO - find_json_value: selected_file into json/input_values.json is C:/Users/nares/Desktop/allout/240613/240607_104411.csv
+2024-06-19 12:25:31,911 - tools - INFO - find_json_value: selected_file into json/input_values.json is C:/Users/nares/Desktop/allout/240613/240607_104411.csv
+2024-06-19 12:25:31,911 - tools - INFO - find_json_value: selected_file into json/input_values.json is C:/Users/nares/Desktop/allout/240613/240607_104411.csv
+2024-06-19 12:25:31,911 - tools - INFO - find_json_value: selected_file into json/input_values.json is C:/Users/nares/Desktop/allout/240613/240607_104411.csv
+2024-06-19 12:25:31,911 - tools - INFO - find_json_value: selected_file into json/input_values.json is C:/Users/nares/Desktop/allout/240613/240607_104411.csv
+2024-06-19 12:25:31,911 - tools - INFO - find_json_value: selected_file into json/input_values.json is C:/Users/nares/Desktop/allout/240613/240607_104411.csv
+2024-06-19 12:25:31,911 - tools - INFO - find_json_value: selected_file into json/input_values.json is C:/Users/nares/Desktop/allout/240613/240607_104411.csv
+2024-06-19 12:25:31,911 - tools - INFO - find_json_value: selected_file into json/input_values.json is C:/Users/nares/Desktop/allout/240613/240607_104411.csv
+2024-06-19 12:25:31,911 - tools - INFO - find_json_value: selected_file into json/input_values.json is C:/Users/nares/Desktop/allout/240613/240607_104411.csv
+2024-06-19 12:25:31,911 - tools - INFO - find_json_value: selected_file into json/input_values.json is C:/Users/nares/Desktop/allout/240613/240607_104411.csv
+2024-06-19 12:25:31,911 - tools - INFO - find_json_value: selected_file into json/input_values.json is C:/Users/nares/Desktop/allout/240613/240607_104411.csv
+2024-06-19 12:25:31,911 - tools - INFO - find_json_value: selected_file into json/input_values.json is C:/Users/nares/Desktop/allout/240613/240607_104411.csv
+2024-06-19 12:25:31,911 - tools - INFO - find_json_value: selected_file into json/input_values.json is C:/Users/nares/Desktop/allout/240613/240607_104411.csv
+2024-06-19 12:25:31,911 - tools - INFO - find_json_value: selected_file into json/input_values.json is C:/Users/nares/Desktop/allout/240613/240607_104411.csv
+2024-06-19 12:25:31,911 - tools - INFO - find_json_value: selected_file into json/input_values.json is C:/Users/nares/Desktop/allout/240613/240607_104411.csv
+2024-06-19 12:25:33,458 - tools - INFO - Plot CSV = is selected..
+2024-06-19 12:25:33,458 - tools - INFO - Plot CSV = is selected..
+2024-06-19 12:25:33,458 - tools - INFO - Plot CSV = is selected..
+2024-06-19 12:25:33,458 - tools - INFO - Plot CSV = is selected..
+2024-06-19 12:25:33,458 - tools - INFO - Plot CSV = is selected..
+2024-06-19 12:25:33,458 - tools - INFO - Plot CSV = is selected..
+2024-06-19 12:25:33,458 - tools - INFO - Plot CSV = is selected..
+2024-06-19 12:25:33,458 - tools - INFO - Plot CSV = is selected..
+2024-06-19 12:25:33,458 - tools - INFO - Plot CSV = is selected..
+2024-06-19 12:25:33,458 - tools - INFO - Plot CSV = is selected..
+2024-06-19 12:25:33,458 - tools - INFO - Plot CSV = is selected..
+2024-06-19 12:25:33,458 - tools - INFO - Plot CSV = is selected..
+2024-06-19 12:25:33,458 - tools - INFO - Plot CSV = is selected..
+2024-06-19 12:25:33,458 - tools - INFO - Plot CSV = is selected..
+2024-06-19 12:25:33,458 - tools - INFO - Plot CSV = is selected..
+2024-06-19 12:25:33,458 - tools - INFO - Plot CSV = is selected..
+2024-06-19 12:25:33,460 - tools - INFO - find_json_value: steps into json/input_values.json is 1200
+2024-06-19 12:25:33,460 - tools - INFO - find_json_value: steps into json/input_values.json is 1200
+2024-06-19 12:25:33,460 - tools - INFO - find_json_value: steps into json/input_values.json is 1200
+2024-06-19 12:25:33,460 - tools - INFO - find_json_value: steps into json/input_values.json is 1200
+2024-06-19 12:25:33,460 - tools - INFO - find_json_value: steps into json/input_values.json is 1200
+2024-06-19 12:25:33,460 - tools - INFO - find_json_value: steps into json/input_values.json is 1200
+2024-06-19 12:25:33,460 - tools - INFO - find_json_value: steps into json/input_values.json is 1200
+2024-06-19 12:25:33,460 - tools - INFO - find_json_value: steps into json/input_values.json is 1200
+2024-06-19 12:25:33,460 - tools - INFO - find_json_value: steps into json/input_values.json is 1200
+2024-06-19 12:25:33,460 - tools - INFO - find_json_value: steps into json/input_values.json is 1200
+2024-06-19 12:25:33,460 - tools - INFO - find_json_value: steps into json/input_values.json is 1200
+2024-06-19 12:25:33,460 - tools - INFO - find_json_value: steps into json/input_values.json is 1200
+2024-06-19 12:25:33,460 - tools - INFO - find_json_value: steps into json/input_values.json is 1200
+2024-06-19 12:25:33,460 - tools - INFO - find_json_value: steps into json/input_values.json is 1200
+2024-06-19 12:25:33,460 - tools - INFO - find_json_value: steps into json/input_values.json is 1200
+2024-06-19 12:25:33,460 - tools - INFO - find_json_value: steps into json/input_values.json is 1200
+2024-06-19 12:25:33,460 - tools - INFO - find_json_value: steps into json/input_values.json is 1200
+2024-06-19 12:25:33,463 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 60
+2024-06-19 12:25:33,463 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 60
+2024-06-19 12:25:33,463 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 60
+2024-06-19 12:25:33,463 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 60
+2024-06-19 12:25:33,463 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 60
+2024-06-19 12:25:33,463 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 60
+2024-06-19 12:25:33,463 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 60
+2024-06-19 12:25:33,463 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 60
+2024-06-19 12:25:33,463 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 60
+2024-06-19 12:25:33,463 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 60
+2024-06-19 12:25:33,463 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 60
+2024-06-19 12:25:33,463 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 60
+2024-06-19 12:25:33,463 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 60
+2024-06-19 12:25:33,463 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 60
+2024-06-19 12:25:33,463 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 60
+2024-06-19 12:25:33,463 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 60
+2024-06-19 12:25:33,463 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 60
+2024-06-19 12:25:33,463 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 60
+2024-06-19 12:25:33,464 - tools - INFO - find_json_value: selected_file into json/input_values.json is C:/Users/nares/Desktop/allout/240613/240607_104411.csv
+2024-06-19 12:25:33,464 - tools - INFO - find_json_value: selected_file into json/input_values.json is C:/Users/nares/Desktop/allout/240613/240607_104411.csv
+2024-06-19 12:25:33,464 - tools - INFO - find_json_value: selected_file into json/input_values.json is C:/Users/nares/Desktop/allout/240613/240607_104411.csv
+2024-06-19 12:25:33,464 - tools - INFO - find_json_value: selected_file into json/input_values.json is C:/Users/nares/Desktop/allout/240613/240607_104411.csv
+2024-06-19 12:25:33,464 - tools - INFO - find_json_value: selected_file into json/input_values.json is C:/Users/nares/Desktop/allout/240613/240607_104411.csv
+2024-06-19 12:25:33,464 - tools - INFO - find_json_value: selected_file into json/input_values.json is C:/Users/nares/Desktop/allout/240613/240607_104411.csv
+2024-06-19 12:25:33,464 - tools - INFO - find_json_value: selected_file into json/input_values.json is C:/Users/nares/Desktop/allout/240613/240607_104411.csv
+2024-06-19 12:25:33,464 - tools - INFO - find_json_value: selected_file into json/input_values.json is C:/Users/nares/Desktop/allout/240613/240607_104411.csv
+2024-06-19 12:25:33,464 - tools - INFO - find_json_value: selected_file into json/input_values.json is C:/Users/nares/Desktop/allout/240613/240607_104411.csv
+2024-06-19 12:25:33,464 - tools - INFO - find_json_value: selected_file into json/input_values.json is C:/Users/nares/Desktop/allout/240613/240607_104411.csv
+2024-06-19 12:25:33,464 - tools - INFO - find_json_value: selected_file into json/input_values.json is C:/Users/nares/Desktop/allout/240613/240607_104411.csv
+2024-06-19 12:25:33,464 - tools - INFO - find_json_value: selected_file into json/input_values.json is C:/Users/nares/Desktop/allout/240613/240607_104411.csv
+2024-06-19 12:25:33,464 - tools - INFO - find_json_value: selected_file into json/input_values.json is C:/Users/nares/Desktop/allout/240613/240607_104411.csv
+2024-06-19 12:25:33,464 - tools - INFO - find_json_value: selected_file into json/input_values.json is C:/Users/nares/Desktop/allout/240613/240607_104411.csv
+2024-06-19 12:25:33,464 - tools - INFO - find_json_value: selected_file into json/input_values.json is C:/Users/nares/Desktop/allout/240613/240607_104411.csv
+2024-06-19 12:25:33,464 - tools - INFO - find_json_value: selected_file into json/input_values.json is C:/Users/nares/Desktop/allout/240613/240607_104411.csv
+2024-06-19 12:25:33,464 - tools - INFO - find_json_value: selected_file into json/input_values.json is C:/Users/nares/Desktop/allout/240613/240607_104411.csv
+2024-06-19 12:25:33,464 - tools - INFO - find_json_value: selected_file into json/input_values.json is C:/Users/nares/Desktop/allout/240613/240607_104411.csv
+2024-06-19 12:25:33,464 - tools - INFO - find_json_value: selected_file into json/input_values.json is C:/Users/nares/Desktop/allout/240613/240607_104411.csv
+2024-06-19 12:32:15,603 - tools - INFO - coding starting....
+2024-06-19 12:32:15,603 - tools - INFO - coding starting....
+2024-06-19 12:32:15,664 - tools - INFO - find_json_value: reso into json/input_values.json is 1
+2024-06-19 12:32:15,664 - tools - INFO - find_json_value: reso into json/input_values.json is 1
+2024-06-19 12:32:15,664 - tools - INFO - find_json_value: reso into json/input_values.json is 1
+2024-06-19 12:32:15,665 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 60
+2024-06-19 12:32:15,665 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 60
+2024-06-19 12:32:15,665 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 60
+2024-06-19 12:32:15,665 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 60
+2024-06-19 12:32:15,666 - tools - INFO - find_json_value: steps into json/input_values.json is 1200
+2024-06-19 12:32:15,666 - tools - INFO - find_json_value: steps into json/input_values.json is 1200
+2024-06-19 12:32:15,666 - tools - INFO - find_json_value: steps into json/input_values.json is 1200
+2024-06-19 12:32:15,666 - tools - INFO - find_json_value: steps into json/input_values.json is 1200
+2024-06-19 12:32:15,666 - tools - INFO - find_json_value: steps into json/input_values.json is 1200
+2024-06-19 12:32:15,667 - tools - INFO - find_json_value: coil_radius into json/input_values.json is 2
+2024-06-19 12:32:15,667 - tools - INFO - find_json_value: coil_radius into json/input_values.json is 2
+2024-06-19 12:32:15,667 - tools - INFO - find_json_value: coil_radius into json/input_values.json is 2
+2024-06-19 12:32:15,667 - tools - INFO - find_json_value: coil_radius into json/input_values.json is 2
+2024-06-19 12:32:15,667 - tools - INFO - find_json_value: coil_radius into json/input_values.json is 2
+2024-06-19 12:32:15,667 - tools - INFO - find_json_value: coil_radius into json/input_values.json is 2
+2024-06-19 12:32:17,526 - tools - INFO - Generate_X_Rotate = is selected..
+2024-06-19 12:32:17,526 - tools - INFO - Generate_X_Rotate = is selected..
+2024-06-19 12:32:17,526 - tools - INFO - Generate_X_Rotate = is selected..
+2024-06-19 12:32:17,526 - tools - INFO - Generate_X_Rotate = is selected..
+2024-06-19 12:32:17,526 - tools - INFO - Generate_X_Rotate = is selected..
+2024-06-19 12:32:17,526 - tools - INFO - Generate_X_Rotate = is selected..
+2024-06-19 12:32:17,527 - tools - INFO - find_json_value: steps into json/input_values.json is 1200
+2024-06-19 12:32:17,527 - tools - INFO - find_json_value: steps into json/input_values.json is 1200
+2024-06-19 12:32:17,527 - tools - INFO - find_json_value: steps into json/input_values.json is 1200
+2024-06-19 12:32:17,527 - tools - INFO - find_json_value: steps into json/input_values.json is 1200
+2024-06-19 12:32:17,527 - tools - INFO - find_json_value: steps into json/input_values.json is 1200
+2024-06-19 12:32:17,527 - tools - INFO - find_json_value: steps into json/input_values.json is 1200
+2024-06-19 12:32:17,527 - tools - INFO - find_json_value: steps into json/input_values.json is 1200
+2024-06-19 12:32:17,529 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 60
+2024-06-19 12:32:17,529 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 60
+2024-06-19 12:32:17,529 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 60
+2024-06-19 12:32:17,529 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 60
+2024-06-19 12:32:17,529 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 60
+2024-06-19 12:32:17,529 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 60
+2024-06-19 12:32:17,529 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 60
+2024-06-19 12:32:17,529 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 60
+2024-06-19 12:32:21,390 - tools - INFO - Plot CSV = is selected..
+2024-06-19 12:32:21,390 - tools - INFO - Plot CSV = is selected..
+2024-06-19 12:32:21,390 - tools - INFO - Plot CSV = is selected..
+2024-06-19 12:32:21,390 - tools - INFO - Plot CSV = is selected..
+2024-06-19 12:32:21,390 - tools - INFO - Plot CSV = is selected..
+2024-06-19 12:32:21,390 - tools - INFO - Plot CSV = is selected..
+2024-06-19 12:32:21,390 - tools - INFO - Plot CSV = is selected..
+2024-06-19 12:32:21,390 - tools - INFO - Plot CSV = is selected..
+2024-06-19 12:32:21,392 - tools - INFO - find_json_value: steps into json/input_values.json is 1200
+2024-06-19 12:32:21,392 - tools - INFO - find_json_value: steps into json/input_values.json is 1200
+2024-06-19 12:32:21,392 - tools - INFO - find_json_value: steps into json/input_values.json is 1200
+2024-06-19 12:32:21,392 - tools - INFO - find_json_value: steps into json/input_values.json is 1200
+2024-06-19 12:32:21,392 - tools - INFO - find_json_value: steps into json/input_values.json is 1200
+2024-06-19 12:32:21,392 - tools - INFO - find_json_value: steps into json/input_values.json is 1200
+2024-06-19 12:32:21,392 - tools - INFO - find_json_value: steps into json/input_values.json is 1200
+2024-06-19 12:32:21,392 - tools - INFO - find_json_value: steps into json/input_values.json is 1200
+2024-06-19 12:32:21,392 - tools - INFO - find_json_value: steps into json/input_values.json is 1200
+2024-06-19 12:32:21,394 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 60
+2024-06-19 12:32:21,394 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 60
+2024-06-19 12:32:21,394 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 60
+2024-06-19 12:32:21,394 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 60
+2024-06-19 12:32:21,394 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 60
+2024-06-19 12:32:21,394 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 60
+2024-06-19 12:32:21,394 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 60
+2024-06-19 12:32:21,394 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 60
+2024-06-19 12:32:21,394 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 60
+2024-06-19 12:32:21,394 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 60
+2024-06-19 12:32:24,578 - tools - INFO - Generate_Y_Rotate = is selected..
+2024-06-19 12:32:24,578 - tools - INFO - Generate_Y_Rotate = is selected..
+2024-06-19 12:32:24,578 - tools - INFO - Generate_Y_Rotate = is selected..
+2024-06-19 12:32:24,578 - tools - INFO - Generate_Y_Rotate = is selected..
+2024-06-19 12:32:24,578 - tools - INFO - Generate_Y_Rotate = is selected..
+2024-06-19 12:32:24,578 - tools - INFO - Generate_Y_Rotate = is selected..
+2024-06-19 12:32:24,578 - tools - INFO - Generate_Y_Rotate = is selected..
+2024-06-19 12:32:24,578 - tools - INFO - Generate_Y_Rotate = is selected..
+2024-06-19 12:32:24,578 - tools - INFO - Generate_Y_Rotate = is selected..
+2024-06-19 12:32:24,578 - tools - INFO - Generate_Y_Rotate = is selected..
+2024-06-19 12:32:24,580 - tools - INFO - find_json_value: steps into json/input_values.json is 1200
+2024-06-19 12:32:24,580 - tools - INFO - find_json_value: steps into json/input_values.json is 1200
+2024-06-19 12:32:24,580 - tools - INFO - find_json_value: steps into json/input_values.json is 1200
+2024-06-19 12:32:24,580 - tools - INFO - find_json_value: steps into json/input_values.json is 1200
+2024-06-19 12:32:24,580 - tools - INFO - find_json_value: steps into json/input_values.json is 1200
+2024-06-19 12:32:24,580 - tools - INFO - find_json_value: steps into json/input_values.json is 1200
+2024-06-19 12:32:24,580 - tools - INFO - find_json_value: steps into json/input_values.json is 1200
+2024-06-19 12:32:24,580 - tools - INFO - find_json_value: steps into json/input_values.json is 1200
+2024-06-19 12:32:24,580 - tools - INFO - find_json_value: steps into json/input_values.json is 1200
+2024-06-19 12:32:24,580 - tools - INFO - find_json_value: steps into json/input_values.json is 1200
+2024-06-19 12:32:24,580 - tools - INFO - find_json_value: steps into json/input_values.json is 1200
+2024-06-19 12:32:24,581 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 60
+2024-06-19 12:32:24,581 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 60
+2024-06-19 12:32:24,581 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 60
+2024-06-19 12:32:24,581 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 60
+2024-06-19 12:32:24,581 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 60
+2024-06-19 12:32:24,581 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 60
+2024-06-19 12:32:24,581 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 60
+2024-06-19 12:32:24,581 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 60
+2024-06-19 12:32:24,581 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 60
+2024-06-19 12:32:24,581 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 60
+2024-06-19 12:32:24,581 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 60
+2024-06-19 12:32:24,581 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 60
+2024-06-19 12:32:25,874 - tools - INFO - Plot CSV = is selected..
+2024-06-19 12:32:25,874 - tools - INFO - Plot CSV = is selected..
+2024-06-19 12:32:25,874 - tools - INFO - Plot CSV = is selected..
+2024-06-19 12:32:25,874 - tools - INFO - Plot CSV = is selected..
+2024-06-19 12:32:25,874 - tools - INFO - Plot CSV = is selected..
+2024-06-19 12:32:25,874 - tools - INFO - Plot CSV = is selected..
+2024-06-19 12:32:25,874 - tools - INFO - Plot CSV = is selected..
+2024-06-19 12:32:25,874 - tools - INFO - Plot CSV = is selected..
+2024-06-19 12:32:25,874 - tools - INFO - Plot CSV = is selected..
+2024-06-19 12:32:25,874 - tools - INFO - Plot CSV = is selected..
+2024-06-19 12:32:25,874 - tools - INFO - Plot CSV = is selected..
+2024-06-19 12:32:25,874 - tools - INFO - Plot CSV = is selected..
+2024-06-19 12:32:25,876 - tools - INFO - find_json_value: steps into json/input_values.json is 1200
+2024-06-19 12:32:25,876 - tools - INFO - find_json_value: steps into json/input_values.json is 1200
+2024-06-19 12:32:25,876 - tools - INFO - find_json_value: steps into json/input_values.json is 1200
+2024-06-19 12:32:25,876 - tools - INFO - find_json_value: steps into json/input_values.json is 1200
+2024-06-19 12:32:25,876 - tools - INFO - find_json_value: steps into json/input_values.json is 1200
+2024-06-19 12:32:25,876 - tools - INFO - find_json_value: steps into json/input_values.json is 1200
+2024-06-19 12:32:25,876 - tools - INFO - find_json_value: steps into json/input_values.json is 1200
+2024-06-19 12:32:25,876 - tools - INFO - find_json_value: steps into json/input_values.json is 1200
+2024-06-19 12:32:25,876 - tools - INFO - find_json_value: steps into json/input_values.json is 1200
+2024-06-19 12:32:25,876 - tools - INFO - find_json_value: steps into json/input_values.json is 1200
+2024-06-19 12:32:25,876 - tools - INFO - find_json_value: steps into json/input_values.json is 1200
+2024-06-19 12:32:25,876 - tools - INFO - find_json_value: steps into json/input_values.json is 1200
+2024-06-19 12:32:25,876 - tools - INFO - find_json_value: steps into json/input_values.json is 1200
+2024-06-19 12:32:25,878 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 60
+2024-06-19 12:32:25,878 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 60
+2024-06-19 12:32:25,878 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 60
+2024-06-19 12:32:25,878 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 60
+2024-06-19 12:32:25,878 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 60
+2024-06-19 12:32:25,878 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 60
+2024-06-19 12:32:25,878 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 60
+2024-06-19 12:32:25,878 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 60
+2024-06-19 12:32:25,878 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 60
+2024-06-19 12:32:25,878 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 60
+2024-06-19 12:32:25,878 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 60
+2024-06-19 12:32:25,878 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 60
+2024-06-19 12:32:25,878 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 60
+2024-06-19 12:32:25,878 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 60
+2024-06-19 12:32:53,642 - tools - INFO - Generate_XT_Rotate = is selected..
+2024-06-19 12:32:53,642 - tools - INFO - Generate_XT_Rotate = is selected..
+2024-06-19 12:32:53,642 - tools - INFO - Generate_XT_Rotate = is selected..
+2024-06-19 12:32:53,642 - tools - INFO - Generate_XT_Rotate = is selected..
+2024-06-19 12:32:53,642 - tools - INFO - Generate_XT_Rotate = is selected..
+2024-06-19 12:32:53,642 - tools - INFO - Generate_XT_Rotate = is selected..
+2024-06-19 12:32:53,642 - tools - INFO - Generate_XT_Rotate = is selected..
+2024-06-19 12:32:53,642 - tools - INFO - Generate_XT_Rotate = is selected..
+2024-06-19 12:32:53,642 - tools - INFO - Generate_XT_Rotate = is selected..
+2024-06-19 12:32:53,642 - tools - INFO - Generate_XT_Rotate = is selected..
+2024-06-19 12:32:53,642 - tools - INFO - Generate_XT_Rotate = is selected..
+2024-06-19 12:32:53,642 - tools - INFO - Generate_XT_Rotate = is selected..
+2024-06-19 12:32:53,642 - tools - INFO - Generate_XT_Rotate = is selected..
+2024-06-19 12:32:53,642 - tools - INFO - Generate_XT_Rotate = is selected..
+2024-06-19 12:32:53,644 - tools - INFO - find_json_value: steps into json/input_values.json is 1200
+2024-06-19 12:32:53,644 - tools - INFO - find_json_value: steps into json/input_values.json is 1200
+2024-06-19 12:32:53,644 - tools - INFO - find_json_value: steps into json/input_values.json is 1200
+2024-06-19 12:32:53,644 - tools - INFO - find_json_value: steps into json/input_values.json is 1200
+2024-06-19 12:32:53,644 - tools - INFO - find_json_value: steps into json/input_values.json is 1200
+2024-06-19 12:32:53,644 - tools - INFO - find_json_value: steps into json/input_values.json is 1200
+2024-06-19 12:32:53,644 - tools - INFO - find_json_value: steps into json/input_values.json is 1200
+2024-06-19 12:32:53,644 - tools - INFO - find_json_value: steps into json/input_values.json is 1200
+2024-06-19 12:32:53,644 - tools - INFO - find_json_value: steps into json/input_values.json is 1200
+2024-06-19 12:32:53,644 - tools - INFO - find_json_value: steps into json/input_values.json is 1200
+2024-06-19 12:32:53,644 - tools - INFO - find_json_value: steps into json/input_values.json is 1200
+2024-06-19 12:32:53,644 - tools - INFO - find_json_value: steps into json/input_values.json is 1200
+2024-06-19 12:32:53,644 - tools - INFO - find_json_value: steps into json/input_values.json is 1200
+2024-06-19 12:32:53,644 - tools - INFO - find_json_value: steps into json/input_values.json is 1200
+2024-06-19 12:32:53,644 - tools - INFO - find_json_value: steps into json/input_values.json is 1200
+2024-06-19 12:32:53,646 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 60
+2024-06-19 12:32:53,646 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 60
+2024-06-19 12:32:53,646 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 60
+2024-06-19 12:32:53,646 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 60
+2024-06-19 12:32:53,646 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 60
+2024-06-19 12:32:53,646 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 60
+2024-06-19 12:32:53,646 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 60
+2024-06-19 12:32:53,646 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 60
+2024-06-19 12:32:53,646 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 60
+2024-06-19 12:32:53,646 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 60
+2024-06-19 12:32:53,646 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 60
+2024-06-19 12:32:53,646 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 60
+2024-06-19 12:32:53,646 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 60
+2024-06-19 12:32:53,646 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 60
+2024-06-19 12:32:53,646 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 60
+2024-06-19 12:32:53,646 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 60
+2024-06-19 12:32:55,618 - tools - INFO - Plot CSV = is selected..
+2024-06-19 12:32:55,618 - tools - INFO - Plot CSV = is selected..
+2024-06-19 12:32:55,618 - tools - INFO - Plot CSV = is selected..
+2024-06-19 12:32:55,618 - tools - INFO - Plot CSV = is selected..
+2024-06-19 12:32:55,618 - tools - INFO - Plot CSV = is selected..
+2024-06-19 12:32:55,618 - tools - INFO - Plot CSV = is selected..
+2024-06-19 12:32:55,618 - tools - INFO - Plot CSV = is selected..
+2024-06-19 12:32:55,618 - tools - INFO - Plot CSV = is selected..
+2024-06-19 12:32:55,618 - tools - INFO - Plot CSV = is selected..
+2024-06-19 12:32:55,618 - tools - INFO - Plot CSV = is selected..
+2024-06-19 12:32:55,618 - tools - INFO - Plot CSV = is selected..
+2024-06-19 12:32:55,618 - tools - INFO - Plot CSV = is selected..
+2024-06-19 12:32:55,618 - tools - INFO - Plot CSV = is selected..
+2024-06-19 12:32:55,618 - tools - INFO - Plot CSV = is selected..
+2024-06-19 12:32:55,618 - tools - INFO - Plot CSV = is selected..
+2024-06-19 12:32:55,618 - tools - INFO - Plot CSV = is selected..
+2024-06-19 12:32:55,620 - tools - INFO - find_json_value: steps into json/input_values.json is 1200
+2024-06-19 12:32:55,620 - tools - INFO - find_json_value: steps into json/input_values.json is 1200
+2024-06-19 12:32:55,620 - tools - INFO - find_json_value: steps into json/input_values.json is 1200
+2024-06-19 12:32:55,620 - tools - INFO - find_json_value: steps into json/input_values.json is 1200
+2024-06-19 12:32:55,620 - tools - INFO - find_json_value: steps into json/input_values.json is 1200
+2024-06-19 12:32:55,620 - tools - INFO - find_json_value: steps into json/input_values.json is 1200
+2024-06-19 12:32:55,620 - tools - INFO - find_json_value: steps into json/input_values.json is 1200
+2024-06-19 12:32:55,620 - tools - INFO - find_json_value: steps into json/input_values.json is 1200
+2024-06-19 12:32:55,620 - tools - INFO - find_json_value: steps into json/input_values.json is 1200
+2024-06-19 12:32:55,620 - tools - INFO - find_json_value: steps into json/input_values.json is 1200
+2024-06-19 12:32:55,620 - tools - INFO - find_json_value: steps into json/input_values.json is 1200
+2024-06-19 12:32:55,620 - tools - INFO - find_json_value: steps into json/input_values.json is 1200
+2024-06-19 12:32:55,620 - tools - INFO - find_json_value: steps into json/input_values.json is 1200
+2024-06-19 12:32:55,620 - tools - INFO - find_json_value: steps into json/input_values.json is 1200
+2024-06-19 12:32:55,620 - tools - INFO - find_json_value: steps into json/input_values.json is 1200
+2024-06-19 12:32:55,620 - tools - INFO - find_json_value: steps into json/input_values.json is 1200
+2024-06-19 12:32:55,620 - tools - INFO - find_json_value: steps into json/input_values.json is 1200
+2024-06-19 12:32:55,622 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 60
+2024-06-19 12:32:55,622 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 60
+2024-06-19 12:32:55,622 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 60
+2024-06-19 12:32:55,622 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 60
+2024-06-19 12:32:55,622 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 60
+2024-06-19 12:32:55,622 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 60
+2024-06-19 12:32:55,622 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 60
+2024-06-19 12:32:55,622 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 60
+2024-06-19 12:32:55,622 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 60
+2024-06-19 12:32:55,622 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 60
+2024-06-19 12:32:55,622 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 60
+2024-06-19 12:32:55,622 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 60
+2024-06-19 12:32:55,622 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 60
+2024-06-19 12:32:55,622 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 60
+2024-06-19 12:32:55,622 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 60
+2024-06-19 12:32:55,622 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 60
+2024-06-19 12:32:55,622 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 60
+2024-06-19 12:32:55,622 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 60
+2024-06-19 12:33:07,554 - tools - INFO - Generate_3D_CSV = is selected..
+2024-06-19 12:33:07,554 - tools - INFO - Generate_3D_CSV = is selected..
+2024-06-19 12:33:07,554 - tools - INFO - Generate_3D_CSV = is selected..
+2024-06-19 12:33:07,554 - tools - INFO - Generate_3D_CSV = is selected..
+2024-06-19 12:33:07,554 - tools - INFO - Generate_3D_CSV = is selected..
+2024-06-19 12:33:07,554 - tools - INFO - Generate_3D_CSV = is selected..
+2024-06-19 12:33:07,554 - tools - INFO - Generate_3D_CSV = is selected..
+2024-06-19 12:33:07,554 - tools - INFO - Generate_3D_CSV = is selected..
+2024-06-19 12:33:07,554 - tools - INFO - Generate_3D_CSV = is selected..
+2024-06-19 12:33:07,554 - tools - INFO - Generate_3D_CSV = is selected..
+2024-06-19 12:33:07,554 - tools - INFO - Generate_3D_CSV = is selected..
+2024-06-19 12:33:07,554 - tools - INFO - Generate_3D_CSV = is selected..
+2024-06-19 12:33:07,554 - tools - INFO - Generate_3D_CSV = is selected..
+2024-06-19 12:33:07,554 - tools - INFO - Generate_3D_CSV = is selected..
+2024-06-19 12:33:07,554 - tools - INFO - Generate_3D_CSV = is selected..
+2024-06-19 12:33:07,554 - tools - INFO - Generate_3D_CSV = is selected..
+2024-06-19 12:33:07,554 - tools - INFO - Generate_3D_CSV = is selected..
+2024-06-19 12:33:07,554 - tools - INFO - Generate_3D_CSV = is selected..
+2024-06-19 12:33:07,556 - tools - INFO - find_json_value: steps into json/input_values.json is 1200
+2024-06-19 12:33:07,556 - tools - INFO - find_json_value: steps into json/input_values.json is 1200
+2024-06-19 12:33:07,556 - tools - INFO - find_json_value: steps into json/input_values.json is 1200
+2024-06-19 12:33:07,556 - tools - INFO - find_json_value: steps into json/input_values.json is 1200
+2024-06-19 12:33:07,556 - tools - INFO - find_json_value: steps into json/input_values.json is 1200
+2024-06-19 12:33:07,556 - tools - INFO - find_json_value: steps into json/input_values.json is 1200
+2024-06-19 12:33:07,556 - tools - INFO - find_json_value: steps into json/input_values.json is 1200
+2024-06-19 12:33:07,556 - tools - INFO - find_json_value: steps into json/input_values.json is 1200
+2024-06-19 12:33:07,556 - tools - INFO - find_json_value: steps into json/input_values.json is 1200
+2024-06-19 12:33:07,556 - tools - INFO - find_json_value: steps into json/input_values.json is 1200
+2024-06-19 12:33:07,556 - tools - INFO - find_json_value: steps into json/input_values.json is 1200
+2024-06-19 12:33:07,556 - tools - INFO - find_json_value: steps into json/input_values.json is 1200
+2024-06-19 12:33:07,556 - tools - INFO - find_json_value: steps into json/input_values.json is 1200
+2024-06-19 12:33:07,556 - tools - INFO - find_json_value: steps into json/input_values.json is 1200
+2024-06-19 12:33:07,556 - tools - INFO - find_json_value: steps into json/input_values.json is 1200
+2024-06-19 12:33:07,556 - tools - INFO - find_json_value: steps into json/input_values.json is 1200
+2024-06-19 12:33:07,556 - tools - INFO - find_json_value: steps into json/input_values.json is 1200
+2024-06-19 12:33:07,556 - tools - INFO - find_json_value: steps into json/input_values.json is 1200
+2024-06-19 12:33:07,556 - tools - INFO - find_json_value: steps into json/input_values.json is 1200
+2024-06-19 12:33:07,558 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 60
+2024-06-19 12:33:07,558 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 60
+2024-06-19 12:33:07,558 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 60
+2024-06-19 12:33:07,558 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 60
+2024-06-19 12:33:07,558 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 60
+2024-06-19 12:33:07,558 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 60
+2024-06-19 12:33:07,558 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 60
+2024-06-19 12:33:07,558 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 60
+2024-06-19 12:33:07,558 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 60
+2024-06-19 12:33:07,558 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 60
+2024-06-19 12:33:07,558 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 60
+2024-06-19 12:33:07,558 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 60
+2024-06-19 12:33:07,558 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 60
+2024-06-19 12:33:07,558 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 60
+2024-06-19 12:33:07,558 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 60
+2024-06-19 12:33:07,558 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 60
+2024-06-19 12:33:07,558 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 60
+2024-06-19 12:33:07,558 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 60
+2024-06-19 12:33:07,558 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 60
+2024-06-19 12:33:07,558 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 60
+2024-06-19 12:33:08,854 - tools - INFO - Plot CSV = is selected..
+2024-06-19 12:33:08,854 - tools - INFO - Plot CSV = is selected..
+2024-06-19 12:33:08,854 - tools - INFO - Plot CSV = is selected..
+2024-06-19 12:33:08,854 - tools - INFO - Plot CSV = is selected..
+2024-06-19 12:33:08,854 - tools - INFO - Plot CSV = is selected..
+2024-06-19 12:33:08,854 - tools - INFO - Plot CSV = is selected..
+2024-06-19 12:33:08,854 - tools - INFO - Plot CSV = is selected..
+2024-06-19 12:33:08,854 - tools - INFO - Plot CSV = is selected..
+2024-06-19 12:33:08,854 - tools - INFO - Plot CSV = is selected..
+2024-06-19 12:33:08,854 - tools - INFO - Plot CSV = is selected..
+2024-06-19 12:33:08,854 - tools - INFO - Plot CSV = is selected..
+2024-06-19 12:33:08,854 - tools - INFO - Plot CSV = is selected..
+2024-06-19 12:33:08,854 - tools - INFO - Plot CSV = is selected..
+2024-06-19 12:33:08,854 - tools - INFO - Plot CSV = is selected..
+2024-06-19 12:33:08,854 - tools - INFO - Plot CSV = is selected..
+2024-06-19 12:33:08,854 - tools - INFO - Plot CSV = is selected..
+2024-06-19 12:33:08,854 - tools - INFO - Plot CSV = is selected..
+2024-06-19 12:33:08,854 - tools - INFO - Plot CSV = is selected..
+2024-06-19 12:33:08,854 - tools - INFO - Plot CSV = is selected..
+2024-06-19 12:33:08,854 - tools - INFO - Plot CSV = is selected..
+2024-06-19 12:33:08,857 - tools - INFO - find_json_value: steps into json/input_values.json is 1200
+2024-06-19 12:33:08,857 - tools - INFO - find_json_value: steps into json/input_values.json is 1200
+2024-06-19 12:33:08,857 - tools - INFO - find_json_value: steps into json/input_values.json is 1200
+2024-06-19 12:33:08,857 - tools - INFO - find_json_value: steps into json/input_values.json is 1200
+2024-06-19 12:33:08,857 - tools - INFO - find_json_value: steps into json/input_values.json is 1200
+2024-06-19 12:33:08,857 - tools - INFO - find_json_value: steps into json/input_values.json is 1200
+2024-06-19 12:33:08,857 - tools - INFO - find_json_value: steps into json/input_values.json is 1200
+2024-06-19 12:33:08,857 - tools - INFO - find_json_value: steps into json/input_values.json is 1200
+2024-06-19 12:33:08,857 - tools - INFO - find_json_value: steps into json/input_values.json is 1200
+2024-06-19 12:33:08,857 - tools - INFO - find_json_value: steps into json/input_values.json is 1200
+2024-06-19 12:33:08,857 - tools - INFO - find_json_value: steps into json/input_values.json is 1200
+2024-06-19 12:33:08,857 - tools - INFO - find_json_value: steps into json/input_values.json is 1200
+2024-06-19 12:33:08,857 - tools - INFO - find_json_value: steps into json/input_values.json is 1200
+2024-06-19 12:33:08,857 - tools - INFO - find_json_value: steps into json/input_values.json is 1200
+2024-06-19 12:33:08,857 - tools - INFO - find_json_value: steps into json/input_values.json is 1200
+2024-06-19 12:33:08,857 - tools - INFO - find_json_value: steps into json/input_values.json is 1200
+2024-06-19 12:33:08,857 - tools - INFO - find_json_value: steps into json/input_values.json is 1200
+2024-06-19 12:33:08,857 - tools - INFO - find_json_value: steps into json/input_values.json is 1200
+2024-06-19 12:33:08,857 - tools - INFO - find_json_value: steps into json/input_values.json is 1200
+2024-06-19 12:33:08,857 - tools - INFO - find_json_value: steps into json/input_values.json is 1200
+2024-06-19 12:33:08,857 - tools - INFO - find_json_value: steps into json/input_values.json is 1200
+2024-06-19 12:33:08,859 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 60
+2024-06-19 12:33:08,859 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 60
+2024-06-19 12:33:08,859 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 60
+2024-06-19 12:33:08,859 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 60
+2024-06-19 12:33:08,859 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 60
+2024-06-19 12:33:08,859 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 60
+2024-06-19 12:33:08,859 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 60
+2024-06-19 12:33:08,859 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 60
+2024-06-19 12:33:08,859 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 60
+2024-06-19 12:33:08,859 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 60
+2024-06-19 12:33:08,859 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 60
+2024-06-19 12:33:08,859 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 60
+2024-06-19 12:33:08,859 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 60
+2024-06-19 12:33:08,859 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 60
+2024-06-19 12:33:08,859 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 60
+2024-06-19 12:33:08,859 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 60
+2024-06-19 12:33:08,859 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 60
+2024-06-19 12:33:08,859 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 60
+2024-06-19 12:33:08,859 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 60
+2024-06-19 12:33:08,859 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 60
+2024-06-19 12:33:08,859 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 60
+2024-06-19 12:33:08,859 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 60
+2024-06-19 12:33:14,309 - tools - INFO - Pillar 2D = is selected..
+2024-06-19 12:33:14,309 - tools - INFO - Pillar 2D = is selected..
+2024-06-19 12:33:14,309 - tools - INFO - Pillar 2D = is selected..
+2024-06-19 12:33:14,309 - tools - INFO - Pillar 2D = is selected..
+2024-06-19 12:33:14,309 - tools - INFO - Pillar 2D = is selected..
+2024-06-19 12:33:14,309 - tools - INFO - Pillar 2D = is selected..
+2024-06-19 12:33:14,309 - tools - INFO - Pillar 2D = is selected..
+2024-06-19 12:33:14,309 - tools - INFO - Pillar 2D = is selected..
+2024-06-19 12:33:14,309 - tools - INFO - Pillar 2D = is selected..
+2024-06-19 12:33:14,309 - tools - INFO - Pillar 2D = is selected..
+2024-06-19 12:33:14,309 - tools - INFO - Pillar 2D = is selected..
+2024-06-19 12:33:14,309 - tools - INFO - Pillar 2D = is selected..
+2024-06-19 12:33:14,309 - tools - INFO - Pillar 2D = is selected..
+2024-06-19 12:33:14,309 - tools - INFO - Pillar 2D = is selected..
+2024-06-19 12:33:14,309 - tools - INFO - Pillar 2D = is selected..
+2024-06-19 12:33:14,309 - tools - INFO - Pillar 2D = is selected..
+2024-06-19 12:33:14,309 - tools - INFO - Pillar 2D = is selected..
+2024-06-19 12:33:14,309 - tools - INFO - Pillar 2D = is selected..
+2024-06-19 12:33:14,309 - tools - INFO - Pillar 2D = is selected..
+2024-06-19 12:33:14,309 - tools - INFO - Pillar 2D = is selected..
+2024-06-19 12:33:14,309 - tools - INFO - Pillar 2D = is selected..
+2024-06-19 12:33:14,309 - tools - INFO - Pillar 2D = is selected..
+2024-06-19 12:33:14,311 - tools - INFO - find_json_value: steps into json/input_values.json is 1200
+2024-06-19 12:33:14,311 - tools - INFO - find_json_value: steps into json/input_values.json is 1200
+2024-06-19 12:33:14,311 - tools - INFO - find_json_value: steps into json/input_values.json is 1200
+2024-06-19 12:33:14,311 - tools - INFO - find_json_value: steps into json/input_values.json is 1200
+2024-06-19 12:33:14,311 - tools - INFO - find_json_value: steps into json/input_values.json is 1200
+2024-06-19 12:33:14,311 - tools - INFO - find_json_value: steps into json/input_values.json is 1200
+2024-06-19 12:33:14,311 - tools - INFO - find_json_value: steps into json/input_values.json is 1200
+2024-06-19 12:33:14,311 - tools - INFO - find_json_value: steps into json/input_values.json is 1200
+2024-06-19 12:33:14,311 - tools - INFO - find_json_value: steps into json/input_values.json is 1200
+2024-06-19 12:33:14,311 - tools - INFO - find_json_value: steps into json/input_values.json is 1200
+2024-06-19 12:33:14,311 - tools - INFO - find_json_value: steps into json/input_values.json is 1200
+2024-06-19 12:33:14,311 - tools - INFO - find_json_value: steps into json/input_values.json is 1200
+2024-06-19 12:33:14,311 - tools - INFO - find_json_value: steps into json/input_values.json is 1200
+2024-06-19 12:33:14,311 - tools - INFO - find_json_value: steps into json/input_values.json is 1200
+2024-06-19 12:33:14,311 - tools - INFO - find_json_value: steps into json/input_values.json is 1200
+2024-06-19 12:33:14,311 - tools - INFO - find_json_value: steps into json/input_values.json is 1200
+2024-06-19 12:33:14,311 - tools - INFO - find_json_value: steps into json/input_values.json is 1200
+2024-06-19 12:33:14,311 - tools - INFO - find_json_value: steps into json/input_values.json is 1200
+2024-06-19 12:33:14,311 - tools - INFO - find_json_value: steps into json/input_values.json is 1200
+2024-06-19 12:33:14,311 - tools - INFO - find_json_value: steps into json/input_values.json is 1200
+2024-06-19 12:33:14,311 - tools - INFO - find_json_value: steps into json/input_values.json is 1200
+2024-06-19 12:33:14,311 - tools - INFO - find_json_value: steps into json/input_values.json is 1200
+2024-06-19 12:33:14,311 - tools - INFO - find_json_value: steps into json/input_values.json is 1200
+2024-06-19 12:33:14,312 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 60
+2024-06-19 12:33:14,312 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 60
+2024-06-19 12:33:14,312 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 60
+2024-06-19 12:33:14,312 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 60
+2024-06-19 12:33:14,312 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 60
+2024-06-19 12:33:14,312 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 60
+2024-06-19 12:33:14,312 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 60
+2024-06-19 12:33:14,312 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 60
+2024-06-19 12:33:14,312 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 60
+2024-06-19 12:33:14,312 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 60
+2024-06-19 12:33:14,312 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 60
+2024-06-19 12:33:14,312 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 60
+2024-06-19 12:33:14,312 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 60
+2024-06-19 12:33:14,312 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 60
+2024-06-19 12:33:14,312 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 60
+2024-06-19 12:33:14,312 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 60
+2024-06-19 12:33:14,312 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 60
+2024-06-19 12:33:14,312 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 60
+2024-06-19 12:33:14,312 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 60
+2024-06-19 12:33:14,312 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 60
+2024-06-19 12:33:14,312 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 60
+2024-06-19 12:33:14,312 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 60
+2024-06-19 12:33:14,312 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 60
+2024-06-19 12:33:14,312 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 60
+2024-06-19 12:33:14,313 - tools - INFO - find_json_value: selected_file into json/input_values.json is C:/Users/nares/Desktop/allout/240613/240607_104411.csv
+2024-06-19 12:33:14,313 - tools - INFO - find_json_value: selected_file into json/input_values.json is C:/Users/nares/Desktop/allout/240613/240607_104411.csv
+2024-06-19 12:33:14,313 - tools - INFO - find_json_value: selected_file into json/input_values.json is C:/Users/nares/Desktop/allout/240613/240607_104411.csv
+2024-06-19 12:33:14,313 - tools - INFO - find_json_value: selected_file into json/input_values.json is C:/Users/nares/Desktop/allout/240613/240607_104411.csv
+2024-06-19 12:33:14,313 - tools - INFO - find_json_value: selected_file into json/input_values.json is C:/Users/nares/Desktop/allout/240613/240607_104411.csv
+2024-06-19 12:33:14,313 - tools - INFO - find_json_value: selected_file into json/input_values.json is C:/Users/nares/Desktop/allout/240613/240607_104411.csv
+2024-06-19 12:33:14,313 - tools - INFO - find_json_value: selected_file into json/input_values.json is C:/Users/nares/Desktop/allout/240613/240607_104411.csv
+2024-06-19 12:33:14,313 - tools - INFO - find_json_value: selected_file into json/input_values.json is C:/Users/nares/Desktop/allout/240613/240607_104411.csv
+2024-06-19 12:33:14,313 - tools - INFO - find_json_value: selected_file into json/input_values.json is C:/Users/nares/Desktop/allout/240613/240607_104411.csv
+2024-06-19 12:33:14,313 - tools - INFO - find_json_value: selected_file into json/input_values.json is C:/Users/nares/Desktop/allout/240613/240607_104411.csv
+2024-06-19 12:33:14,313 - tools - INFO - find_json_value: selected_file into json/input_values.json is C:/Users/nares/Desktop/allout/240613/240607_104411.csv
+2024-06-19 12:33:14,313 - tools - INFO - find_json_value: selected_file into json/input_values.json is C:/Users/nares/Desktop/allout/240613/240607_104411.csv
+2024-06-19 12:33:14,313 - tools - INFO - find_json_value: selected_file into json/input_values.json is C:/Users/nares/Desktop/allout/240613/240607_104411.csv
+2024-06-19 12:33:14,313 - tools - INFO - find_json_value: selected_file into json/input_values.json is C:/Users/nares/Desktop/allout/240613/240607_104411.csv
+2024-06-19 12:33:14,313 - tools - INFO - find_json_value: selected_file into json/input_values.json is C:/Users/nares/Desktop/allout/240613/240607_104411.csv
+2024-06-19 12:33:14,313 - tools - INFO - find_json_value: selected_file into json/input_values.json is C:/Users/nares/Desktop/allout/240613/240607_104411.csv
+2024-06-19 12:33:14,313 - tools - INFO - find_json_value: selected_file into json/input_values.json is C:/Users/nares/Desktop/allout/240613/240607_104411.csv
+2024-06-19 12:33:14,313 - tools - INFO - find_json_value: selected_file into json/input_values.json is C:/Users/nares/Desktop/allout/240613/240607_104411.csv
+2024-06-19 12:33:14,313 - tools - INFO - find_json_value: selected_file into json/input_values.json is C:/Users/nares/Desktop/allout/240613/240607_104411.csv
+2024-06-19 12:33:14,313 - tools - INFO - find_json_value: selected_file into json/input_values.json is C:/Users/nares/Desktop/allout/240613/240607_104411.csv
+2024-06-19 12:33:14,313 - tools - INFO - find_json_value: selected_file into json/input_values.json is C:/Users/nares/Desktop/allout/240613/240607_104411.csv
+2024-06-19 12:33:14,313 - tools - INFO - find_json_value: selected_file into json/input_values.json is C:/Users/nares/Desktop/allout/240613/240607_104411.csv
+2024-06-19 12:33:14,313 - tools - INFO - find_json_value: selected_file into json/input_values.json is C:/Users/nares/Desktop/allout/240613/240607_104411.csv
+2024-06-19 12:33:14,313 - tools - INFO - find_json_value: selected_file into json/input_values.json is C:/Users/nares/Desktop/allout/240613/240607_104411.csv
+2024-06-19 12:33:14,313 - tools - INFO - find_json_value: selected_file into json/input_values.json is C:/Users/nares/Desktop/allout/240613/240607_104411.csv
+2024-06-19 12:33:18,905 - tools - INFO - Plot2 = is selected..
+2024-06-19 12:33:18,905 - tools - INFO - Plot2 = is selected..
+2024-06-19 12:33:18,905 - tools - INFO - Plot2 = is selected..
+2024-06-19 12:33:18,905 - tools - INFO - Plot2 = is selected..
+2024-06-19 12:33:18,905 - tools - INFO - Plot2 = is selected..
+2024-06-19 12:33:18,905 - tools - INFO - Plot2 = is selected..
+2024-06-19 12:33:18,905 - tools - INFO - Plot2 = is selected..
+2024-06-19 12:33:18,905 - tools - INFO - Plot2 = is selected..
+2024-06-19 12:33:18,905 - tools - INFO - Plot2 = is selected..
+2024-06-19 12:33:18,905 - tools - INFO - Plot2 = is selected..
+2024-06-19 12:33:18,905 - tools - INFO - Plot2 = is selected..
+2024-06-19 12:33:18,905 - tools - INFO - Plot2 = is selected..
+2024-06-19 12:33:18,905 - tools - INFO - Plot2 = is selected..
+2024-06-19 12:33:18,905 - tools - INFO - Plot2 = is selected..
+2024-06-19 12:33:18,905 - tools - INFO - Plot2 = is selected..
+2024-06-19 12:33:18,905 - tools - INFO - Plot2 = is selected..
+2024-06-19 12:33:18,905 - tools - INFO - Plot2 = is selected..
+2024-06-19 12:33:18,905 - tools - INFO - Plot2 = is selected..
+2024-06-19 12:33:18,905 - tools - INFO - Plot2 = is selected..
+2024-06-19 12:33:18,905 - tools - INFO - Plot2 = is selected..
+2024-06-19 12:33:18,905 - tools - INFO - Plot2 = is selected..
+2024-06-19 12:33:18,905 - tools - INFO - Plot2 = is selected..
+2024-06-19 12:33:18,905 - tools - INFO - Plot2 = is selected..
+2024-06-19 12:33:18,905 - tools - INFO - Plot2 = is selected..
+2024-06-19 12:33:18,905 - tools - INFO - Plot2 = is selected..
+2024-06-19 12:33:18,909 - tools - INFO - find_json_value: steps into json/input_values.json is 1200
+2024-06-19 12:33:18,909 - tools - INFO - find_json_value: steps into json/input_values.json is 1200
+2024-06-19 12:33:18,909 - tools - INFO - find_json_value: steps into json/input_values.json is 1200
+2024-06-19 12:33:18,909 - tools - INFO - find_json_value: steps into json/input_values.json is 1200
+2024-06-19 12:33:18,909 - tools - INFO - find_json_value: steps into json/input_values.json is 1200
+2024-06-19 12:33:18,909 - tools - INFO - find_json_value: steps into json/input_values.json is 1200
+2024-06-19 12:33:18,909 - tools - INFO - find_json_value: steps into json/input_values.json is 1200
+2024-06-19 12:33:18,909 - tools - INFO - find_json_value: steps into json/input_values.json is 1200
+2024-06-19 12:33:18,909 - tools - INFO - find_json_value: steps into json/input_values.json is 1200
+2024-06-19 12:33:18,909 - tools - INFO - find_json_value: steps into json/input_values.json is 1200
+2024-06-19 12:33:18,909 - tools - INFO - find_json_value: steps into json/input_values.json is 1200
+2024-06-19 12:33:18,909 - tools - INFO - find_json_value: steps into json/input_values.json is 1200
+2024-06-19 12:33:18,909 - tools - INFO - find_json_value: steps into json/input_values.json is 1200
+2024-06-19 12:33:18,909 - tools - INFO - find_json_value: steps into json/input_values.json is 1200
+2024-06-19 12:33:18,909 - tools - INFO - find_json_value: steps into json/input_values.json is 1200
+2024-06-19 12:33:18,909 - tools - INFO - find_json_value: steps into json/input_values.json is 1200
+2024-06-19 12:33:18,909 - tools - INFO - find_json_value: steps into json/input_values.json is 1200
+2024-06-19 12:33:18,909 - tools - INFO - find_json_value: steps into json/input_values.json is 1200
+2024-06-19 12:33:18,909 - tools - INFO - find_json_value: steps into json/input_values.json is 1200
+2024-06-19 12:33:18,909 - tools - INFO - find_json_value: steps into json/input_values.json is 1200
+2024-06-19 12:33:18,909 - tools - INFO - find_json_value: steps into json/input_values.json is 1200
+2024-06-19 12:33:18,909 - tools - INFO - find_json_value: steps into json/input_values.json is 1200
+2024-06-19 12:33:18,909 - tools - INFO - find_json_value: steps into json/input_values.json is 1200
+2024-06-19 12:33:18,909 - tools - INFO - find_json_value: steps into json/input_values.json is 1200
+2024-06-19 12:33:18,909 - tools - INFO - find_json_value: steps into json/input_values.json is 1200
+2024-06-19 12:33:18,909 - tools - INFO - find_json_value: steps into json/input_values.json is 1200
+2024-06-19 12:33:18,910 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 60
+2024-06-19 12:33:18,910 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 60
+2024-06-19 12:33:18,910 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 60
+2024-06-19 12:33:18,910 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 60
+2024-06-19 12:33:18,910 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 60
+2024-06-19 12:33:18,910 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 60
+2024-06-19 12:33:18,910 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 60
+2024-06-19 12:33:18,910 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 60
+2024-06-19 12:33:18,910 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 60
+2024-06-19 12:33:18,910 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 60
+2024-06-19 12:33:18,910 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 60
+2024-06-19 12:33:18,910 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 60
+2024-06-19 12:33:18,910 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 60
+2024-06-19 12:33:18,910 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 60
+2024-06-19 12:33:18,910 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 60
+2024-06-19 12:33:18,910 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 60
+2024-06-19 12:33:18,910 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 60
+2024-06-19 12:33:18,910 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 60
+2024-06-19 12:33:18,910 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 60
+2024-06-19 12:33:18,910 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 60
+2024-06-19 12:33:18,910 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 60
+2024-06-19 12:33:18,910 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 60
+2024-06-19 12:33:18,910 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 60
+2024-06-19 12:33:18,910 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 60
+2024-06-19 12:33:18,910 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 60
+2024-06-19 12:33:18,910 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 60
+2024-06-19 12:33:18,910 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 60
+2024-06-19 12:33:18,911 - tools - INFO - find_json_value: selected_file into json/input_values.json is C:/Users/nares/Desktop/allout/240613/240607_104411.csv
+2024-06-19 12:33:18,911 - tools - INFO - find_json_value: selected_file into json/input_values.json is C:/Users/nares/Desktop/allout/240613/240607_104411.csv
+2024-06-19 12:33:18,911 - tools - INFO - find_json_value: selected_file into json/input_values.json is C:/Users/nares/Desktop/allout/240613/240607_104411.csv
+2024-06-19 12:33:18,911 - tools - INFO - find_json_value: selected_file into json/input_values.json is C:/Users/nares/Desktop/allout/240613/240607_104411.csv
+2024-06-19 12:33:18,911 - tools - INFO - find_json_value: selected_file into json/input_values.json is C:/Users/nares/Desktop/allout/240613/240607_104411.csv
+2024-06-19 12:33:18,911 - tools - INFO - find_json_value: selected_file into json/input_values.json is C:/Users/nares/Desktop/allout/240613/240607_104411.csv
+2024-06-19 12:33:18,911 - tools - INFO - find_json_value: selected_file into json/input_values.json is C:/Users/nares/Desktop/allout/240613/240607_104411.csv
+2024-06-19 12:33:18,911 - tools - INFO - find_json_value: selected_file into json/input_values.json is C:/Users/nares/Desktop/allout/240613/240607_104411.csv
+2024-06-19 12:33:18,911 - tools - INFO - find_json_value: selected_file into json/input_values.json is C:/Users/nares/Desktop/allout/240613/240607_104411.csv
+2024-06-19 12:33:18,911 - tools - INFO - find_json_value: selected_file into json/input_values.json is C:/Users/nares/Desktop/allout/240613/240607_104411.csv
+2024-06-19 12:33:18,911 - tools - INFO - find_json_value: selected_file into json/input_values.json is C:/Users/nares/Desktop/allout/240613/240607_104411.csv
+2024-06-19 12:33:18,911 - tools - INFO - find_json_value: selected_file into json/input_values.json is C:/Users/nares/Desktop/allout/240613/240607_104411.csv
+2024-06-19 12:33:18,911 - tools - INFO - find_json_value: selected_file into json/input_values.json is C:/Users/nares/Desktop/allout/240613/240607_104411.csv
+2024-06-19 12:33:18,911 - tools - INFO - find_json_value: selected_file into json/input_values.json is C:/Users/nares/Desktop/allout/240613/240607_104411.csv
+2024-06-19 12:33:18,911 - tools - INFO - find_json_value: selected_file into json/input_values.json is C:/Users/nares/Desktop/allout/240613/240607_104411.csv
+2024-06-19 12:33:18,911 - tools - INFO - find_json_value: selected_file into json/input_values.json is C:/Users/nares/Desktop/allout/240613/240607_104411.csv
+2024-06-19 12:33:18,911 - tools - INFO - find_json_value: selected_file into json/input_values.json is C:/Users/nares/Desktop/allout/240613/240607_104411.csv
+2024-06-19 12:33:18,911 - tools - INFO - find_json_value: selected_file into json/input_values.json is C:/Users/nares/Desktop/allout/240613/240607_104411.csv
+2024-06-19 12:33:18,911 - tools - INFO - find_json_value: selected_file into json/input_values.json is C:/Users/nares/Desktop/allout/240613/240607_104411.csv
+2024-06-19 12:33:18,911 - tools - INFO - find_json_value: selected_file into json/input_values.json is C:/Users/nares/Desktop/allout/240613/240607_104411.csv
+2024-06-19 12:33:18,911 - tools - INFO - find_json_value: selected_file into json/input_values.json is C:/Users/nares/Desktop/allout/240613/240607_104411.csv
+2024-06-19 12:33:18,911 - tools - INFO - find_json_value: selected_file into json/input_values.json is C:/Users/nares/Desktop/allout/240613/240607_104411.csv
+2024-06-19 12:33:18,911 - tools - INFO - find_json_value: selected_file into json/input_values.json is C:/Users/nares/Desktop/allout/240613/240607_104411.csv
+2024-06-19 12:33:18,911 - tools - INFO - find_json_value: selected_file into json/input_values.json is C:/Users/nares/Desktop/allout/240613/240607_104411.csv
+2024-06-19 12:33:18,911 - tools - INFO - find_json_value: selected_file into json/input_values.json is C:/Users/nares/Desktop/allout/240613/240607_104411.csv
+2024-06-19 12:33:18,911 - tools - INFO - find_json_value: selected_file into json/input_values.json is C:/Users/nares/Desktop/allout/240613/240607_104411.csv
+2024-06-19 12:33:18,911 - tools - INFO - find_json_value: selected_file into json/input_values.json is C:/Users/nares/Desktop/allout/240613/240607_104411.csv
+2024-06-19 12:33:18,911 - tools - INFO - find_json_value: selected_file into json/input_values.json is C:/Users/nares/Desktop/allout/240613/240607_104411.csv
+2024-06-19 12:33:24,266 - tools - INFO - Plot3 = is selected..
+2024-06-19 12:33:24,266 - tools - INFO - Plot3 = is selected..
+2024-06-19 12:33:24,266 - tools - INFO - Plot3 = is selected..
+2024-06-19 12:33:24,266 - tools - INFO - Plot3 = is selected..
+2024-06-19 12:33:24,266 - tools - INFO - Plot3 = is selected..
+2024-06-19 12:33:24,266 - tools - INFO - Plot3 = is selected..
+2024-06-19 12:33:24,266 - tools - INFO - Plot3 = is selected..
+2024-06-19 12:33:24,266 - tools - INFO - Plot3 = is selected..
+2024-06-19 12:33:24,266 - tools - INFO - Plot3 = is selected..
+2024-06-19 12:33:24,266 - tools - INFO - Plot3 = is selected..
+2024-06-19 12:33:24,266 - tools - INFO - Plot3 = is selected..
+2024-06-19 12:33:24,266 - tools - INFO - Plot3 = is selected..
+2024-06-19 12:33:24,266 - tools - INFO - Plot3 = is selected..
+2024-06-19 12:33:24,266 - tools - INFO - Plot3 = is selected..
+2024-06-19 12:33:24,266 - tools - INFO - Plot3 = is selected..
+2024-06-19 12:33:24,266 - tools - INFO - Plot3 = is selected..
+2024-06-19 12:33:24,266 - tools - INFO - Plot3 = is selected..
+2024-06-19 12:33:24,266 - tools - INFO - Plot3 = is selected..
+2024-06-19 12:33:24,266 - tools - INFO - Plot3 = is selected..
+2024-06-19 12:33:24,266 - tools - INFO - Plot3 = is selected..
+2024-06-19 12:33:24,266 - tools - INFO - Plot3 = is selected..
+2024-06-19 12:33:24,266 - tools - INFO - Plot3 = is selected..
+2024-06-19 12:33:24,266 - tools - INFO - Plot3 = is selected..
+2024-06-19 12:33:24,266 - tools - INFO - Plot3 = is selected..
+2024-06-19 12:33:24,266 - tools - INFO - Plot3 = is selected..
+2024-06-19 12:33:24,266 - tools - INFO - Plot3 = is selected..
+2024-06-19 12:33:24,266 - tools - INFO - Plot3 = is selected..
+2024-06-19 12:33:24,266 - tools - INFO - Plot3 = is selected..
+2024-06-19 12:33:24,268 - tools - INFO - find_json_value: steps into json/input_values.json is 1200
+2024-06-19 12:33:24,268 - tools - INFO - find_json_value: steps into json/input_values.json is 1200
+2024-06-19 12:33:24,268 - tools - INFO - find_json_value: steps into json/input_values.json is 1200
+2024-06-19 12:33:24,268 - tools - INFO - find_json_value: steps into json/input_values.json is 1200
+2024-06-19 12:33:24,268 - tools - INFO - find_json_value: steps into json/input_values.json is 1200
+2024-06-19 12:33:24,268 - tools - INFO - find_json_value: steps into json/input_values.json is 1200
+2024-06-19 12:33:24,268 - tools - INFO - find_json_value: steps into json/input_values.json is 1200
+2024-06-19 12:33:24,268 - tools - INFO - find_json_value: steps into json/input_values.json is 1200
+2024-06-19 12:33:24,268 - tools - INFO - find_json_value: steps into json/input_values.json is 1200
+2024-06-19 12:33:24,268 - tools - INFO - find_json_value: steps into json/input_values.json is 1200
+2024-06-19 12:33:24,268 - tools - INFO - find_json_value: steps into json/input_values.json is 1200
+2024-06-19 12:33:24,268 - tools - INFO - find_json_value: steps into json/input_values.json is 1200
+2024-06-19 12:33:24,268 - tools - INFO - find_json_value: steps into json/input_values.json is 1200
+2024-06-19 12:33:24,268 - tools - INFO - find_json_value: steps into json/input_values.json is 1200
+2024-06-19 12:33:24,268 - tools - INFO - find_json_value: steps into json/input_values.json is 1200
+2024-06-19 12:33:24,268 - tools - INFO - find_json_value: steps into json/input_values.json is 1200
+2024-06-19 12:33:24,268 - tools - INFO - find_json_value: steps into json/input_values.json is 1200
+2024-06-19 12:33:24,268 - tools - INFO - find_json_value: steps into json/input_values.json is 1200
+2024-06-19 12:33:24,268 - tools - INFO - find_json_value: steps into json/input_values.json is 1200
+2024-06-19 12:33:24,268 - tools - INFO - find_json_value: steps into json/input_values.json is 1200
+2024-06-19 12:33:24,268 - tools - INFO - find_json_value: steps into json/input_values.json is 1200
+2024-06-19 12:33:24,268 - tools - INFO - find_json_value: steps into json/input_values.json is 1200
+2024-06-19 12:33:24,268 - tools - INFO - find_json_value: steps into json/input_values.json is 1200
+2024-06-19 12:33:24,268 - tools - INFO - find_json_value: steps into json/input_values.json is 1200
+2024-06-19 12:33:24,268 - tools - INFO - find_json_value: steps into json/input_values.json is 1200
+2024-06-19 12:33:24,268 - tools - INFO - find_json_value: steps into json/input_values.json is 1200
+2024-06-19 12:33:24,268 - tools - INFO - find_json_value: steps into json/input_values.json is 1200
+2024-06-19 12:33:24,268 - tools - INFO - find_json_value: steps into json/input_values.json is 1200
+2024-06-19 12:33:24,268 - tools - INFO - find_json_value: steps into json/input_values.json is 1200
+2024-06-19 12:33:24,270 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 60
+2024-06-19 12:33:24,270 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 60
+2024-06-19 12:33:24,270 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 60
+2024-06-19 12:33:24,270 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 60
+2024-06-19 12:33:24,270 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 60
+2024-06-19 12:33:24,270 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 60
+2024-06-19 12:33:24,270 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 60
+2024-06-19 12:33:24,270 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 60
+2024-06-19 12:33:24,270 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 60
+2024-06-19 12:33:24,270 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 60
+2024-06-19 12:33:24,270 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 60
+2024-06-19 12:33:24,270 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 60
+2024-06-19 12:33:24,270 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 60
+2024-06-19 12:33:24,270 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 60
+2024-06-19 12:33:24,270 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 60
+2024-06-19 12:33:24,270 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 60
+2024-06-19 12:33:24,270 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 60
+2024-06-19 12:33:24,270 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 60
+2024-06-19 12:33:24,270 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 60
+2024-06-19 12:33:24,270 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 60
+2024-06-19 12:33:24,270 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 60
+2024-06-19 12:33:24,270 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 60
+2024-06-19 12:33:24,270 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 60
+2024-06-19 12:33:24,270 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 60
+2024-06-19 12:33:24,270 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 60
+2024-06-19 12:33:24,270 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 60
+2024-06-19 12:33:24,270 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 60
+2024-06-19 12:33:24,270 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 60
+2024-06-19 12:33:24,270 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 60
+2024-06-19 12:33:24,270 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 60
+2024-06-19 12:33:24,271 - tools - INFO - find_json_value: selected_file into json/input_values.json is C:/Users/nares/Desktop/allout/240613/240607_104411.csv
+2024-06-19 12:33:24,271 - tools - INFO - find_json_value: selected_file into json/input_values.json is C:/Users/nares/Desktop/allout/240613/240607_104411.csv
+2024-06-19 12:33:24,271 - tools - INFO - find_json_value: selected_file into json/input_values.json is C:/Users/nares/Desktop/allout/240613/240607_104411.csv
+2024-06-19 12:33:24,271 - tools - INFO - find_json_value: selected_file into json/input_values.json is C:/Users/nares/Desktop/allout/240613/240607_104411.csv
+2024-06-19 12:33:24,271 - tools - INFO - find_json_value: selected_file into json/input_values.json is C:/Users/nares/Desktop/allout/240613/240607_104411.csv
+2024-06-19 12:33:24,271 - tools - INFO - find_json_value: selected_file into json/input_values.json is C:/Users/nares/Desktop/allout/240613/240607_104411.csv
+2024-06-19 12:33:24,271 - tools - INFO - find_json_value: selected_file into json/input_values.json is C:/Users/nares/Desktop/allout/240613/240607_104411.csv
+2024-06-19 12:33:24,271 - tools - INFO - find_json_value: selected_file into json/input_values.json is C:/Users/nares/Desktop/allout/240613/240607_104411.csv
+2024-06-19 12:33:24,271 - tools - INFO - find_json_value: selected_file into json/input_values.json is C:/Users/nares/Desktop/allout/240613/240607_104411.csv
+2024-06-19 12:33:24,271 - tools - INFO - find_json_value: selected_file into json/input_values.json is C:/Users/nares/Desktop/allout/240613/240607_104411.csv
+2024-06-19 12:33:24,271 - tools - INFO - find_json_value: selected_file into json/input_values.json is C:/Users/nares/Desktop/allout/240613/240607_104411.csv
+2024-06-19 12:33:24,271 - tools - INFO - find_json_value: selected_file into json/input_values.json is C:/Users/nares/Desktop/allout/240613/240607_104411.csv
+2024-06-19 12:33:24,271 - tools - INFO - find_json_value: selected_file into json/input_values.json is C:/Users/nares/Desktop/allout/240613/240607_104411.csv
+2024-06-19 12:33:24,271 - tools - INFO - find_json_value: selected_file into json/input_values.json is C:/Users/nares/Desktop/allout/240613/240607_104411.csv
+2024-06-19 12:33:24,271 - tools - INFO - find_json_value: selected_file into json/input_values.json is C:/Users/nares/Desktop/allout/240613/240607_104411.csv
+2024-06-19 12:33:24,271 - tools - INFO - find_json_value: selected_file into json/input_values.json is C:/Users/nares/Desktop/allout/240613/240607_104411.csv
+2024-06-19 12:33:24,271 - tools - INFO - find_json_value: selected_file into json/input_values.json is C:/Users/nares/Desktop/allout/240613/240607_104411.csv
+2024-06-19 12:33:24,271 - tools - INFO - find_json_value: selected_file into json/input_values.json is C:/Users/nares/Desktop/allout/240613/240607_104411.csv
+2024-06-19 12:33:24,271 - tools - INFO - find_json_value: selected_file into json/input_values.json is C:/Users/nares/Desktop/allout/240613/240607_104411.csv
+2024-06-19 12:33:24,271 - tools - INFO - find_json_value: selected_file into json/input_values.json is C:/Users/nares/Desktop/allout/240613/240607_104411.csv
+2024-06-19 12:33:24,271 - tools - INFO - find_json_value: selected_file into json/input_values.json is C:/Users/nares/Desktop/allout/240613/240607_104411.csv
+2024-06-19 12:33:24,271 - tools - INFO - find_json_value: selected_file into json/input_values.json is C:/Users/nares/Desktop/allout/240613/240607_104411.csv
+2024-06-19 12:33:24,271 - tools - INFO - find_json_value: selected_file into json/input_values.json is C:/Users/nares/Desktop/allout/240613/240607_104411.csv
+2024-06-19 12:33:24,271 - tools - INFO - find_json_value: selected_file into json/input_values.json is C:/Users/nares/Desktop/allout/240613/240607_104411.csv
+2024-06-19 12:33:24,271 - tools - INFO - find_json_value: selected_file into json/input_values.json is C:/Users/nares/Desktop/allout/240613/240607_104411.csv
+2024-06-19 12:33:24,271 - tools - INFO - find_json_value: selected_file into json/input_values.json is C:/Users/nares/Desktop/allout/240613/240607_104411.csv
+2024-06-19 12:33:24,271 - tools - INFO - find_json_value: selected_file into json/input_values.json is C:/Users/nares/Desktop/allout/240613/240607_104411.csv
+2024-06-19 12:33:24,271 - tools - INFO - find_json_value: selected_file into json/input_values.json is C:/Users/nares/Desktop/allout/240613/240607_104411.csv
+2024-06-19 12:33:24,271 - tools - INFO - find_json_value: selected_file into json/input_values.json is C:/Users/nares/Desktop/allout/240613/240607_104411.csv
+2024-06-19 12:33:24,271 - tools - INFO - find_json_value: selected_file into json/input_values.json is C:/Users/nares/Desktop/allout/240613/240607_104411.csv
+2024-06-19 12:33:24,271 - tools - INFO - find_json_value: selected_file into json/input_values.json is C:/Users/nares/Desktop/allout/240613/240607_104411.csv
+2024-06-19 12:33:29,379 - tools - INFO - Spiral Graph 3D = is selected..
+2024-06-19 12:33:29,379 - tools - INFO - Spiral Graph 3D = is selected..
+2024-06-19 12:33:29,379 - tools - INFO - Spiral Graph 3D = is selected..
+2024-06-19 12:33:29,379 - tools - INFO - Spiral Graph 3D = is selected..
+2024-06-19 12:33:29,379 - tools - INFO - Spiral Graph 3D = is selected..
+2024-06-19 12:33:29,379 - tools - INFO - Spiral Graph 3D = is selected..
+2024-06-19 12:33:29,379 - tools - INFO - Spiral Graph 3D = is selected..
+2024-06-19 12:33:29,379 - tools - INFO - Spiral Graph 3D = is selected..
+2024-06-19 12:33:29,379 - tools - INFO - Spiral Graph 3D = is selected..
+2024-06-19 12:33:29,379 - tools - INFO - Spiral Graph 3D = is selected..
+2024-06-19 12:33:29,379 - tools - INFO - Spiral Graph 3D = is selected..
+2024-06-19 12:33:29,379 - tools - INFO - Spiral Graph 3D = is selected..
+2024-06-19 12:33:29,379 - tools - INFO - Spiral Graph 3D = is selected..
+2024-06-19 12:33:29,379 - tools - INFO - Spiral Graph 3D = is selected..
+2024-06-19 12:33:29,379 - tools - INFO - Spiral Graph 3D = is selected..
+2024-06-19 12:33:29,379 - tools - INFO - Spiral Graph 3D = is selected..
+2024-06-19 12:33:29,379 - tools - INFO - Spiral Graph 3D = is selected..
+2024-06-19 12:33:29,379 - tools - INFO - Spiral Graph 3D = is selected..
+2024-06-19 12:33:29,379 - tools - INFO - Spiral Graph 3D = is selected..
+2024-06-19 12:33:29,379 - tools - INFO - Spiral Graph 3D = is selected..
+2024-06-19 12:33:29,379 - tools - INFO - Spiral Graph 3D = is selected..
+2024-06-19 12:33:29,379 - tools - INFO - Spiral Graph 3D = is selected..
+2024-06-19 12:33:29,379 - tools - INFO - Spiral Graph 3D = is selected..
+2024-06-19 12:33:29,379 - tools - INFO - Spiral Graph 3D = is selected..
+2024-06-19 12:33:29,379 - tools - INFO - Spiral Graph 3D = is selected..
+2024-06-19 12:33:29,379 - tools - INFO - Spiral Graph 3D = is selected..
+2024-06-19 12:33:29,379 - tools - INFO - Spiral Graph 3D = is selected..
+2024-06-19 12:33:29,379 - tools - INFO - Spiral Graph 3D = is selected..
+2024-06-19 12:33:29,379 - tools - INFO - Spiral Graph 3D = is selected..
+2024-06-19 12:33:29,379 - tools - INFO - Spiral Graph 3D = is selected..
+2024-06-19 12:33:29,379 - tools - INFO - Spiral Graph 3D = is selected..
+2024-06-19 12:33:29,381 - tools - INFO - find_json_value: steps into json/input_values.json is 1200
+2024-06-19 12:33:29,381 - tools - INFO - find_json_value: steps into json/input_values.json is 1200
+2024-06-19 12:33:29,381 - tools - INFO - find_json_value: steps into json/input_values.json is 1200
+2024-06-19 12:33:29,381 - tools - INFO - find_json_value: steps into json/input_values.json is 1200
+2024-06-19 12:33:29,381 - tools - INFO - find_json_value: steps into json/input_values.json is 1200
+2024-06-19 12:33:29,381 - tools - INFO - find_json_value: steps into json/input_values.json is 1200
+2024-06-19 12:33:29,381 - tools - INFO - find_json_value: steps into json/input_values.json is 1200
+2024-06-19 12:33:29,381 - tools - INFO - find_json_value: steps into json/input_values.json is 1200
+2024-06-19 12:33:29,381 - tools - INFO - find_json_value: steps into json/input_values.json is 1200
+2024-06-19 12:33:29,381 - tools - INFO - find_json_value: steps into json/input_values.json is 1200
+2024-06-19 12:33:29,381 - tools - INFO - find_json_value: steps into json/input_values.json is 1200
+2024-06-19 12:33:29,381 - tools - INFO - find_json_value: steps into json/input_values.json is 1200
+2024-06-19 12:33:29,381 - tools - INFO - find_json_value: steps into json/input_values.json is 1200
+2024-06-19 12:33:29,381 - tools - INFO - find_json_value: steps into json/input_values.json is 1200
+2024-06-19 12:33:29,381 - tools - INFO - find_json_value: steps into json/input_values.json is 1200
+2024-06-19 12:33:29,381 - tools - INFO - find_json_value: steps into json/input_values.json is 1200
+2024-06-19 12:33:29,381 - tools - INFO - find_json_value: steps into json/input_values.json is 1200
+2024-06-19 12:33:29,381 - tools - INFO - find_json_value: steps into json/input_values.json is 1200
+2024-06-19 12:33:29,381 - tools - INFO - find_json_value: steps into json/input_values.json is 1200
+2024-06-19 12:33:29,381 - tools - INFO - find_json_value: steps into json/input_values.json is 1200
+2024-06-19 12:33:29,381 - tools - INFO - find_json_value: steps into json/input_values.json is 1200
+2024-06-19 12:33:29,381 - tools - INFO - find_json_value: steps into json/input_values.json is 1200
+2024-06-19 12:33:29,381 - tools - INFO - find_json_value: steps into json/input_values.json is 1200
+2024-06-19 12:33:29,381 - tools - INFO - find_json_value: steps into json/input_values.json is 1200
+2024-06-19 12:33:29,381 - tools - INFO - find_json_value: steps into json/input_values.json is 1200
+2024-06-19 12:33:29,381 - tools - INFO - find_json_value: steps into json/input_values.json is 1200
+2024-06-19 12:33:29,381 - tools - INFO - find_json_value: steps into json/input_values.json is 1200
+2024-06-19 12:33:29,381 - tools - INFO - find_json_value: steps into json/input_values.json is 1200
+2024-06-19 12:33:29,381 - tools - INFO - find_json_value: steps into json/input_values.json is 1200
+2024-06-19 12:33:29,381 - tools - INFO - find_json_value: steps into json/input_values.json is 1200
+2024-06-19 12:33:29,381 - tools - INFO - find_json_value: steps into json/input_values.json is 1200
+2024-06-19 12:33:29,381 - tools - INFO - find_json_value: steps into json/input_values.json is 1200
+2024-06-19 12:33:29,382 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 60
+2024-06-19 12:33:29,382 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 60
+2024-06-19 12:33:29,382 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 60
+2024-06-19 12:33:29,382 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 60
+2024-06-19 12:33:29,382 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 60
+2024-06-19 12:33:29,382 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 60
+2024-06-19 12:33:29,382 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 60
+2024-06-19 12:33:29,382 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 60
+2024-06-19 12:33:29,382 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 60
+2024-06-19 12:33:29,382 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 60
+2024-06-19 12:33:29,382 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 60
+2024-06-19 12:33:29,382 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 60
+2024-06-19 12:33:29,382 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 60
+2024-06-19 12:33:29,382 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 60
+2024-06-19 12:33:29,382 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 60
+2024-06-19 12:33:29,382 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 60
+2024-06-19 12:33:29,382 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 60
+2024-06-19 12:33:29,382 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 60
+2024-06-19 12:33:29,382 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 60
+2024-06-19 12:33:29,382 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 60
+2024-06-19 12:33:29,382 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 60
+2024-06-19 12:33:29,382 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 60
+2024-06-19 12:33:29,382 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 60
+2024-06-19 12:33:29,382 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 60
+2024-06-19 12:33:29,382 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 60
+2024-06-19 12:33:29,382 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 60
+2024-06-19 12:33:29,382 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 60
+2024-06-19 12:33:29,382 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 60
+2024-06-19 12:33:29,382 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 60
+2024-06-19 12:33:29,382 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 60
+2024-06-19 12:33:29,382 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 60
+2024-06-19 12:33:29,382 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 60
+2024-06-19 12:33:29,382 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 60
+2024-06-19 12:33:29,382 - tools - INFO - find_json_value: selected_file into json/input_values.json is C:/Users/nares/Desktop/allout/240613/240607_104411.csv
+2024-06-19 12:33:29,382 - tools - INFO - find_json_value: selected_file into json/input_values.json is C:/Users/nares/Desktop/allout/240613/240607_104411.csv
+2024-06-19 12:33:29,382 - tools - INFO - find_json_value: selected_file into json/input_values.json is C:/Users/nares/Desktop/allout/240613/240607_104411.csv
+2024-06-19 12:33:29,382 - tools - INFO - find_json_value: selected_file into json/input_values.json is C:/Users/nares/Desktop/allout/240613/240607_104411.csv
+2024-06-19 12:33:29,382 - tools - INFO - find_json_value: selected_file into json/input_values.json is C:/Users/nares/Desktop/allout/240613/240607_104411.csv
+2024-06-19 12:33:29,382 - tools - INFO - find_json_value: selected_file into json/input_values.json is C:/Users/nares/Desktop/allout/240613/240607_104411.csv
+2024-06-19 12:33:29,382 - tools - INFO - find_json_value: selected_file into json/input_values.json is C:/Users/nares/Desktop/allout/240613/240607_104411.csv
+2024-06-19 12:33:29,382 - tools - INFO - find_json_value: selected_file into json/input_values.json is C:/Users/nares/Desktop/allout/240613/240607_104411.csv
+2024-06-19 12:33:29,382 - tools - INFO - find_json_value: selected_file into json/input_values.json is C:/Users/nares/Desktop/allout/240613/240607_104411.csv
+2024-06-19 12:33:29,382 - tools - INFO - find_json_value: selected_file into json/input_values.json is C:/Users/nares/Desktop/allout/240613/240607_104411.csv
+2024-06-19 12:33:29,382 - tools - INFO - find_json_value: selected_file into json/input_values.json is C:/Users/nares/Desktop/allout/240613/240607_104411.csv
+2024-06-19 12:33:29,382 - tools - INFO - find_json_value: selected_file into json/input_values.json is C:/Users/nares/Desktop/allout/240613/240607_104411.csv
+2024-06-19 12:33:29,382 - tools - INFO - find_json_value: selected_file into json/input_values.json is C:/Users/nares/Desktop/allout/240613/240607_104411.csv
+2024-06-19 12:33:29,382 - tools - INFO - find_json_value: selected_file into json/input_values.json is C:/Users/nares/Desktop/allout/240613/240607_104411.csv
+2024-06-19 12:33:29,382 - tools - INFO - find_json_value: selected_file into json/input_values.json is C:/Users/nares/Desktop/allout/240613/240607_104411.csv
+2024-06-19 12:33:29,382 - tools - INFO - find_json_value: selected_file into json/input_values.json is C:/Users/nares/Desktop/allout/240613/240607_104411.csv
+2024-06-19 12:33:29,382 - tools - INFO - find_json_value: selected_file into json/input_values.json is C:/Users/nares/Desktop/allout/240613/240607_104411.csv
+2024-06-19 12:33:29,382 - tools - INFO - find_json_value: selected_file into json/input_values.json is C:/Users/nares/Desktop/allout/240613/240607_104411.csv
+2024-06-19 12:33:29,382 - tools - INFO - find_json_value: selected_file into json/input_values.json is C:/Users/nares/Desktop/allout/240613/240607_104411.csv
+2024-06-19 12:33:29,382 - tools - INFO - find_json_value: selected_file into json/input_values.json is C:/Users/nares/Desktop/allout/240613/240607_104411.csv
+2024-06-19 12:33:29,382 - tools - INFO - find_json_value: selected_file into json/input_values.json is C:/Users/nares/Desktop/allout/240613/240607_104411.csv
+2024-06-19 12:33:29,382 - tools - INFO - find_json_value: selected_file into json/input_values.json is C:/Users/nares/Desktop/allout/240613/240607_104411.csv
+2024-06-19 12:33:29,382 - tools - INFO - find_json_value: selected_file into json/input_values.json is C:/Users/nares/Desktop/allout/240613/240607_104411.csv
+2024-06-19 12:33:29,382 - tools - INFO - find_json_value: selected_file into json/input_values.json is C:/Users/nares/Desktop/allout/240613/240607_104411.csv
+2024-06-19 12:33:29,382 - tools - INFO - find_json_value: selected_file into json/input_values.json is C:/Users/nares/Desktop/allout/240613/240607_104411.csv
+2024-06-19 12:33:29,382 - tools - INFO - find_json_value: selected_file into json/input_values.json is C:/Users/nares/Desktop/allout/240613/240607_104411.csv
+2024-06-19 12:33:29,382 - tools - INFO - find_json_value: selected_file into json/input_values.json is C:/Users/nares/Desktop/allout/240613/240607_104411.csv
+2024-06-19 12:33:29,382 - tools - INFO - find_json_value: selected_file into json/input_values.json is C:/Users/nares/Desktop/allout/240613/240607_104411.csv
+2024-06-19 12:33:29,382 - tools - INFO - find_json_value: selected_file into json/input_values.json is C:/Users/nares/Desktop/allout/240613/240607_104411.csv
+2024-06-19 12:33:29,382 - tools - INFO - find_json_value: selected_file into json/input_values.json is C:/Users/nares/Desktop/allout/240613/240607_104411.csv
+2024-06-19 12:33:29,382 - tools - INFO - find_json_value: selected_file into json/input_values.json is C:/Users/nares/Desktop/allout/240613/240607_104411.csv
+2024-06-19 12:33:29,382 - tools - INFO - find_json_value: selected_file into json/input_values.json is C:/Users/nares/Desktop/allout/240613/240607_104411.csv
+2024-06-19 12:33:29,382 - tools - INFO - find_json_value: selected_file into json/input_values.json is C:/Users/nares/Desktop/allout/240613/240607_104411.csv
+2024-06-19 12:33:29,382 - tools - INFO - find_json_value: selected_file into json/input_values.json is C:/Users/nares/Desktop/allout/240613/240607_104411.csv

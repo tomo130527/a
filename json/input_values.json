@@ -1,7 +1,7 @@
 {
-    "anglr_": "20",
-    "steps": "1200",
-    "reso": "1",
-    "coil_radius": "2",
+    "anglr_": 60,
+    "steps": 1200,
+    "reso": 1,
+    "coil_radius": 2,
     "selected_file": "C:/Users/nares/Desktop/allout/240613/240607_104411.csv"
 }

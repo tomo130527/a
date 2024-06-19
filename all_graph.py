@@ -37,11 +37,17 @@ def one_graph_all_param(file):
         logger.error("one_graph_all_param",exc_info=True)
 
 
-def plot_datoooa(data):
+def plot_datoooa(file):
+    dataframe = pd.read_csv(file)
+    # Extract the first column for the x-axis
+    x = dataframe.iloc[:, 0]
+    # Extract the remaining columns for the y-axis
+    y_columns = dataframe.columns[1:]
+
     fig, axs = plt.subplots(len(y_columns), 1, figsize=(8, 6 * len(y_columns)), sharex=True, gridspec_kw={'hspace': 0})
     hori= 0.15
     for i, col in enumerate(y_columns):
-        axs[i].plot(data[x_column], data[col], label=col)
+        axs[i].plot(dataframe[x_column], dataframe[col], label=col)
         axs[i].set_title('')  # Clear subplot title
         axs[i].set_xlabel('')  # Clear x-label for all subplots
         axs[i].set_ylabel(col, fontsize=font_size)  # Set ylabel to the column name with custom font size
@@ -74,20 +80,27 @@ def plot_datoooa(data):
     plt.show()
 
 
-def plot_popodata(data):
-    x_column = data.columns[0]
-    y_columns = data.columns[1:]
+def plot_popodata(file):
+    dataframe = pd.read_csv(file)
+    # Extract the first column for the x-axis
+    x = dataframe.iloc[:, 0]
+    # Extract the remaining columns for the y-axis
+    y_columns = dataframe.columns[1:]
+
+    x_column = dataframe.columns[0]
+    y_columns = dataframe.columns[1:]
+
     max_frame=742
     truncate_frame=92
-    data = data.iloc[truncate_frame:]
-    data[x_column] = (data[x_column]-truncate_frame) / 10
+    dataframe = dataframe.iloc[truncate_frame:]
+    dataframe[x_column] = (dataframe[x_column]-truncate_frame) / 10
     fig, axs = plt.subplots(len(y_columns), 1, figsize=(8, 6 * len(y_columns)), sharex=True, gridspec_kw={'hspace': 0})
 
     for i, col in enumerate(y_columns):
-        if len(data[x_column]) > max_frame:
-            data = data.iloc[:max_frame]
+        if len(dataframe[x_column]) > max_frame:
+            dataframe = dataframe.iloc[:max_frame]
         if col != 'PZT volt':
-            axs[i].plot(data[x_column], data[col], label=col)
+            axs[i].plot(dataframe[x_column], dataframe[col], label=col)
             axs[i].set_title('')  # Clear subplot title
             axs[i].set_xlabel('')  # Clear x-label for all subplots
             axs[i].set_ylabel(col, fontsize=font_size)  # Set ylabel to the column name with custom font size
@@ -97,7 +110,7 @@ def plot_popodata(data):
             axs[i].get_xaxis().set_visible(False)  # Hide x-axis for all except the last subplot
 
         if col == 'PZT volt':  # Check if it's the third subplot ('PZT volt')
-            axs[i].plot(data[x_column], data[col] - 1.1, label=col + ' - 0.54')
+            axs[i].plot(dataframe[x_column], dataframe[col] - 1.1, label=col + ' - 0.54')
     
     axs[1].axhline(y=0.020, color='r', linestyle='--', label='Upper Th = 0.020')
     axs[1].axhline(y=0.013, color='b', linestyle='--', label='Lower Th = 0.013')

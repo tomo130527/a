@@ -34,13 +34,12 @@ def plot_csv_file(filename):
 
     
 
-def spiral():
+def spiral(total_steps):
     x_data = []
     y_data = []
     z_data = []
     nt = 3
     iin = 0
-    total_steps = map_get_value('Total_Steps',INPUT_VALUES,INPUT_BTN_LIST)
     base_height = 1
     segment2 = base_height + 1.5
     total_height = segment2 + 2.5
@@ -68,12 +67,11 @@ def spiral():
     return list(zip(x_data, y_data, z_data))
 
 
-def y_axis_rrotat(angle):
+def y_axis_rrotat(angle,total_steps):
     x_data = []
     y_data = []
     z_data = []
     iin = 0
-    total_steps = map_get_value('Total_Steps',INPUT_VALUES,INPUT_BTN_LIST)
     base_height = 1
     segment2 = base_height + 1.5
     total_height = segment2 + 2.5
@@ -99,12 +97,11 @@ def y_axis_rrotat(angle):
 
     return list(zip(x_data, y_data, z_data))
 
-def x_axis_rrotat(angle):
+def x_axis_rrotat(angle,total_steps):
     x_data = []
     y_data = []
     z_data = []
     iin = 0
-    total_steps = map_get_value('Total_Steps',INPUT_VALUES,INPUT_BTN_LIST)
     base_height = 1
     segment2 = base_height + 1.5
     total_height = segment2 + 2.5
@@ -131,13 +128,12 @@ def x_axis_rrotat(angle):
     return list(zip(x_data, y_data, z_data))
 
 
-def xy_rotatep(angle):
+def xy_rotatep(angle,total_steps):
     x_data = []
     y_data = []
     z_data = []
     iin = 0
     radius_of_coil=2.5 
-    total_steps = map_get_value('Total_Steps',INPUT_VALUES,INPUT_BTN_LIST)
     base_height = 1
     segment2 = base_height + 1.5
     total_height = segment2 + 2.5
@@ -164,13 +160,12 @@ def xy_rotatep(angle):
     return list(zip(x_data, y_data, z_data))
 
 
-def xy_rotate(angle):
+def xy_rotate(angle,total_steps):
     x_data = []
     y_data = []
     z_data = []
     iin = 0
     radius_of_coil=2.5 
-    total_steps = map_get_value('Total_Steps',INPUT_VALUES,INPUT_BTN_LIST)
     base_height = 1
     segment2 = base_height + 1.5
     total_height = segment2 + 2.5

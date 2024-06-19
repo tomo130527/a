@@ -19,46 +19,45 @@ row2.grid(row=1,column=2)
 
 def show_selected_item(selected_item):
     logger.info(f"{selected_item} = is selected..")
-
-    csv_file = find_json_value(INPUT_VALUES,"selected_file")
-    data = read_csv(csv_file)
-    if data is None:
-        print("No data found")
-        return
-
-    angle_ = map_get_value('Angle',INPUT_VALUES,INPUT_BTN_LIST)
+    total_steps = find_json_value(INPUT_VALUES,"steps")
+    angle_ = find_json_value(INPUT_VALUES,"anglr_")
 
     if selected_item == "All":
+        csv_file = find_json_value(INPUT_VALUES,"selected_file")
         one_graph_all_param(file=csv_file)
 
     elif selected_item == "Generate_X_Rotate":
-        spiral_data = x_axis_rrotat(angle=angle_)
+        spiral_data = x_axis_rrotat(angle=angle_,total_steps=total_steps)
         save_to_csv(spiral_data,SPIRAL_CSV_FILE)
     
     elif selected_item == "Generate_Y_Rotate":
-        spiral_data = y_axis_rrotat(angle=angle_)
+        spiral_data = y_axis_rrotat(angle=angle_,total_steps=total_steps)
         save_to_csv(spiral_data,SPIRAL_CSV_FILE)
 
     elif selected_item == "Generate_XT_Rotate":
-        spiral_data = xy_rotate(angle=angle_)
+        spiral_data = xy_rotate(angle=angle_,total_steps=total_steps)
         save_to_csv(spiral_data,SPIRAL_CSV_FILE)
         #label.config(text=f"Successfully created file XY {SPIRAL_CSV_FILE}")
 
     elif selected_item == "Plot2":
+        csv_file = find_json_value(INPUT_VALUES,"selected_file")
         th_plot_data(file=csv_file)
 
     elif selected_item == "Plot3":
-        plot_datoooa(data=data)
+        csv_file = find_json_value(INPUT_VALUES,"selected_file")
+        plot_datoooa(file=csv_file)
 
     elif selected_item == "Pillar 2D":
-        plot_popodata(data=data)
+        csv_file = find_json_value(INPUT_VALUES,"selected_file")
+        plot_popodata(file=csv_file)
     
     elif selected_item == "Spiral Graph 3D":
+        csv_file = find_json_value(INPUT_VALUES,"selected_file")
         t_file = [csv_file,csv_file]
         two_file_plot_data(two_files= t_file)
     
     elif selected_item == "Generate_3D_CSV":
-        spiral_data = spiral()
+        spiral_data = spiral(total_steps=total_steps)
         save_to_csv(spiral_data,SPIRAL_CSV_FILE)
         #label.config(text=f"Successfully created file {SPIRAL_CSV_FILE}")
 

@@ -40,7 +40,9 @@ def save_as_json(data, file_path):
 def find_json_value(read_file, key):
     json_data = read_json(read_file)
     if isinstance(json_data, dict):
+        setup_logger().info(f"find_json_value: {key} into {read_file} is {json_data.get(key)}")
         return json_data.get(key)
+
     print("Error: JSON data is not a dictionary.")
     return None
 
@@ -50,9 +52,19 @@ def update_json(write_file,json_key, json_value):
     # Ensure the settings is a dictionary
     if not isinstance(settings, dict):
         settings = {}
-    
-    # Update or add the new key-value pair
-    settings[json_key] = json_value
+
+    # Update or add the key-value pair ensuring type consistency
+    if isinstance(json_value, int):
+        settings[json_key] = json_value
+    elif isinstance(json_value, str):
+        try:
+            # Attempt to convert the string to an integer to ensure type consistency
+            int_value = int(json_value)
+            settings[json_key] = int_value
+        except ValueError:
+            # If conversion fails, store the original string
+            settings[json_key] = json_value
+
     # Save the updated settings back to the file
     save_as_json(settings, write_file)
     setup_logger().info(f"Key={json_key},And Value={json_value} is updated into {write_file}")
