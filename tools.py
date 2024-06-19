@@ -90,12 +90,12 @@ def update_json(write_file,json_key, json_value):
         settings = {}
 
     # Update or add the key-value pair ensuring type consistency
-    if isinstance(json_value, int):
+    if isinstance(json_value, float):
         settings[json_key] = json_value
     elif isinstance(json_value, str):
         try:
             # Attempt to convert the string to an integer to ensure type consistency
-            int_value = int(json_value)
+            int_value = float(json_value)
             settings[json_key] = int_value
         except ValueError:
             # If conversion fails, store the original string
@@ -140,5 +140,32 @@ def read_csv_data(filename):
     x_data, y_data, z_data = zip(*data)
     return np.asarray(x_data, dtype=float), np.asarray(y_data, dtype=float), np.asarray(z_data, dtype=float)
 
+def get_csv_max(csv_file_path):
+# Initialize variables to store maximum values
+    max_X = float('-inf')
+    max_Y = float('-inf')
+    max_Z = float('-inf')
+    # Read the CSV file and compute the maximum values
+    with open(csv_file_path, mode='r', newline='', encoding='utf-8') as csvfile:
+        csvreader = csv.reader(csvfile)
+        header = next(csvreader)  # Skip header
+        for row in csvreader:
+            x_value = float(row[0])
+            y_value = float(row[1])
+            z_value = float(row[2])
+            
+            if x_value > max_X:
+                max_X = x_value
+            if y_value > max_Y:
+                max_Y = y_value
+            if z_value > max_Z:
+                max_Z = z_value
 
+    return max_X,max_Y,max_Z
 
+def c_round(number):
+    rounded = round(number)
+    if 0<(number - rounded) <= 0.5:
+        return rounded + 1
+    else:
+        return rounded

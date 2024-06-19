@@ -20,15 +20,16 @@ def show_selected_item(selected_item):
     total_steps = find_json_value(INPUT_VALUES,"steps")
     angle_ = find_json_value(INPUT_VALUES,"anglr_")
     base_h = find_json_value(INPUT_VALUES,"base_h")
+    total_h = find_json_value(INPUT_VALUES,"total_h")
     csv_file = find_json_value(INPUT_VALUES,"selected_file")
 
-    if total_steps is not int:
+    if not isinstance(total_steps, int):
         update_json(INPUT_VALUES,"steps",100)
 
-    if angle_ is not int:
+    if not isinstance(angle_, int):
         update_json(INPUT_VALUES,"anglr_",0)
 
-    if base_h is not int:
+    if not isinstance(base_h, float):
         update_json(INPUT_VALUES,"base_h",1)
 
     if selected_item == "All":
@@ -36,18 +37,27 @@ def show_selected_item(selected_item):
         one_graph_all_param(file=csv_file)
 
     elif selected_item == "Generate_X_Rotate":
-        spiral_data = x_axis_rrotat(angle=angle_,total_steps=total_steps,base_height=1)
+        spiral_data = x_axis_rrotat(angle=angle_,total_steps=total_steps,base_height=base_h,total_height=total_h)
         save_to_csv(spiral_data,SPIRAL_CSV_FILE)
         logger.info(f"show_selected_item=={selected_item}")
+        plot_csv_file(SPIRAL_CSV_FILE)
+
     
     elif selected_item == "Generate_Y_Rotate":
-        spiral_data = y_axis_rrotat(angle=angle_,total_steps=total_steps,base_height=1)
+        spiral_data = y_axis_rrotat(angle=angle_,total_steps=total_steps,base_height=base_h,total_height=total_h)
         save_to_csv(spiral_data,SPIRAL_CSV_FILE)
+        plot_csv_file(SPIRAL_CSV_FILE)
 
     elif selected_item == "Generate_XT_Rotate":
-        spiral_data = xy_rotate(angle=angle_,total_steps=total_steps,base_height=1)
+        spiral_data = xy_rotate(angle=angle_,total_steps=total_steps,base_height=base_h,total_height=total_h)
         save_to_csv(spiral_data,SPIRAL_CSV_FILE)
-        #label.config(text=f"Successfully created file XY {SPIRAL_CSV_FILE}")
+        plot_csv_file(SPIRAL_CSV_FILE)
+
+    elif selected_item == "Generate_3D_CSV":
+        spiral_data = spiral(total_steps=total_steps,base_height=base_h,total_height=total_h)
+        save_to_csv(spiral_data,SPIRAL_CSV_FILE)
+        plot_csv_file(SPIRAL_CSV_FILE)
+
 
     elif selected_item == "Plot2":
         th_plot_data(file=csv_file)
@@ -62,17 +72,11 @@ def show_selected_item(selected_item):
         t_file = [csv_file,csv_file]
         two_file_plot_data(two_files= t_file)
     
-    elif selected_item == "Generate_3D_CSV":
-        spiral_data = spiral(total_steps=total_steps,base_height=1)
-        save_to_csv(spiral_data,SPIRAL_CSV_FILE)
-        #label.config(text=f"Successfully created file {SPIRAL_CSV_FILE}")
-
     elif selected_item == "Choose csv file":
         open_file_dialog(row2)
 
     elif selected_item == "Plot CSV":
         plot_csv_file(SPIRAL_CSV_FILE)
-        #label.config(text=f"Successfully plotted file {SPIRAL_CSV_FILE}")
 
     elif selected_item == "Exit":
         global root
@@ -100,7 +104,9 @@ default_input_list = {
     "Resolution":"reso",
     "Angle":"anglr_",
     "Total_Steps":"steps",
-    "Coil_radius":"coil_radius"
+    "Coil_radius":"coil_radius",
+    "Base_height":"base_h",
+    "Total_height":"total_h"
 }
 
 # Create buttons for each item

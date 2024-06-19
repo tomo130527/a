@@ -12,8 +12,9 @@ from tools import *
 logger = setup_logger(logger=logging.getLogger(__name__))
 
 def plot_csv_file(filename):
-    angle_ = map_get_value('Angle',INPUT_VALUES,INPUT_BTN_LIST)
+    angle_ = find_json_value(INPUT_VALUES,"anglr_")
     x_data, y_data, z_data = read_csv_data(filename)
+    xm,ym,zm = get_csv_max(filename)
     # Create a figure and 3D axes
     fig = plt.figure()
     ax = fig.add_subplot(111, projection='3d')
@@ -28,23 +29,20 @@ def plot_csv_file(filename):
     ax.yaxis.set_major_locator(MultipleLocator(1))
     ax.zaxis.set_major_locator(MultipleLocator(1))
     # Set custom limits for the axes
-    ax.set_xlim([0, 5*radius_of_coil])  
-    ax.set_ylim([0, 5*radius_of_coil])  # Example y-axis range
-    ax.set_zlim([0, 6])  # Example z-axis range
+    ax.set_xlim([0, c_round(xm)])  
+    ax.set_ylim([0, c_round(ym)])  # Example y-axis range
+    ax.set_zlim([0, c_round(zm)])  # Example z-axis range
     plt.show() #return fig, ax
 
     
 
-def spiral(total_steps,base_height):
+def spiral(total_steps,base_height,total_height):
     x_data = []
     y_data = []
     z_data = []
     nt = 3
     iin = 0
     segment2 = base_height + 1.5
-    total_height = segment2 + 2.5
-    slighted_height = total_height - base_height
-    z_axix = 0
     base_steps = base_height * (total_steps / total_height)
     transition_steps = segment2 * (total_steps / total_height)
 
@@ -67,14 +65,11 @@ def spiral(total_steps,base_height):
     return list(zip(x_data, y_data, z_data))
 
 
-def y_axis_rrotat(angle,total_steps,base_height):
+def y_axis_rrotat(angle,total_steps,base_height,total_height):
     x_data = []
     y_data = []
     z_data = []
     iin = 0
-    base_height = 1
-    segment2 = base_height + 1.5
-    total_height = segment2 + 2.5
     slighted_height = total_height - base_height
     z_axix = 0
     base_steps = base_height * (total_steps / total_height)
@@ -97,14 +92,11 @@ def y_axis_rrotat(angle,total_steps,base_height):
 
     return list(zip(x_data, y_data, z_data))
 
-def x_axis_rrotat(angle,total_steps,base_height):
+def x_axis_rrotat(angle,total_steps,base_height,total_height):
     x_data = []
     y_data = []
     z_data = []
     iin = 0
-    base_height = 1
-    segment2 = base_height + 1.5
-    total_height = segment2 + 2.5
     slighted_height = total_height - base_height
     z_axix = 0
     base_steps = base_height * (total_steps / total_height)
@@ -129,16 +121,13 @@ def x_axis_rrotat(angle,total_steps,base_height):
 
 
 
-def xy_rotate(angle,total_steps,base_height):
+def xy_rotate(angle,total_steps,base_height,total_height):
     try:
         x_data = []
         y_data = []
         z_data = []
         iin = 0
         radius_of_coil=2.5 
-        base_height = 1
-        segment2 = base_height + 1.5
-        total_height = segment2 + 2.5
         slighted_height = total_height - base_height
         z_axix = 0
         base_steps = base_height * (total_steps / total_height)
