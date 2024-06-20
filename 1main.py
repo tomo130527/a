@@ -23,10 +23,10 @@ def show_selected_item(selected_item):
     total_h = find_json_value(INPUT_VALUES,"total_h")
     csv_file = find_json_value(INPUT_VALUES,"selected_file")
 
-    if not isinstance(total_steps, int):
+    if not isinstance(total_steps, float):
         update_json(INPUT_VALUES,"steps",100)
 
-    if not isinstance(angle_, int):
+    if not isinstance(angle_, float):
         update_json(INPUT_VALUES,"anglr_",0)
 
     if not isinstance(base_h, float):
