@@ -1,5 +1,4 @@
-radius_of_coil=1.5 
-SETTINGS_FILE = "settings.json"
+radius_of_coil=1.5
 SPIRAL_CSV_FILE = 'spiral_data.csv'
 RESOLUTION_POINTS = 0.5
 INPUT_BTN_LIST = "json/input_btn_list.json"
@@ -13,3 +12,5 @@ font_size = 24
 title = "AAA"
 x_label = "Time (s)"
 y_label = "SD"
+
+XY_ORIGIN = 2.5

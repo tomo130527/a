@@ -20,8 +20,9 @@ def isFileExists(file):
 
         # Check if the directory exists, if not, create it
         if not os.path.exists(directory):
-            print(f"Creating directory: {directory}")
-            os.makedirs(directory)
+            if not directory =='':
+                print(f"Creating directory: {directory}")
+                os.makedirs(directory)
 
 def setup_logger(logger):
     logger.setLevel(logging.DEBUG)
