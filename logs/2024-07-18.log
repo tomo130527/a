@@ -1,0 +1,100 @@
+2024-07-18 16:10:12,058 - tools - INFO - find_json_value: reso into json/input_values.json is None
+2024-07-18 16:10:12,062 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 30.0
+2024-07-18 16:10:12,066 - tools - INFO - find_json_value: steps into json/input_values.json is 1000.0
+2024-07-18 16:10:12,068 - tools - INFO - find_json_value: coil_radius into json/input_values.json is coil_radius
+2024-07-18 16:10:12,071 - tools - INFO - find_json_value: base_h into json/input_values.json is 2.0
+2024-07-18 16:10:12,075 - tools - INFO - find_json_value: total_h into json/input_values.json is 5.0
+2024-07-18 16:10:21,087 - tools - INFO - find_json_value: steps into json/input_values.json is 1000.0
+2024-07-18 16:10:21,087 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 30.0
+2024-07-18 16:10:21,091 - tools - INFO - find_json_value: base_h into json/input_values.json is 2.0
+2024-07-18 16:10:21,091 - tools - INFO - find_json_value: total_h into json/input_values.json is 5.0
+2024-07-18 16:10:21,091 - tools - INFO - find_json_value: selected_file into json/input_values.json is C:/Users/tomo0/OneDrive/ドキュメント/4年/プロット/deg30.csv
+2024-07-18 16:11:20,329 - tools - INFO - find_json_value: reso into json/input_values.json is None
+2024-07-18 16:11:20,333 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 30.0
+2024-07-18 16:11:20,334 - tools - INFO - find_json_value: steps into json/input_values.json is 1000.0
+2024-07-18 16:11:20,334 - tools - INFO - find_json_value: coil_radius into json/input_values.json is coil_radius
+2024-07-18 16:11:20,334 - tools - INFO - find_json_value: base_h into json/input_values.json is 2.0
+2024-07-18 16:11:20,338 - tools - INFO - find_json_value: total_h into json/input_values.json is 5.0
+2024-07-18 16:11:28,062 - tools - INFO - {'anglr_': 0.0, 'steps': 1000.0, 'base_h': 2.0, 'total_h': 5.0, 'coil_radius': 'coil_radius', 'selected_file': 'C:/Users/tomo0/OneDrive/ドキュメント/4年/プロット/deg30.csv'} is saved in json/input_values.json as JSON successfully.
+2024-07-18 16:11:28,065 - tools - INFO - Key=anglr_,And Value=0 is updated into json/input_values.json
+2024-07-18 16:11:33,290 - tools - INFO - find_json_value: steps into json/input_values.json is 1000.0
+2024-07-18 16:11:33,291 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 0.0
+2024-07-18 16:11:33,291 - tools - INFO - find_json_value: base_h into json/input_values.json is 2.0
+2024-07-18 16:11:33,293 - tools - INFO - find_json_value: total_h into json/input_values.json is 5.0
+2024-07-18 16:11:33,293 - tools - INFO - find_json_value: selected_file into json/input_values.json is C:/Users/tomo0/OneDrive/ドキュメント/4年/プロット/deg30.csv
+2024-07-18 16:11:33,311 - __main__ - INFO - show_selected_item==Generate_X_Rotate
+2024-07-18 16:11:33,314 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 0.0
+2024-07-18 16:11:48,746 - tools - INFO - find_json_value: steps into json/input_values.json is 1000.0
+2024-07-18 16:11:48,746 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 0.0
+2024-07-18 16:11:48,746 - tools - INFO - find_json_value: base_h into json/input_values.json is 2.0
+2024-07-18 16:11:48,749 - tools - INFO - find_json_value: total_h into json/input_values.json is 5.0
+2024-07-18 16:11:48,749 - tools - INFO - find_json_value: selected_file into json/input_values.json is C:/Users/tomo0/OneDrive/ドキュメント/4年/プロット/deg30.csv
+2024-07-18 16:11:48,761 - __main__ - INFO - show_selected_item==Generate_X_Rotate
+2024-07-18 16:11:48,761 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 0.0
+2024-07-18 16:13:29,335 - tools - INFO - find_json_value: steps into json/input_values.json is 1000.0
+2024-07-18 16:13:29,336 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 0.0
+2024-07-18 16:13:29,336 - tools - INFO - find_json_value: base_h into json/input_values.json is 2.0
+2024-07-18 16:13:29,336 - tools - INFO - find_json_value: total_h into json/input_values.json is 5.0
+2024-07-18 16:13:29,336 - tools - INFO - find_json_value: selected_file into json/input_values.json is C:/Users/tomo0/OneDrive/ドキュメント/4年/プロット/deg30.csv
+2024-07-18 16:15:15,601 - tools - INFO - find_json_value: reso into json/input_values.json is None
+2024-07-18 16:15:15,604 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 0.0
+2024-07-18 16:15:15,606 - tools - INFO - find_json_value: steps into json/input_values.json is 1000.0
+2024-07-18 16:15:15,607 - tools - INFO - find_json_value: coil_radius into json/input_values.json is coil_radius
+2024-07-18 16:15:15,609 - tools - INFO - find_json_value: base_h into json/input_values.json is 2.0
+2024-07-18 16:15:15,611 - tools - INFO - find_json_value: total_h into json/input_values.json is 5.0
+2024-07-18 16:15:17,731 - tools - INFO - {'anglr_': 0.0, 'steps': 1000.0, 'base_h': 2.0, 'total_h': 5.0, 'coil_radius': 'coil_radius', 'selected_file': 'C:/Users/tomo0/OneDrive/ドキュメント/4年/プロット/deg30.csv'} is saved in json/input_values.json as JSON successfully.
+2024-07-18 16:15:17,731 - tools - INFO - Key=steps,And Value=1000.0 is updated into json/input_values.json
+2024-07-18 16:15:22,040 - tools - INFO - find_json_value: steps into json/input_values.json is 1000.0
+2024-07-18 16:15:22,040 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 0.0
+2024-07-18 16:15:22,042 - tools - INFO - find_json_value: base_h into json/input_values.json is 2.0
+2024-07-18 16:15:22,043 - tools - INFO - find_json_value: total_h into json/input_values.json is 5.0
+2024-07-18 16:15:22,044 - tools - INFO - find_json_value: selected_file into json/input_values.json is C:/Users/tomo0/OneDrive/ドキュメント/4年/プロット/deg30.csv
+2024-07-18 16:15:22,059 - __main__ - INFO - show_selected_item==Generate_X_Rotate
+2024-07-18 16:15:22,064 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 0.0
+2024-07-18 16:15:26,741 - tools - INFO - find_json_value: steps into json/input_values.json is 1000.0
+2024-07-18 16:15:26,743 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 0.0
+2024-07-18 16:15:26,744 - tools - INFO - find_json_value: base_h into json/input_values.json is 2.0
+2024-07-18 16:15:26,744 - tools - INFO - find_json_value: total_h into json/input_values.json is 5.0
+2024-07-18 16:15:26,744 - tools - INFO - find_json_value: selected_file into json/input_values.json is C:/Users/tomo0/OneDrive/ドキュメント/4年/プロット/deg30.csv
+2024-07-18 16:15:41,173 - tools - INFO - find_json_value: reso into json/input_values.json is None
+2024-07-18 16:15:41,177 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 0.0
+2024-07-18 16:15:41,177 - tools - INFO - find_json_value: steps into json/input_values.json is 1000.0
+2024-07-18 16:15:41,177 - tools - INFO - find_json_value: coil_radius into json/input_values.json is coil_radius
+2024-07-18 16:15:41,183 - tools - INFO - find_json_value: base_h into json/input_values.json is 2.0
+2024-07-18 16:15:41,183 - tools - INFO - find_json_value: total_h into json/input_values.json is 5.0
+2024-07-18 16:15:48,953 - tools - INFO - {'anglr_': 100.0, 'steps': 1000.0, 'base_h': 2.0, 'total_h': 5.0, 'coil_radius': 'coil_radius', 'selected_file': 'C:/Users/tomo0/OneDrive/ドキュメント/4年/プロット/deg30.csv'} is saved in json/input_values.json as JSON successfully.
+2024-07-18 16:15:48,953 - tools - INFO - Key=anglr_,And Value=100.0 is updated into json/input_values.json
+2024-07-18 16:15:49,698 - tools - INFO - find_json_value: steps into json/input_values.json is 1000.0
+2024-07-18 16:15:49,698 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 100.0
+2024-07-18 16:15:49,698 - tools - INFO - find_json_value: base_h into json/input_values.json is 2.0
+2024-07-18 16:15:49,698 - tools - INFO - find_json_value: total_h into json/input_values.json is 5.0
+2024-07-18 16:15:49,702 - tools - INFO - find_json_value: selected_file into json/input_values.json is C:/Users/tomo0/OneDrive/ドキュメント/4年/プロット/deg30.csv
+2024-07-18 16:15:49,722 - __main__ - INFO - show_selected_item==Generate_X_Rotate
+2024-07-18 16:15:49,724 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 100.0
+2024-07-18 16:16:19,061 - tools - INFO - find_json_value: steps into json/input_values.json is 1000.0
+2024-07-18 16:16:19,061 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 100.0
+2024-07-18 16:16:19,063 - tools - INFO - find_json_value: base_h into json/input_values.json is 2.0
+2024-07-18 16:16:19,063 - tools - INFO - find_json_value: total_h into json/input_values.json is 5.0
+2024-07-18 16:16:19,063 - tools - INFO - find_json_value: selected_file into json/input_values.json is C:/Users/tomo0/OneDrive/ドキュメント/4年/プロット/deg30.csv
+2024-07-18 16:16:37,763 - tools - INFO - find_json_value: reso into json/input_values.json is None
+2024-07-18 16:16:37,766 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 100.0
+2024-07-18 16:16:37,770 - tools - INFO - find_json_value: steps into json/input_values.json is 1000.0
+2024-07-18 16:16:37,773 - tools - INFO - find_json_value: coil_radius into json/input_values.json is coil_radius
+2024-07-18 16:16:37,777 - tools - INFO - find_json_value: base_h into json/input_values.json is 2.0
+2024-07-18 16:16:37,779 - tools - INFO - find_json_value: total_h into json/input_values.json is 5.0
+2024-07-18 16:16:52,301 - tools - INFO - {'anglr_': 100.0, 'steps': 500.0, 'base_h': 2.0, 'total_h': 5.0, 'coil_radius': 'coil_radius', 'selected_file': 'C:/Users/tomo0/OneDrive/ドキュメント/4年/プロット/deg30.csv'} is saved in json/input_values.json as JSON successfully.
+2024-07-18 16:16:52,304 - tools - INFO - Key=steps,And Value=500.0 is updated into json/input_values.json
+2024-07-18 16:16:52,671 - tools - INFO - {'anglr_': 0.0, 'steps': 500.0, 'base_h': 2.0, 'total_h': 5.0, 'coil_radius': 'coil_radius', 'selected_file': 'C:/Users/tomo0/OneDrive/ドキュメント/4年/プロット/deg30.csv'} is saved in json/input_values.json as JSON successfully.
+2024-07-18 16:16:52,671 - tools - INFO - Key=anglr_,And Value=0.0 is updated into json/input_values.json
+2024-07-18 16:16:57,438 - tools - INFO - find_json_value: steps into json/input_values.json is 500.0
+2024-07-18 16:16:57,438 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 0.0
+2024-07-18 16:16:57,438 - tools - INFO - find_json_value: base_h into json/input_values.json is 2.0
+2024-07-18 16:16:57,442 - tools - INFO - find_json_value: total_h into json/input_values.json is 5.0
+2024-07-18 16:16:57,442 - tools - INFO - find_json_value: selected_file into json/input_values.json is C:/Users/tomo0/OneDrive/ドキュメント/4年/プロット/deg30.csv
+2024-07-18 16:16:57,462 - __main__ - INFO - show_selected_item==Generate_X_Rotate
+2024-07-18 16:16:57,463 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 0.0
+2024-07-18 16:17:08,434 - tools - INFO - find_json_value: steps into json/input_values.json is 500.0
+2024-07-18 16:17:08,434 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 0.0
+2024-07-18 16:17:08,434 - tools - INFO - find_json_value: base_h into json/input_values.json is 2.0
+2024-07-18 16:17:08,434 - tools - INFO - find_json_value: total_h into json/input_values.json is 5.0
+2024-07-18 16:17:08,438 - tools - INFO - find_json_value: selected_file into json/input_values.json is C:/Users/tomo0/OneDrive/ドキュメント/4年/プロット/deg30.csv

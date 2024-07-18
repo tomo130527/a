@@ -1,0 +1,86 @@
+2024-06-27 14:57:53,300 - tools - INFO - find_json_value: reso into json/input_values.json is None
+2024-06-27 14:57:53,306 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 40.0
+2024-06-27 14:57:53,308 - tools - INFO - find_json_value: steps into json/input_values.json is 1000.0
+2024-06-27 14:57:53,308 - tools - INFO - find_json_value: coil_radius into json/input_values.json is None
+2024-06-27 14:57:53,312 - tools - INFO - find_json_value: base_h into json/input_values.json is 2.0
+2024-06-27 14:57:53,312 - tools - INFO - find_json_value: total_h into json/input_values.json is 4.0
+2024-06-27 14:58:00,813 - tools - INFO - {'anglr_': 0.0, 'steps': 1000.0, 'base_h': 2.0, 'total_h': 4.0} is saved in json/input_values.json as JSON successfully.
+2024-06-27 14:58:00,813 - tools - INFO - Key=anglr_,And Value=0 is updated into json/input_values.json
+2024-06-27 14:58:02,322 - tools - INFO - find_json_value: steps into json/input_values.json is 1000.0
+2024-06-27 14:58:02,322 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 0.0
+2024-06-27 14:58:02,322 - tools - INFO - find_json_value: base_h into json/input_values.json is 2.0
+2024-06-27 14:58:02,327 - tools - INFO - find_json_value: total_h into json/input_values.json is 4.0
+2024-06-27 14:58:02,327 - tools - INFO - find_json_value: selected_file into json/input_values.json is None
+2024-06-27 14:58:02,327 - tools - INFO - find_json_value: selected_file into json/input_values.json is None
+2024-06-27 14:58:02,332 - all_graph - ERROR - one_graph_all_param
+Traceback (most recent call last):
+  File "C:\Users\tomo0\source\repos\a\all_graph.py", line 12, in one_graph_all_param
+    dataframe = pd.read_csv(file)
+                ^^^^^^^^^^^^^^^^^
+  File "C:\Users\tomo0\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\pandas\io\parsers\readers.py", line 1026, in read_csv
+    return _read(filepath_or_buffer, kwds)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tomo0\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\pandas\io\parsers\readers.py", line 620, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tomo0\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\pandas\io\parsers\readers.py", line 1620, in __init__
+    self._engine = self._make_engine(f, self.engine)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tomo0\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\pandas\io\parsers\readers.py", line 1880, in _make_engine
+    self.handles = get_handle(
+                   ^^^^^^^^^^^
+  File "C:\Users\tomo0\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\pandas\io\common.py", line 728, in get_handle
+    ioargs = _get_filepath_or_buffer(
+             ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tomo0\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\pandas\io\common.py", line 472, in _get_filepath_or_buffer
+    raise ValueError(msg)
+ValueError: Invalid file path or buffer object type: <class 'NoneType'>
+2024-06-27 14:58:04,597 - tools - INFO - find_json_value: steps into json/input_values.json is 1000.0
+2024-06-27 14:58:04,597 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 0.0
+2024-06-27 14:58:04,597 - tools - INFO - find_json_value: base_h into json/input_values.json is 2.0
+2024-06-27 14:58:04,597 - tools - INFO - find_json_value: total_h into json/input_values.json is 4.0
+2024-06-27 14:58:04,597 - tools - INFO - find_json_value: selected_file into json/input_values.json is None
+2024-06-27 14:58:04,624 - __main__ - INFO - show_selected_item==Generate_X_Rotate
+2024-06-27 14:58:04,628 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 0.0
+2024-06-27 14:58:11,059 - tools - INFO - find_json_value: steps into json/input_values.json is 1000.0
+2024-06-27 14:58:11,059 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 0.0
+2024-06-27 14:58:11,064 - tools - INFO - find_json_value: base_h into json/input_values.json is 2.0
+2024-06-27 14:58:11,064 - tools - INFO - find_json_value: total_h into json/input_values.json is 4.0
+2024-06-27 14:58:11,064 - tools - INFO - find_json_value: selected_file into json/input_values.json is None
+2024-06-27 14:58:11,064 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 0.0
+2024-06-27 14:58:30,488 - tools - INFO - find_json_value: steps into json/input_values.json is 1000.0
+2024-06-27 14:58:30,488 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 0.0
+2024-06-27 14:58:30,488 - tools - INFO - find_json_value: base_h into json/input_values.json is 2.0
+2024-06-27 14:58:30,493 - tools - INFO - find_json_value: total_h into json/input_values.json is 4.0
+2024-06-27 14:58:30,494 - tools - INFO - find_json_value: selected_file into json/input_values.json is None
+2024-06-27 14:58:30,518 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 0.0
+2024-06-27 14:58:39,987 - tools - INFO - find_json_value: steps into json/input_values.json is 1000.0
+2024-06-27 14:58:39,987 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 0.0
+2024-06-27 14:58:39,987 - tools - INFO - find_json_value: base_h into json/input_values.json is 2.0
+2024-06-27 14:58:39,992 - tools - INFO - find_json_value: total_h into json/input_values.json is 4.0
+2024-06-27 14:58:39,992 - tools - INFO - find_json_value: selected_file into json/input_values.json is None
+2024-06-27 14:58:40,018 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 0.0
+2024-06-27 14:58:43,867 - tools - INFO - find_json_value: steps into json/input_values.json is 1000.0
+2024-06-27 14:58:43,867 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 0.0
+2024-06-27 14:58:43,867 - tools - INFO - find_json_value: base_h into json/input_values.json is 2.0
+2024-06-27 14:58:43,870 - tools - INFO - find_json_value: total_h into json/input_values.json is 4.0
+2024-06-27 14:58:43,870 - tools - INFO - find_json_value: selected_file into json/input_values.json is None
+2024-06-27 14:58:43,870 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 0.0
+2024-06-27 14:58:52,161 - tools - INFO - find_json_value: steps into json/input_values.json is 1000.0
+2024-06-27 14:58:52,161 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 0.0
+2024-06-27 14:58:52,161 - tools - INFO - find_json_value: base_h into json/input_values.json is 2.0
+2024-06-27 14:58:52,165 - tools - INFO - find_json_value: total_h into json/input_values.json is 4.0
+2024-06-27 14:58:52,165 - tools - INFO - find_json_value: selected_file into json/input_values.json is None
+2024-06-27 14:58:52,190 - __main__ - INFO - show_selected_item==Generate_X_Rotate
+2024-06-27 14:58:52,191 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 0.0
+2024-06-27 14:58:54,838 - tools - INFO - find_json_value: steps into json/input_values.json is 1000.0
+2024-06-27 14:58:54,840 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 0.0
+2024-06-27 14:58:54,840 - tools - INFO - find_json_value: base_h into json/input_values.json is 2.0
+2024-06-27 14:58:54,840 - tools - INFO - find_json_value: total_h into json/input_values.json is 4.0
+2024-06-27 14:58:54,840 - tools - INFO - find_json_value: selected_file into json/input_values.json is None
+2024-06-27 14:58:54,845 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 0.0
+2024-06-27 14:58:57,074 - tools - INFO - find_json_value: steps into json/input_values.json is 1000.0
+2024-06-27 14:58:57,074 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 0.0
+2024-06-27 14:58:57,077 - tools - INFO - find_json_value: base_h into json/input_values.json is 2.0
+2024-06-27 14:58:57,078 - tools - INFO - find_json_value: total_h into json/input_values.json is 4.0
+2024-06-27 14:58:57,079 - tools - INFO - find_json_value: selected_file into json/input_values.json is None
