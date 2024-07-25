@@ -1,0 +1,17 @@
+2024-07-25 09:58:10,391 - tools - INFO - find_json_value: reso into json/input_values.json is None
+2024-07-25 09:58:10,394 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 0.0
+2024-07-25 09:58:10,396 - tools - INFO - find_json_value: steps into json/input_values.json is 500.0
+2024-07-25 09:58:10,397 - tools - INFO - find_json_value: coil_radius into json/input_values.json is coil_radius
+2024-07-25 09:58:10,400 - tools - INFO - find_json_value: base_h into json/input_values.json is 2.0
+2024-07-25 09:58:10,401 - tools - INFO - find_json_value: total_h into json/input_values.json is 5.0
+2024-07-25 09:58:17,928 - tools - INFO - find_json_value: steps into json/input_values.json is 500.0
+2024-07-25 09:58:17,929 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 0.0
+2024-07-25 09:58:17,930 - tools - INFO - find_json_value: base_h into json/input_values.json is 2.0
+2024-07-25 09:58:17,931 - tools - INFO - find_json_value: total_h into json/input_values.json is 5.0
+2024-07-25 09:58:17,932 - tools - INFO - find_json_value: selected_file into json/input_values.json is C:/Users/tomo0/OneDrive/ドキュメント/4年/プロット/deg30.csv
+2024-07-25 09:58:26,544 - tools - INFO - find_json_value: reso into json/input_values.json is None
+2024-07-25 09:58:26,546 - tools - INFO - find_json_value: anglr_ into json/input_values.json is 0.0
+2024-07-25 09:58:26,547 - tools - INFO - find_json_value: steps into json/input_values.json is 500.0
+2024-07-25 09:58:26,549 - tools - INFO - find_json_value: coil_radius into json/input_values.json is coil_radius
+2024-07-25 09:58:26,554 - tools - INFO - find_json_value: base_h into json/input_values.json is 2.0
+2024-07-25 09:58:26,555 - tools - INFO - find_json_value: total_h into json/input_values.json is 5.0
