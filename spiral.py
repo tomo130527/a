@@ -14,7 +14,8 @@ logger = setup_logger(logger=logging.getLogger(__name__))
 def plot_csv_file(filename):
     angle_ = find_json_value(INPUT_VALUES,"anglr_")
     x_data, y_data, z_data = read_csv_data(filename)
-    xm,ym,zm = get_csv_max(filename)
+    xm,ym,zm = 5.0,5.0,5.0
+    #xm,ym,zm = get_csv_max(filename)
     # Create a figure and 3D axes
     fig = plt.figure()
     ax = fig.add_subplot(111, projection='3d')

@@ -4,5 +4,6 @@
     "base_h": 2.0,
     "total_h": 5.0,
     "coil_radius": "coil_radius",
-    "selected_file": "C:/Users/tomo0/OneDrive/ドキュメント/4年/プロット/deg30.csv"
+    "selected_file": "C:/Users/tomo0/OneDrive/ドキュメント/4年/プロット/deg30.csv",
+    "reso": "reso"
 }
