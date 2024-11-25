@@ -1,7 +1,9 @@
 {
-    "anglr_": 45.0,
-    "steps": 400.0,
+    "anglr_": 60.0,
+    "steps": 500.0,
     "base_h": 2.0,
     "total_h": 5.0,
-    "reso": 0.005
+    "reso": 0.0,
+    "coil_radius": 1.0,
+    "middle_p": 1.0
 }

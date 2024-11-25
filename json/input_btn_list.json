@@ -1,8 +1,8 @@
 {
-    "Resolution": "reso",
     "Angle": "anglr_",
     "Total_Steps": "steps",
     "Coil_radius": "coil_radius",
+    "Middle_part": "middle_p",
     "Base_height": "base_h",
     "Total_height": "total_h"
 }
